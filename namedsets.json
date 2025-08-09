@@ -1,51 +1,11 @@
 [
   {
-    "id": "recNF5FoxIUXmxwCC",
-    "Name": "MMAI",
-    "Value": "[\"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"]",
-    "ID": 1,
-    "Synonyms": "MMAI_PART_IDS",
-    "Description": "MMAI Controller Part Numbers"
-  },
-  {
-    "id": "recLLrm9e2adQR53S",
-    "Name": "BELT_CONVEYOR",
-    "Value": "[\"MO-CV-004-\", \"MO-CV-005-\", \"MO-CV-006-\", \"MO-CV-007-\",\n \"MO-CV-024-\", \"MO-CV-025-\", \"MO-CV-026-\", \"MO-CV-027-\"]",
-    "ID": 4,
+    "id": "rec8ow1np1FJnKBiW",
+    "Name": "FANUC_CRX",
+    "Value": "[\"PR-FA-001-0500\",\n  \"PR-FA-001-0501\",\n  \"PR-FA-001-0502\",\n  \"PR-FA-001-0600\",\n  \"PR-FA-001-0601\",\n  \"PR-FA-001-0602\"]",
+    "ID": 16,
     "Synonyms": null,
-    "Description": "Dorner Belt Conveyor Part Numbers\n"
-  },
-  {
-    "id": "recBTHQ5P0jkui1W6",
-    "Name": "ROLLER_CONVEYOR",
-    "Value": "[\"MO-CV-030-\", \"MO-CV-030-\"]",
-    "ID": 5,
-    "Synonyms": null,
-    "Description": "Vention Roller Conveyor Part Numbers"
-  },
-  {
-    "id": "recSbosurv2taDDWj",
-    "Name": "PALLETIZER_MA",
-    "Value": "[\"CE-SW-002-0004\"]",
-    "ID": 6,
-    "Synonyms": null,
-    "Description": "Palletizer Machine App Software"
-  },
-  {
-    "id": "recssE5KieI4stL8j",
-    "Name": "SANDING_MA",
-    "Value": "[\"CE-SW-002-0014\"]",
-    "ID": 7,
-    "Synonyms": null,
-    "Description": "Sanding Machine App Software"
-  },
-  {
-    "id": "recj34A0PFYCpZ2AV",
-    "Name": "SANDING_BASE",
-    "Value": "[\"RS-SD-001-0001\"]",
-    "ID": 8,
-    "Synonyms": null,
-    "Description": "Rapid Series Sanding Base"
+    "Description": "Fanuc CRX"
   },
   {
     "id": "rec9eSjzDOn8BpItN",
@@ -56,14 +16,6 @@
     "Description": "Rapid Series Palletizer Base"
   },
   {
-    "id": "recSj4kOqyQZkiCPp",
-    "Name": "REMOTE_VIEW",
-    "Value": "[\"ST-VS-001-0000\",\"ST-VS-002-0000\"]",
-    "ID": 12,
-    "Synonyms": null,
-    "Description": "Remote View Kits Part Numbers"
-  },
-  {
     "id": "rec9uOZO6pUKrwsqM",
     "Name": "MMV2",
     "Value": "[\"CE-CL-010-0004\", \"CE-CL-010-0001\"]",
@@ -72,12 +24,52 @@
     "Description": "MMv2 Controllers"
   },
   {
-    "id": "recgZ6li2DUcZr82n",
-    "Name": "MM",
-    "Value": "[\"CE-CL-030-0000\",\n\"CE-CL-031-0000\",\n\"CE-CL-030-1500\",\n\"CE-CL-031-3000\",\n\"CE-CL-010-0004\",\n\"CE-CL-010-0001\"]",
-    "ID": 14,
+    "id": "recBTHQ5P0jkui1W6",
+    "Name": "ROLLER_CONVEYOR",
+    "Value": "[\"MO-CV-030-\", \"MO-CV-030-\"]",
+    "ID": 5,
     "Synonyms": null,
-    "Description": "Machine Motion (MMv2 and MMAI)"
+    "Description": "Vention Roller Conveyor Part Numbers"
+  },
+  {
+    "id": "recLLrm9e2adQR53S",
+    "Name": "BELT_CONVEYOR",
+    "Value": "[\"MO-CV-004-\", \"MO-CV-005-\", \"MO-CV-006-\", \"MO-CV-007-\",\n \"MO-CV-024-\", \"MO-CV-025-\", \"MO-CV-026-\", \"MO-CV-027-\"]",
+    "ID": 4,
+    "Synonyms": null,
+    "Description": "Dorner Belt Conveyor Part Numbers\n"
+  },
+  {
+    "id": "recNF5FoxIUXmxwCC",
+    "Name": "MMAI",
+    "Value": "[\"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"]",
+    "ID": 1,
+    "Synonyms": "MMAI_PART_IDS",
+    "Description": "MMAI Controller Part Numbers"
+  },
+  {
+    "id": "recSbosurv2taDDWj",
+    "Name": "PALLETIZER_MA",
+    "Value": "[\"CE-SW-002-0004\"]",
+    "ID": 6,
+    "Synonyms": null,
+    "Description": "Palletizer Machine App Software"
+  },
+  {
+    "id": "recSj4kOqyQZkiCPp",
+    "Name": "REMOTE_VIEW",
+    "Value": "[\"ST-VS-001-0000\",\"ST-VS-002-0000\"]",
+    "ID": 12,
+    "Synonyms": null,
+    "Description": "Remote View Kits Part Numbers"
+  },
+  {
+    "id": "recWIhcLKcUrcvOUG",
+    "Name": "PNEUMATICS",
+    "Value": "[\"HW-AR-102-0300\"]\n",
+    "ID": 17,
+    "Synonyms": null,
+    "Description": "Pneumatics"
   },
   {
     "id": "recbGfWpvsuw1FkoG",
@@ -88,19 +80,27 @@
     "Description": "Pendants"
   },
   {
-    "id": "rec8ow1np1FJnKBiW",
-    "Name": "FANUC_CRX",
-    "Value": "[\"PR-FA-001-0500\",\n  \"PR-FA-001-0501\",\n  \"PR-FA-001-0502\",\n  \"PR-FA-001-0600\",\n  \"PR-FA-001-0601\",\n  \"PR-FA-001-0602\"]",
-    "ID": 16,
+    "id": "recgZ6li2DUcZr82n",
+    "Name": "MM",
+    "Value": "[\"CE-CL-030-0000\",\n\"CE-CL-031-0000\",\n\"CE-CL-030-1500\",\n\"CE-CL-031-3000\",\n\"CE-CL-010-0004\",\n\"CE-CL-010-0001\"]",
+    "ID": 14,
     "Synonyms": null,
-    "Description": "Fanuc CRX"
+    "Description": "Machine Motion (MMv2 and MMAI)"
   },
   {
-    "id": "recWIhcLKcUrcvOUG",
-    "Name": "PNEUMATICS",
-    "Value": "[\"HW-AR-102-0300\"]\n",
-    "ID": 17,
+    "id": "recj34A0PFYCpZ2AV",
+    "Name": "SANDING_BASE",
+    "Value": "[\"RS-SD-001-0001\"]",
+    "ID": 8,
     "Synonyms": null,
-    "Description": "Pneumatics"
+    "Description": "Rapid Series Sanding Base"
+  },
+  {
+    "id": "recssE5KieI4stL8j",
+    "Name": "SANDING_MA",
+    "Value": "[\"CE-SW-002-0014\"]",
+    "ID": 7,
+    "Synonyms": null,
+    "Description": "Sanding Machine App Software"
   }
 ]
