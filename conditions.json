@@ -1,0 +1,434 @@
+[
+  {
+    "id": "reccJXUS14j9TMYLR",
+    "Name": "mmai",
+    "ID": 35,
+    "Dataset": "main-designs",
+    "Filters": "[\n                    \"contains\",{\n                        \"case-sensitive\": true,\n                        \"effective-type\": \"type/Boolean\"\n                    },\n                    [\n                        \"field\",\n                        22371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recAeLizgk0PHIdr5",
+    "Name": "customer-led",
+    "ID": 43,
+    "Dataset": "main-designs",
+    "Filters": "[\n                    \"does-not-contain\",\n                    [\n                        \"field\",\n                        1275,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"@vention.cc\",\n                    {\n                        \"case-sensitive\": false\n                    }\n                ]",
+    "Synonyms": "customer"
+  },
+  {
+    "id": "recu6dFeWLWHx1esa",
+    "Name": "mmv2",
+    "ID": 44,
+    "Dataset": "main-designs",
+    "Filters": "[\n                    \"contains\",{\n                        \"case-sensitive\": true,\n                        \"effective-type\": \"type/Boolean\"\n                    },\n                    [\n                        \"field\",\n                        22371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-010-0004\",\n                    \"CE-CL-010-0001\"\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recs43y42RMbxQB8I",
+    "Name": "robot",
+    "ID": 14,
+    "Dataset": "main-ordered-parts",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19263,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Robots\"\n                ]",
+    "Synonyms": "robots"
+  },
+  {
+    "id": "recW7ntpSyXjZVGQ0",
+    "Name": "fanuc",
+    "ID": 15,
+    "Dataset": "main-ordered-parts",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19266,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"FANUC\"\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recSoVzLSyCWWPZhh",
+    "Name": "ur",
+    "ID": 16,
+    "Dataset": "main-ordered-parts",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19266,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Universal Robots\"\n                ]",
+    "Synonyms": "universal-robots,universal-robot"
+  },
+  {
+    "id": "recScGFJJko3N0BJa",
+    "Name": "xl-extrusion",
+    "ID": 17,
+    "Dataset": "main-ordered-parts",
+    "Filters": "[\n                    \"contains\",\n                    {\n                        \"case-sensitive\": true,\n                        \"effective-type\": \"type/Boolean\"\n                    },\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"ST-EXT-011-0540\",\n                    \"ST-EXT-011-2295\",\n                    \"ST-EXT-011-1845\",\n                    \"ST-EXT-011-1170\",\n                    \"ST-EXT-011-0900\"\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recJPn2W0ykK2P1gZ",
+    "Name": "mmv2",
+    "ID": 19,
+    "Dataset": "main-ordered-parts",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-010-0001\",\n                    \"CE-CL-010-0004\"\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "reczGmBoi3IS5Nnh9",
+    "Name": "mmai",
+    "ID": 20,
+    "Dataset": "main-ordered-parts",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recOVMSRoe3ZiNI1C",
+    "Name": "partner-part",
+    "ID": 49,
+    "Dataset": "main-ordered-parts",
+    "Filters": "[\n                \"=\",\n                [\n                    \"field\",\n                    24660,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ],\n                \"true\"\n            ]\n",
+    "Synonyms": "partner"
+  },
+  {
+    "id": "recwHlgwrTeCqRovJ",
+    "Name": "panels",
+    "ID": 56,
+    "Dataset": "main-ordered-parts",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19263,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Panels and Table Tops\",\n                    {\n                        \"case-sensitive\": false,\n                        \"effective-type\": \"type/Boolean\"\n                    }\n                ]",
+    "Synonyms": "panel"
+  },
+  {
+    "id": "recbP87usxmhQ589n",
+    "Name": "robot",
+    "ID": 18,
+    "Dataset": "main-orders",
+    "Filters": "[\n                    \">=\",\n                    [\n                        \"field\",\n                        347,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ],\n                    1\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recDX4VEVQgzDXwLQ",
+    "Name": "structural",
+    "ID": 23,
+    "Dataset": "main-orders",
+    "Filters": "[\n                     \"in\",\n                    [\n                        \"field\",\n                        366,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Parts\",\n                    \"Structural\"\n\n\n                ]\n",
+    "Synonyms": null
+  },
+  {
+    "id": "rec4EILcEjVI30pIy",
+    "Name": "automation",
+    "ID": 24,
+    "Dataset": "main-orders",
+    "Filters": "[\n                   \"=\",\n                    [\n                        \"field\",\n                        366,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Automation\"\n                ]\n\n",
+    "Synonyms": null
+  },
+  {
+    "id": "recin5QXm6P80gOYm",
+    "Name": "robotics",
+    "ID": 25,
+    "Dataset": "main-orders",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        366,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Robotics\"\n\n                ]\n",
+    "Synonyms": null
+  },
+  {
+    "id": "recQiCj1Kz9a1NFsR",
+    "Name": "new-account",
+    "ID": 26,
+    "Dataset": "main-orders",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22118,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"New\"\n                ]",
+    "Synonyms": "new, new-logo"
+  },
+  {
+    "id": "rec4ZDaNkk4GIkLQO",
+    "Name": "existing-account",
+    "ID": 27,
+    "Dataset": "main-orders",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22118,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Existing\"\n                ]",
+    "Synonyms": "existing, recurring"
+  },
+  {
+    "id": "recM1BzywToqiA8RU",
+    "Name": "enterprise",
+    "ID": 28,
+    "Dataset": "main-orders",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Enterprise\"\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recEVJTQIJ6fUsJhL",
+    "Name": "academia",
+    "ID": 55,
+    "Dataset": "main-orders",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Academia & Government Research\"\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recu9WeK7E02yr2xV",
+    "Name": "platform",
+    "ID": 30,
+    "Dataset": "main-orders",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        327,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Platform\"\n                ]\n",
+    "Synonyms": "hvs"
+  },
+  {
+    "id": "rec7KHNQy28rQnTvC",
+    "Name": "application",
+    "ID": 31,
+    "Dataset": "main-orders",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        327,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"APP\"\n                ]\n",
+    "Synonyms": "applications,app"
+  },
+  {
+    "id": "recVpJYIKbb4SQVSM",
+    "Name": "vap",
+    "ID": 32,
+    "Dataset": "main-orders",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        327,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"VAP\"\n                ]\n",
+    "Synonyms": null
+  },
+  {
+    "id": "recSMvSyoWqj06Ixz",
+    "Name": "emea",
+    "ID": 33,
+    "Dataset": "main-orders",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        21905,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"EMEA\"\n                ]\n",
+    "Synonyms": "europe"
+  },
+  {
+    "id": "recxclnTJo7DEKeIm",
+    "Name": "fulfilled",
+    "ID": 54,
+    "Dataset": "main-orders",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        416,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"fulfilled\"\n                ]",
+    "Synonyms": "fullfilled"
+  },
+  {
+    "id": "recl0Tu1EYsbebvSi",
+    "Name": "north-america",
+    "ID": 34,
+    "Dataset": "main-orders",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        21905,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"North America\"\n                ]\n",
+    "Synonyms": "na"
+  },
+  {
+    "id": "recwwtsZyCi5QQGzm",
+    "Name": "partner-part",
+    "ID": 13,
+    "Dataset": "main-parts",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        18464,\n                        {\n                            \"base-type\": \"type/Boolean\"\n                        }\n                    ],\n                    true\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recTUWsJZjhmxCs5v",
+    "Name": "generic-email",
+    "ID": 21,
+    "Dataset": "main-users",
+    "Filters": "[\n                    \"contains\",\n                    {\n                        \"case-sensitive\": false\n                    },\n                    [\n                        \"field\",\n                        1295,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"@gmail.com\",\n\"@yahoo.com\",\n\"@outlook.com\",\n\"@hotmail.com\",\n\"@icloud.com\",\n\"@aol.com\",\n\"@protonmail.com\",\n\"@mail.com\",\n\"@zoho.com\",\n\"@gmx.com\",\n\"@yandex.com\",\n\"@me.com\",\n\"@live.com\",\n\"@msn.com\",\n\"@tutanota.com\",\n\"@inbox.com\",\n\"@fastmail.com\",\n\"@email.com\",\n\"@usa.com\",\n\"@pm.me\"\n                ]",
+    "Synonyms": "generic"
+  },
+  {
+    "id": "recLmvqVjSqRaEzVO",
+    "Name": "corporate-email",
+    "ID": 22,
+    "Dataset": "main-users",
+    "Filters": "[\n                    \"does-not-contain\",\n                    {\n                        \"case-sensitive\": false,\n                        \"effective-type\": \"type/Boolean\"\n                    },\n                    [\n                        \"field\",\n                        1295,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"@gmail.com\",\n\"@yahoo.com\",\n\"@outlook.com\",\n\"@hotmail.com\",\n\"@icloud.com\",\n\"@aol.com\",\n\"@protonmail.com\",\n\"@mail.com\",\n\"@zoho.com\",\n\"@gmx.com\",\n\"@yandex.com\",\n\"@me.com\",\n\"@live.com\",\n\"@msn.com\",\n\"@tutanota.com\",\n\"@inbox.com\",\n\"@fastmail.com\",\n\"@email.com\",\n\"@usa.com\",\n\"@pm.me\"\n                ]",
+    "Synonyms": "corporate"
+  },
+  {
+    "id": "recVjVmoTTRakKhyq",
+    "Name": "activated",
+    "ID": 29,
+    "Dataset": "main-users",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        1307,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    1\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recApczi6EeIG6DhA",
+    "Name": "open",
+    "ID": 36,
+    "Dataset": "opportunities",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Awaiting Purchase\",\n                    \"Closing Stage\",\n                    \"Design Review\",\n                    \"Project Discovery\",\n                    \"Project Quoted\",\n                    \"Prospect\"\n                ]\n",
+    "Synonyms": null
+  },
+  {
+    "id": "rec7VY1JQGdjCfMYh",
+    "Name": "closed",
+    "ID": 37,
+    "Dataset": "opportunities",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Closed Lost\",\n                    \"Closed Won\"\n           \n                ]\n",
+    "Synonyms": null
+  },
+  {
+    "id": "recv6jCBw6xpxkAgS",
+    "Name": "rapid-series",
+    "ID": 38,
+    "Dataset": "opportunities",
+    "Filters": "[\n                    \"contains\",\n                    [\n                        \"field\",\n                        24663,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Rapid Series\",\n                    {\n                        \"case-sensitive\": false\n                    }\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "rectF7tcYh0TBEpBH",
+    "Name": "sanding",
+    "ID": 39,
+    "Dataset": "opportunities",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Sanding & Surface Finishing\"\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recYZHm9r2jkNjSfG",
+    "Name": "palletizing",
+    "ID": 40,
+    "Dataset": "opportunities",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Cartesian Palletizer\",\n                    \"Cobot Palletizer\",\n                    \"Industrial Robot Palletizer\"\n                ]",
+    "Synonyms": "palletizer"
+  },
+  {
+    "id": "recXqAep0i7k3vtP1",
+    "Name": "tending",
+    "ID": 41,
+    "Dataset": "opportunities",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Machine Tending\",\n                    \"Robotic Tending Cells\"\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "rec4qfExezTHyD7gf",
+    "Name": "welding",
+    "ID": 42,
+    "Dataset": "opportunities",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Welding\"\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "rectRrUrLNp7Qc9gN",
+    "Name": "lost",
+    "ID": 45,
+    "Dataset": "opportunities",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Closed Lost\"\n                ]",
+    "Synonyms": "closed-lost"
+  },
+  {
+    "id": "recJJgqbxtyG8edma",
+    "Name": "won",
+    "ID": 46,
+    "Dataset": "opportunities",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Closed Won\"\n                ]",
+    "Synonyms": "closed-won"
+  },
+  {
+    "id": "recueQZO1hMqICHvQ",
+    "Name": "has-design",
+    "ID": 47,
+    "Dataset": "opportunities",
+    "Filters": "[\n                    \"not-empty\",\n                    [\n                        \"field\",\n                        23226,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]\n                ]\n",
+    "Synonyms": null
+  },
+  {
+    "id": "recKQWHVk8rnyZZ68",
+    "Name": "platform",
+    "ID": 50,
+    "Dataset": "opportunities",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23268,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Platform\"\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recpHdxsjZkFe0nPW",
+    "Name": "applications",
+    "ID": 51,
+    "Dataset": "opportunities",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23268,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"APPS\"\n                ]",
+    "Synonyms": "apps,application"
+  },
+  {
+    "id": "rec5lvW2VK5xMx6KY",
+    "Name": "vap",
+    "ID": 52,
+    "Dataset": "opportunities",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23268,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"VAP\"\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recQRhojU3chw0BZY",
+    "Name": "no-code",
+    "ID": 57,
+    "Dataset": "main-deployments",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19460,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MachineLogic (no-code)\"\n                ]",
+    "Synonyms": "ml-no-code"
+  },
+  {
+    "id": "recjWbpeaDBJ1VCTP",
+    "Name": "python",
+    "ID": 58,
+    "Dataset": "main-deployments",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19460,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MachineLogic (Python)\"\n                ]",
+    "Synonyms": "ml-python"
+  },
+  {
+    "id": "rec3xZdq7BC9gI5Vx",
+    "Name": "ml",
+    "ID": 59,
+    "Dataset": "main-deployments",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        19460,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MachineLogic (Python)\",\n                    \"MachineLogic (no-code)\"\n                ]",
+    "Synonyms": "machine-logic"
+  },
+  {
+    "id": "recKVWC1ahm76Qt8B",
+    "Name": "external",
+    "ID": 60,
+    "Dataset": "main-deployments",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        19460,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"EthernetIP\",\n                    \"Fanuc Extension\",\n                    \"LLSAPI\",\n                    \"Native Robot Programming\"\n                ]",
+    "Synonyms": "external-control"
+  },
+  {
+    "id": "recqOjmcBqeBWH4bJ",
+    "Name": "machine-app",
+    "ID": 61,
+    "Dataset": "main-deployments",
+    "Filters": "[\n                \"=\",\n                [\n                    \"field\",\n                    19460,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ],\n                \"MachineApp Edge\"\n            ]",
+    "Synonyms": "machineapp, mapp"
+  },
+  {
+    "id": "recSFyqs5bIYSUIuL",
+    "Name": "welding",
+    "ID": 62,
+    "Dataset": "main-competitors",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"welding\",\n                    \"Welding\"\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recGU26clwVjuFUPl",
+    "Name": "sanding",
+    "ID": 63,
+    "Dataset": "main-competitors",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"sanding\",\n                    \"Sanding\"\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recQGOaqZliq50WY0",
+    "Name": "tending",
+    "ID": 64,
+    "Dataset": "main-competitors",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"machine tending\",\n                    \"Machine Tending\"\n                ]",
+    "Synonyms": "machine-tending"
+  },
+  {
+    "id": "recINgpm9tI1jBON7",
+    "Name": "palletizing",
+    "ID": 65,
+    "Dataset": "main-competitors",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"palletizing\",\n                    \"Palletizing\"\n                ]",
+    "Synonyms": "palletizer"
+  },
+  {
+    "id": "rec7vks9i1tCPEmpL",
+    "Name": "toolpath",
+    "ID": 66,
+    "Dataset": "main-competitors",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Toolpath Generation\"\n                ]",
+    "Synonyms": "toolpath-generation"
+  },
+  {
+    "id": "recE5c4k32UF7oTA9",
+    "Name": "programming",
+    "ID": 67,
+    "Dataset": "main-competitors",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Robot Programming\"\n                ]",
+    "Synonyms": "robot-programming"
+  },
+  {
+    "id": "recxqaiQhsam0M2Ui",
+    "Name": "operator",
+    "ID": 68,
+    "Dataset": "main-competitors",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Robot Operator\"\n                ]",
+    "Synonyms": "robot-operator, ai-operator, rapid-operator"
+  }
+]
