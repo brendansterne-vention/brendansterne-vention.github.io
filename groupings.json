@@ -1,129 +1,21 @@
 [
   {
-    "id": "recy9bhl1MBseAqPB",
-    "ID": 20,
-    "Name": "software-strategy",
-    "Dataset": "main-deployments",
+    "id": "rec0CJUV9zrGXWk95",
+    "ID": 55,
+    "Name": "source",
+    "Dataset": "main-users",
     "Filters": null,
-    "Dimension": "[\"field\",19460,{\"base-type\": \"type/*\"}]",
-    "Synonyms": "software, sw"
+    "Dimension": "[\n                    \"field\",\n                    1327,\n                    {\n                        \"base-type\": \"type/*\"\n                    }\n                ]",
+    "Synonyms": "lead-source"
   },
   {
-    "id": "recqWRHmPyUNclNEt",
-    "ID": 94,
-    "Name": "design",
-    "Dataset": "main-deployments",
+    "id": "rec1eWAPZv2hIEisW",
+    "ID": 50,
+    "Name": "account-type",
+    "Dataset": "main-orders",
     "Filters": null,
-    "Dimension": "[\"field\", 19447,{\"base-type\": \"type/Number\"}]",
-    "Synonyms": null
-  },
-  {
-    "id": "recDAxWKdLyzwuPwp",
-    "ID": 95,
-    "Name": "order",
-    "Dataset": "main-deployments",
-    "Filters": null,
-    "Dimension": "[\n                    \"field\",\n                    19455,\n                    {\n                        \"base-type\": \"type/Number\"\n                    }\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "rec5MNB5kEH2NdqYY",
-    "ID": 24,
-    "Name": "company",
-    "Dataset": "main-deployments",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        19452,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "account, account-name"
-  },
-  {
-    "id": "recEVEVtgD3SFNHfn",
-    "ID": 41,
-    "Name": "price",
-    "Dataset": "main-deployments",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        19464,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
-    "Synonyms": "total,net-sales,net-sale,bookings,booking,amount"
-  },
-  {
-    "id": "recVUUG56V7p9PzeX",
-    "ID": 45,
-    "Name": "software-plan",
-    "Dataset": "main-deployments",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        19462,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recWkMvXpUxH1LA5X",
-    "ID": 65,
-    "Name": "design-name",
-    "Dataset": "main-deployments",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        19451,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "design-name"
-  },
-  {
-    "id": "recO4MlbWUT97qUib",
-    "ID": 66,
-    "Name": "software-plan-name",
-    "Dataset": "main-deployments",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        19462,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "software-plan, subscription"
-  },
-  {
-    "id": "recRKhongZvGJSX1k",
-    "ID": 98,
-    "Name": "date",
-    "Dataset": "main-deployments",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        19459,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]",
-    "Synonyms": "time"
-  },
-  {
-    "id": "reclZBRCDZOJeUhBt",
-    "ID": 63,
-    "Name": "price",
-    "Dataset": "main-designs",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        1258,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
-    "Synonyms": "amount"
-  },
-  {
-    "id": "recP7Nf2J5y2HXzzX",
-    "ID": 64,
-    "Name": "name",
-    "Dataset": "main-designs",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        1277,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "design-name"
-  },
-  {
-    "id": "recvYWKF4NiPg44n5",
-    "ID": 76,
-    "Name": "last-graph-user-email",
-    "Dataset": "main-designs",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        1281,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "last-graph-email"
-  },
-  {
-    "id": "recN2hT9H0bDj5H2Y",
-    "ID": 86,
-    "Name": "part",
-    "Dataset": "main-designs",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        22371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "parts"
-  },
-  {
-    "id": "rec4jTsy4mz72LXy9",
-    "ID": 16,
-    "Name": "part-num",
-    "Dataset": "main-ordered-parts",
-    "Filters": null,
-    "Dimension": "[\"field\",667,{\"base-type\": \"type/Text\"}]",
-    "Synonyms": "part, part-number"
+    "Dimension": "[\n                    \"field\",\n                   22118,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Synonyms": "company-type, new-existing"
   },
   {
     "id": "rec3cPTxJA1BTzEzo",
@@ -135,13 +27,49 @@
     "Synonyms": "name"
   },
   {
-    "id": "recaw7yxyEbofzPIk",
-    "ID": 29,
-    "Name": "subcategory",
+    "id": "rec4gPs8kwYPK9G0W",
+    "ID": 54,
+    "Name": "activated",
+    "Dataset": "main-users",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        1307,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ]",
+    "Synonyms": "user-activated"
+  },
+  {
+    "id": "rec4jTsy4mz72LXy9",
+    "ID": 16,
+    "Name": "part-num",
     "Dataset": "main-ordered-parts",
     "Filters": null,
-    "Dimension": "[\"field\",19266,{\"base-type\": \"type/Text\"}]",
-    "Synonyms": "part-subcategory, sub-category, sub-cat"
+    "Dimension": "[\"field\",667,{\"base-type\": \"type/Text\"}]",
+    "Synonyms": "part, part-number"
+  },
+  {
+    "id": "rec5MNB5kEH2NdqYY",
+    "ID": 24,
+    "Name": "company",
+    "Dataset": "main-deployments",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        19452,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "account, account-name"
+  },
+  {
+    "id": "rec6W6yTB7RK1EtNM",
+    "ID": 52,
+    "Name": "design-scope",
+    "Dataset": "main-orders",
+    "Filters": null,
+    "Dimension": "[\n                    \"field\",\n                   21790,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "rec6hanYBGfPVSMoF",
+    "ID": 32,
+    "Name": "design",
+    "Dataset": "main-ordered-parts",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        665,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ]",
+    "Synonyms": null
   },
   {
     "id": "recAOJrZd4jo8Yh6q",
@@ -153,6 +81,87 @@
     "Synonyms": "part-category, cat"
   },
   {
+    "id": "recAjElbwEdR3x0kf",
+    "ID": 81,
+    "Name": "price",
+    "Dataset": "main-ordered-parts",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        664,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
+    "Synonyms": "amount"
+  },
+  {
+    "id": "recC6ckl1UWVkumUu",
+    "ID": 97,
+    "Name": "date",
+    "Dataset": "main-orders",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        394,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]",
+    "Synonyms": "time"
+  },
+  {
+    "id": "recCCkLpbxfLQz05Z",
+    "ID": 85,
+    "Name": "order",
+    "Dataset": "main-ordered-parts",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        646,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
+    "Synonyms": "order-id, order-num"
+  },
+  {
+    "id": "recDAxWKdLyzwuPwp",
+    "ID": 95,
+    "Name": "order",
+    "Dataset": "main-deployments",
+    "Filters": null,
+    "Dimension": "[\n                    \"field\",\n                    19455,\n                    {\n                        \"base-type\": \"type/Number\"\n                    }\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recEVEVtgD3SFNHfn",
+    "ID": 41,
+    "Name": "price",
+    "Dataset": "main-deployments",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        19464,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
+    "Synonyms": "total,net-sales,net-sale,bookings,booking,amount"
+  },
+  {
+    "id": "recFGsJY9wBPwZ6oq",
+    "ID": 96,
+    "Name": "category",
+    "Dataset": "main-competitors",
+    "Filters": null,
+    "Dimension": "[\n                    \"field\",\n                    29114,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Synonyms": "cat, application, app"
+  },
+  {
+    "id": "recFfrwUq1fzp6yfq",
+    "ID": 84,
+    "Name": "order",
+    "Dataset": "main-orders",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        362,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "order-id, order-num"
+  },
+  {
+    "id": "recGX5nhuQdyXBZ6E",
+    "ID": 48,
+    "Name": "generic-email",
+    "Dataset": "main-users",
+    "Filters": null,
+    "Dimension": "[\n                    \"expression\",\n                    \"generic-email\",\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Synonyms": "email-type, email-domain"
+  },
+  {
+    "id": "recI1TpxX9giL80IS",
+    "ID": 88,
+    "Name": "category",
+    "Dataset": "main-partsdb",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        19232,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "cat"
+  },
+  {
     "id": "recJPrOKuDyTg2Vky",
     "ID": 31,
     "Name": "order",
@@ -162,13 +171,238 @@
     "Synonyms": "order-num, order-id"
   },
   {
-    "id": "rec6hanYBGfPVSMoF",
-    "ID": 32,
+    "id": "recMQIXH42AkXcTlY",
+    "ID": 89,
+    "Name": "subcategory",
+    "Dataset": "main-partsdb",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        19233,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "sub-category, subcat"
+  },
+  {
+    "id": "recMiMECzoN5H4yFM",
+    "ID": 92,
+    "Name": "app-eng-team",
+    "Dataset": "opportunities",
+    "Filters": null,
+    "Dimension": "[\n                    \"field\",\n                    23232,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recN2hT9H0bDj5H2Y",
+    "ID": 86,
+    "Name": "part",
+    "Dataset": "main-designs",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        22371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "parts"
+  },
+  {
+    "id": "recN62jFLFEIz1jMT",
+    "ID": 99,
+    "Name": "has-subscription",
+    "Dataset": "main-deployments",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        23147,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recO4MlbWUT97qUib",
+    "ID": 66,
+    "Name": "software-plan-name",
+    "Dataset": "main-deployments",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        19462,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "software-plan, subscription"
+  },
+  {
+    "id": "recOzW6PSn7WAiNWX",
+    "ID": 73,
+    "Name": "contact-status",
+    "Dataset": "main-users",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        1302,\n                        {\n                            \"base-type\": \"type/*\"\n                        }\n                    ]",
+    "Synonyms": "user-status, status"
+  },
+  {
+    "id": "recP7Nf2J5y2HXzzX",
+    "ID": 64,
+    "Name": "name",
+    "Dataset": "main-designs",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        1277,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "design-name"
+  },
+  {
+    "id": "recRKhongZvGJSX1k",
+    "ID": 98,
+    "Name": "date",
+    "Dataset": "main-deployments",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        19459,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]",
+    "Synonyms": "time"
+  },
+  {
+    "id": "recSWQuAyuu50u0RH",
+    "ID": 90,
+    "Name": "brand",
+    "Dataset": "main-partsdb",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        19236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recSWVMYNmECEDgqP",
+    "ID": 59,
+    "Name": "secondary-application",
+    "Dataset": "opportunities",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        24663,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "secondary-app"
+  },
+  {
+    "id": "recTK8lfnHBv8OASG",
+    "ID": 51,
+    "Name": "sales-office",
+    "Dataset": "main-orders",
+    "Filters": null,
+    "Dimension": "[\n                    \"field\",\n                   21905,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Synonyms": "region"
+  },
+  {
+    "id": "recUIYeuOJswmWIhg",
+    "ID": 49,
+    "Name": "sales-motion",
+    "Dataset": "main-orders",
+    "Filters": null,
+    "Dimension": "[\n                    \"field\",\n                   327,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recUgc11ly7ynRJMa",
+    "ID": 53,
     "Name": "design",
+    "Dataset": "main-orders",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        307,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "design-list"
+  },
+  {
+    "id": "recV9qEzW3c5Is6Ab",
+    "ID": 77,
+    "Name": "new-vs-existing",
+    "Dataset": "opportunities",
+    "Filters": null,
+    "Dimension": "[\n                    \"field\",\n                    23259,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Synonyms": "new,existing,recurring"
+  },
+  {
+    "id": "recVELwTxvcSJHyIN",
+    "ID": 79,
+    "Name": "order-status",
+    "Dataset": "main-orders",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        416,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "status"
+  },
+  {
+    "id": "recVUUG56V7p9PzeX",
+    "ID": 45,
+    "Name": "software-plan",
+    "Dataset": "main-deployments",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        19462,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recWGogXiGXrxUfwz",
+    "ID": 56,
+    "Name": "primary-application",
+    "Dataset": "opportunities",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "primary-application, application, app"
+  },
+  {
+    "id": "recWkMvXpUxH1LA5X",
+    "ID": 65,
+    "Name": "design-name",
+    "Dataset": "main-deployments",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        19451,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "design-name"
+  },
+  {
+    "id": "recXxijQsnsq99wh5",
+    "ID": 36,
+    "Name": "price",
+    "Dataset": "main-orders",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        380,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
+    "Synonyms": "total,net-sales,net-sale,bookings,booking,amount"
+  },
+  {
+    "id": "recYzuE4D2kybiJBv",
+    "ID": 91,
+    "Name": "part",
+    "Dataset": "main-partsdb",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        18443,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "part-num"
+  },
+  {
+    "id": "recZCVS1SiTm8S79H",
+    "ID": 60,
+    "Name": "amount",
+    "Dataset": "opportunities",
+    "Filters": null,
+    "Dimension": "[\n                    \"field\",\n                    23255,\n                    {\n                        \"base-type\": \"type/Float\",\n                        \"binning\": {\n                            \"strategy\": \"default\"\n                        }\n                    }\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recZbApcCBjoVFQnJ",
+    "ID": 44,
+    "Name": "company",
+    "Dataset": "main-orders",
+    "Filters": null,
+    "Dimension": "[\n                    \"field\",\n                   299,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Synonyms": "account, account-name"
+  },
+  {
+    "id": "recaw7yxyEbofzPIk",
+    "ID": 29,
+    "Name": "subcategory",
     "Dataset": "main-ordered-parts",
     "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        665,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ]",
+    "Dimension": "[\"field\",19266,{\"base-type\": \"type/Text\"}]",
+    "Synonyms": "part-subcategory, sub-category, sub-cat"
+  },
+  {
+    "id": "recaxIYfK68fhXwq2",
+    "ID": 78,
+    "Name": "name",
+    "Dataset": "opportunities",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        22508,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": null
+  },
+  {
+    "id": "recbPgENWRlC445fa",
+    "ID": 37,
+    "Name": "robot-units",
+    "Dataset": "main-orders",
+    "Filters": null,
+    "Dimension": "[\n                    \"field\",\n                    347,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Synonyms": "robots, robot"
+  },
+  {
+    "id": "recca4pmoT3PeCqi8",
+    "ID": 57,
+    "Name": "account",
+    "Dataset": "opportunities",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        23243,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "account, account-name, company, company-name"
   },
   {
     "id": "recenD4Es9KLpAgSW",
@@ -189,22 +423,49 @@
     "Synonyms": "company-name"
   },
   {
-    "id": "recAjElbwEdR3x0kf",
-    "ID": 81,
-    "Name": "price",
-    "Dataset": "main-ordered-parts",
+    "id": "reckWTRcmozpZ9zmq",
+    "ID": 93,
+    "Name": "part",
+    "Dataset": "main-deployments",
     "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        664,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
+    "Dimension": "[\n                        \"field\",\n                        24777,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "part-num"
+  },
+  {
+    "id": "reclAcQGKLSvMpBWG",
+    "ID": 38,
+    "Name": "machine-motion-units",
+    "Dataset": "main-orders",
+    "Filters": null,
+    "Dimension": "[\n                    \"field\",\n                   292,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Synonyms": "machine-motion, machine-motions, mms, mm"
+  },
+  {
+    "id": "reclESWdWfdJJT51U",
+    "ID": 61,
+    "Name": "primary-application-group",
+    "Dataset": "opportunities",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        24664,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "primary-application-group, application, app-group"
+  },
+  {
+    "id": "reclZBRCDZOJeUhBt",
+    "ID": 63,
+    "Name": "price",
+    "Dataset": "main-designs",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        1258,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
     "Synonyms": "amount"
   },
   {
-    "id": "recCCkLpbxfLQz05Z",
-    "ID": 85,
-    "Name": "order",
-    "Dataset": "main-ordered-parts",
+    "id": "reclkEacHTw5TniwX",
+    "ID": 82,
+    "Name": "email",
+    "Dataset": "main-users",
     "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        646,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
-    "Synonyms": "order-id, order-num"
+    "Dimension": "[\n                        \"field\",\n                        1295,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": null
   },
   {
     "id": "recmAwRg3MJg03Xav",
@@ -225,6 +486,15 @@
     "Synonyms": "sales-team, closing-rep-team"
   },
   {
+    "id": "recokbAxd0JqNZYh1",
+    "ID": 87,
+    "Name": "name",
+    "Dataset": "main-partsdb",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        18458,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "part-name"
+  },
+  {
     "id": "recoyCn6zkcM2tnHo",
     "ID": 34,
     "Name": "primary-application",
@@ -234,40 +504,13 @@
     "Synonyms": "app, application"
   },
   {
-    "id": "recvwD9ajCANqPDk7",
-    "ID": 35,
-    "Name": "opportunity-name",
-    "Dataset": "main-orders",
+    "id": "recqWRHmPyUNclNEt",
+    "ID": 94,
+    "Name": "design",
+    "Dataset": "main-deployments",
     "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        323,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "name"
-  },
-  {
-    "id": "recXxijQsnsq99wh5",
-    "ID": 36,
-    "Name": "price",
-    "Dataset": "main-orders",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        380,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
-    "Synonyms": "total,net-sales,net-sale,bookings,booking,amount"
-  },
-  {
-    "id": "recbPgENWRlC445fa",
-    "ID": 37,
-    "Name": "robot-units",
-    "Dataset": "main-orders",
-    "Filters": null,
-    "Dimension": "[\n                    \"field\",\n                    347,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Synonyms": "robots, robot"
-  },
-  {
-    "id": "reclAcQGKLSvMpBWG",
-    "ID": 38,
-    "Name": "machine-motion-units",
-    "Dataset": "main-orders",
-    "Filters": null,
-    "Dimension": "[\n                    \"field\",\n                   292,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Synonyms": "machine-motion, machine-motions, mms, mm"
+    "Dimension": "[\"field\", 19447,{\"base-type\": \"type/Number\"}]",
+    "Synonyms": null
   },
   {
     "id": "rectIcok6bTU5dR3R",
@@ -279,202 +522,22 @@
     "Synonyms": null
   },
   {
-    "id": "recZbApcCBjoVFQnJ",
-    "ID": 44,
-    "Name": "company",
+    "id": "recvYWKF4NiPg44n5",
+    "ID": 76,
+    "Name": "last-graph-user-email",
+    "Dataset": "main-designs",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        1281,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "last-graph-email"
+  },
+  {
+    "id": "recvwD9ajCANqPDk7",
+    "ID": 35,
+    "Name": "opportunity-name",
     "Dataset": "main-orders",
     "Filters": null,
-    "Dimension": "[\n                    \"field\",\n                   299,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Synonyms": "account, account-name"
-  },
-  {
-    "id": "recUIYeuOJswmWIhg",
-    "ID": 49,
-    "Name": "sales-motion",
-    "Dataset": "main-orders",
-    "Filters": null,
-    "Dimension": "[\n                    \"field\",\n                   327,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recVELwTxvcSJHyIN",
-    "ID": 79,
-    "Name": "order-status",
-    "Dataset": "main-orders",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        416,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "status"
-  },
-  {
-    "id": "rec1eWAPZv2hIEisW",
-    "ID": 50,
-    "Name": "account-type",
-    "Dataset": "main-orders",
-    "Filters": null,
-    "Dimension": "[\n                    \"field\",\n                   22118,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Synonyms": "company-type, new-existing"
-  },
-  {
-    "id": "recTK8lfnHBv8OASG",
-    "ID": 51,
-    "Name": "sales-office",
-    "Dataset": "main-orders",
-    "Filters": null,
-    "Dimension": "[\n                    \"field\",\n                   21905,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Synonyms": "region"
-  },
-  {
-    "id": "rec6W6yTB7RK1EtNM",
-    "ID": 52,
-    "Name": "design-scope",
-    "Dataset": "main-orders",
-    "Filters": null,
-    "Dimension": "[\n                    \"field\",\n                   21790,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recUgc11ly7ynRJMa",
-    "ID": 53,
-    "Name": "design",
-    "Dataset": "main-orders",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        307,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "design-list"
-  },
-  {
-    "id": "recFfrwUq1fzp6yfq",
-    "ID": 84,
-    "Name": "order",
-    "Dataset": "main-orders",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        362,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "order-id, order-num"
-  },
-  {
-    "id": "recC6ckl1UWVkumUu",
-    "ID": 97,
-    "Name": "date",
-    "Dataset": "main-orders",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        394,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]",
-    "Synonyms": "time"
-  },
-  {
-    "id": "recGX5nhuQdyXBZ6E",
-    "ID": 48,
-    "Name": "generic-email",
-    "Dataset": "main-users",
-    "Filters": null,
-    "Dimension": "[\n                    \"expression\",\n                    \"generic-email\",\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Synonyms": "email-type, email-domain"
-  },
-  {
-    "id": "rec4gPs8kwYPK9G0W",
-    "ID": 54,
-    "Name": "activated",
-    "Dataset": "main-users",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        1307,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ]",
-    "Synonyms": "user-activated"
-  },
-  {
-    "id": "rec0CJUV9zrGXWk95",
-    "ID": 55,
-    "Name": "source",
-    "Dataset": "main-users",
-    "Filters": null,
-    "Dimension": "[\n                    \"field\",\n                    1327,\n                    {\n                        \"base-type\": \"type/*\"\n                    }\n                ]",
-    "Synonyms": "lead-source"
-  },
-  {
-    "id": "recOzW6PSn7WAiNWX",
-    "ID": 73,
-    "Name": "contact-status",
-    "Dataset": "main-users",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        1302,\n                        {\n                            \"base-type\": \"type/*\"\n                        }\n                    ]",
-    "Synonyms": "user-status, status"
-  },
-  {
-    "id": "reclkEacHTw5TniwX",
-    "ID": 82,
-    "Name": "email",
-    "Dataset": "main-users",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        1295,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recWGogXiGXrxUfwz",
-    "ID": 56,
-    "Name": "primary-application",
-    "Dataset": "opportunities",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "primary-application, application, app"
-  },
-  {
-    "id": "recca4pmoT3PeCqi8",
-    "ID": 57,
-    "Name": "account",
-    "Dataset": "opportunities",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        23243,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "account, account-name, company, company-name"
-  },
-  {
-    "id": "reczqw8WzNopuwEHd",
-    "ID": 58,
-    "Name": "stage",
-    "Dataset": "opportunities",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "stagename, stage-name"
-  },
-  {
-    "id": "recSWVMYNmECEDgqP",
-    "ID": 59,
-    "Name": "secondary-application",
-    "Dataset": "opportunities",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        24663,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "secondary-app"
-  },
-  {
-    "id": "recZCVS1SiTm8S79H",
-    "ID": 60,
-    "Name": "amount",
-    "Dataset": "opportunities",
-    "Filters": null,
-    "Dimension": "[\n                    \"field\",\n                    23255,\n                    {\n                        \"base-type\": \"type/Float\",\n                        \"binning\": {\n                            \"strategy\": \"default\"\n                        }\n                    }\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "reclESWdWfdJJT51U",
-    "ID": 61,
-    "Name": "primary-application-group",
-    "Dataset": "opportunities",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        24664,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "primary-application-group, application, app-group"
-  },
-  {
-    "id": "recV9qEzW3c5Is6Ab",
-    "ID": 77,
-    "Name": "new-vs-existing",
-    "Dataset": "opportunities",
-    "Filters": null,
-    "Dimension": "[\n                    \"field\",\n                    23259,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Synonyms": "new,existing,recurring"
-  },
-  {
-    "id": "recaxIYfK68fhXwq2",
-    "ID": 78,
-    "Name": "name",
-    "Dataset": "opportunities",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        22508,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": null
+    "Dimension": "[\n                        \"field\",\n                        323,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "name"
   },
   {
     "id": "recw4F7i3nvJkEfZc",
@@ -486,84 +549,21 @@
     "Synonyms": null
   },
   {
-    "id": "recMiMECzoN5H4yFM",
-    "ID": 92,
-    "Name": "app-eng-team",
+    "id": "recy9bhl1MBseAqPB",
+    "ID": 20,
+    "Name": "software-strategy",
+    "Dataset": "main-deployments",
+    "Filters": null,
+    "Dimension": "[\"field\",19460,{\"base-type\": \"type/*\"}]",
+    "Synonyms": "software, sw"
+  },
+  {
+    "id": "reczqw8WzNopuwEHd",
+    "ID": 58,
+    "Name": "stage",
     "Dataset": "opportunities",
     "Filters": null,
-    "Dimension": "[\n                    \"field\",\n                    23232,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recokbAxd0JqNZYh1",
-    "ID": 87,
-    "Name": "name",
-    "Dataset": "main-partsdb",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        18458,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "part-name"
-  },
-  {
-    "id": "recI1TpxX9giL80IS",
-    "ID": 88,
-    "Name": "category",
-    "Dataset": "main-partsdb",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        19232,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "cat"
-  },
-  {
-    "id": "recMQIXH42AkXcTlY",
-    "ID": 89,
-    "Name": "subcategory",
-    "Dataset": "main-partsdb",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        19233,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "sub-category, subcat"
-  },
-  {
-    "id": "recSWQuAyuu50u0RH",
-    "ID": 90,
-    "Name": "brand",
-    "Dataset": "main-partsdb",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        19236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recYzuE4D2kybiJBv",
-    "ID": 91,
-    "Name": "part",
-    "Dataset": "main-partsdb",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        18443,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "part-num"
-  },
-  {
-    "id": "reckWTRcmozpZ9zmq",
-    "ID": 93,
-    "Name": "part",
-    "Dataset": "main-deployments",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        24777,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "part-num"
-  },
-  {
-    "id": "recFGsJY9wBPwZ6oq",
-    "ID": 96,
-    "Name": "category",
-    "Dataset": "main-competitors",
-    "Filters": null,
-    "Dimension": "[\n                    \"field\",\n                    29114,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Synonyms": "cat, application, app"
-  },
-  {
-    "id": "recN62jFLFEIz1jMT",
-    "ID": 99,
-    "Name": "has-subscription",
-    "Dataset": "main-deployments",
-    "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        23147,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ]",
-    "Synonyms": null
+    "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "stagename, stage-name"
   }
-]
+] 
