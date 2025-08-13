@@ -333,7 +333,7 @@
     "ID": 61,
     "Dataset": "main-deployments",
     "Filters": "[\n                \"=\",\n                [\n                    \"field\",\n                    19460,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ],\n                \"MachineApp Edge\"\n            ]",
-    "Synonyms": "machineapp, mapp"
+    "Synonyms": "machineapp, mapp, machine-apps"
   },
   {
     "id": "recs43y42RMbxQB8I",
@@ -431,4 +431,4 @@
     "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
     "Synonyms": null
   }
-]
+] 
