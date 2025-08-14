@@ -300,7 +300,7 @@
     "Name": "has-subscription",
     "ID": 69,
     "Dataset": "main-deployments",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        19460,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MachineLogic (Python)\",\n                    \"MachineLogic (no-code)\"\n                ]",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23147,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    1\n                ]",
     "Synonyms": "machine-logic"
   },
   {
