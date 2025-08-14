@@ -301,7 +301,7 @@
     "ID": 69,
     "Dataset": "main-deployments",
     "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23147,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    1\n                ]",
-    "Synonyms": "machine-logic"
+    "Synonyms": "subscription"
   },
   {
     "id": "recin5QXm6P80gOYm",
@@ -439,4 +439,4 @@
     "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
     "Synonyms": null
   }
-]
+] 
