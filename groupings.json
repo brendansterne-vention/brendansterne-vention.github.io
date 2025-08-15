@@ -74,11 +74,11 @@
   {
     "id": "rec6zvEroYONbhuMO",
     "ID": 100,
-    "Name": "robot-units",
+    "Name": "machine-type",
     "Dataset": "main-orders",
     "Filters": null,
-    "Dimension": "[\n                    \"field\",\n                    347,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Synonyms": "robots, robot"
+    "Dimension": "[\n                    \"expression\",\n                    \"machine-type\",\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Synonyms": null
   },
   {
     "id": "recAOJrZd4jo8Yh6q",
@@ -575,4 +575,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-]
+] 
