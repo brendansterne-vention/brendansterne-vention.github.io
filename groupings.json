@@ -72,6 +72,15 @@
     "Synonyms": null
   },
   {
+    "id": "rec6zvEroYONbhuMO",
+    "ID": 100,
+    "Name": "robot-units",
+    "Dataset": "main-orders",
+    "Filters": null,
+    "Dimension": "[\n                    \"field\",\n                    347,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Synonyms": "robots, robot"
+  },
+  {
     "id": "recAOJrZd4jo8Yh6q",
     "ID": 30,
     "Name": "category",
@@ -566,4 +575,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-] 
+]
