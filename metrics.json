@@ -442,9 +442,9 @@
     "Measure": "[\n                    \"sum\",\n                    [\n                        \"field\",\n                        664,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]\n                ]",
     "Timefield": "666",
     "Filters": "[[\"!=\",[\"field\",668,{\"base-type\": \"type/Text\"}],\"cancelled\"],\n[\"not-empty\",[\"field\",660,{\"base-type\": \"type/Text\"}]],\n[\"!=\",[\"field\",647,{\"base-type\": \"type/Text\"}],\"zero\"]]",
-    "Synonyms": "ordered-parts-bookings, part-bookings, parts-bookings, ",
+    "Synonyms": "ordered-parts-bookings, \nopart-bookings, \nparts-bookings, ",
     "DatasetConfig": "{\"source-table\": 43}",
     "CustomColumns": null,
     "IsList": null
   }
-]  
+]
