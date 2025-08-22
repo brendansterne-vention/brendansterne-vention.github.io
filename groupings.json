@@ -420,7 +420,7 @@
     "Dataset": "main-deployments",
     "Filters": null,
     "Dimension": "[\n                        \"field\",\n                        31214,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "software-category"
+    "Synonyms": null
   },
   {
     "id": "recenD4Es9KLpAgSW",
