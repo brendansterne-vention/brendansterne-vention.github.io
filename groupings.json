@@ -420,7 +420,7 @@
     "Dataset": "main-deployments",
     "Filters": null,
     "Dimension": "[\n                        \"field\",\n                        31214,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "software-categor"
+    "Synonyms": "software-category"
   },
   {
     "id": "recenD4Es9KLpAgSW",
@@ -584,4 +584,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-]  
+] 
