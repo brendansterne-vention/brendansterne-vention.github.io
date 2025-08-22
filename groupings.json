@@ -414,6 +414,15 @@
     "Synonyms": "account, account-name, company, company-name"
   },
   {
+    "id": "rece36p5bd89NOLvL",
+    "ID": 101,
+    "Name": "software-category",
+    "Dataset": "main-deployments",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        19452,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "account, account-name"
+  },
+  {
     "id": "recenD4Es9KLpAgSW",
     "ID": 42,
     "Name": "brand",
@@ -575,4 +584,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-] 
+]
