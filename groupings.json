@@ -371,10 +371,10 @@
   {
     "id": "recYhYrM5NrEiLFVO",
     "ID": 105,
-    "Name": null,
-    "Dataset": "j",
+    "Name": "status",
+    "Dataset": "jira",
     "Filters": null,
-    "Dimension": null,
+    "Dimension": "\"status\"",
     "Synonyms": null
   },
   {
