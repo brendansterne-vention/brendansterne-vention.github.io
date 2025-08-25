@@ -447,7 +447,7 @@
     "Dataset": "jira",
     "Filters": null,
     "Dimension": "\"Summary\"",
-    "Synonyms": null
+    "Synonyms": "s"
   },
   {
     "id": "reckWTRcmozpZ9zmq",
@@ -593,4 +593,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-]
+] 
