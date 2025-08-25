@@ -650,10 +650,10 @@
   {
     "id": "recyLOxATFV8is8AZ",
     "ID": 110,
-    "Name": null,
-    "Dataset": "j",
+    "Name": "updated",
+    "Dataset": "jira",
     "Filters": null,
-    "Dimension": null,
+    "Dimension": "\"updated\"",
     "Synonyms": null
   },
   {
@@ -665,4 +665,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-]  
+]
