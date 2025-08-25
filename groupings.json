@@ -470,10 +470,10 @@
   {
     "id": "recf7xJxb7Pr5iF1v",
     "ID": 108,
-    "Name": null,
+    "Name": "text",
     "Dataset": "jira",
     "Filters": null,
-    "Dimension": null,
+    "Dimension": "\"text\"",
     "Synonyms": null
   },
   {
@@ -647,4 +647,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-] 
+]  
