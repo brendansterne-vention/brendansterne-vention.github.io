@@ -358,7 +358,7 @@
     "Measure": "[]",
     "Timefield": "0",
     "Filters": "['type = epic']",
-    "Synonyms": null,
+    "Synonyms": "ip",
     "DatasetConfig": null,
     "CustomColumns": null,
     "IsList": true
