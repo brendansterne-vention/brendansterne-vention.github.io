@@ -217,8 +217,8 @@
     "Zone": null,
     "Measure": "[]",
     "Timefield": "0",
-    "Filters": "[\"type",
-    "Synonyms": null,
+    "Filters": "[\"type=task\"]",
+    "Synonyms": "tasks",
     "DatasetConfig": null,
     "CustomColumns": null,
     "IsList": true
@@ -489,4 +489,4 @@
     "CustomColumns": null,
     "IsList": null
   }
-]  
+]
