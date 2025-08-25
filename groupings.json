@@ -617,8 +617,8 @@
     "Name": "parent-epic",
     "Dataset": "jira",
     "Filters": null,
-    "Dimension": "\"p",
-    "Synonyms": null
+    "Dimension": "\"parentEpic\"",
+    "Synonyms": "parentepic"
   },
   {
     "id": "recvYWKF4NiPg44n5",
@@ -674,4 +674,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-]
+]  
