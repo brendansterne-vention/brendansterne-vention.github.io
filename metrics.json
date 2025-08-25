@@ -28,6 +28,20 @@
     "IsList": null
   },
   {
+    "id": "rec3VaUBpilkD487O",
+    "Name": "jira-list",
+    "ID": 54,
+    "Dataset": "jir",
+    "Zone": null,
+    "Measure": null,
+    "Timefield": null,
+    "Filters": null,
+    "Synonyms": null,
+    "DatasetConfig": null,
+    "CustomColumns": null,
+    "IsList": true
+  },
+  {
     "id": "rec3VqBuJVjxMhwaY",
     "Name": "order-gross-profit",
     "ID": 48,
