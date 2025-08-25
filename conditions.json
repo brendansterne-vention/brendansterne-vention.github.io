@@ -260,8 +260,8 @@
     "Name": "sim",
     "ID": 76,
     "Dataset": "jira",
-    "Filters": "\"p",
-    "Synonyms": null
+    "Filters": "\"project=Simulation\"",
+    "Synonyms": "simulation"
   },
   {
     "id": "recVjVmoTTRakKhyq",
@@ -366,6 +366,14 @@
     "Dataset": "main-orders",
     "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        21905,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"North America\"\n                ]\n",
     "Synonyms": "na"
+  },
+  {
+    "id": "recp1zdZrvfFLoVbf",
+    "Name": null,
+    "ID": 77,
+    "Dataset": null,
+    "Filters": null,
+    "Synonyms": null
   },
   {
     "id": "recpHdxsjZkFe0nPW",
