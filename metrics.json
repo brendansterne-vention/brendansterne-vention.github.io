@@ -31,9 +31,9 @@
     "id": "rec3VaUBpilkD487O",
     "Name": "jira-list",
     "ID": 54,
-    "Dataset": "jir",
+    "Dataset": "jira",
     "Zone": null,
-    "Measure": null,
+    "Measure": "[]",
     "Timefield": null,
     "Filters": null,
     "Synonyms": null,
@@ -461,4 +461,4 @@
     "CustomColumns": null,
     "IsList": null
   }
-]  
+] 
