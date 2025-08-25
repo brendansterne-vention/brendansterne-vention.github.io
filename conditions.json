@@ -301,7 +301,7 @@
     "ID": 71,
     "Dataset": "jira",
     "Filters": "\"resolution = Unresolved\"",
-    "Synonyms": "u"
+    "Synonyms": "unresol"
   },
   {
     "id": "reciOWRFrXgyVRQjN",
