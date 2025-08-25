@@ -36,8 +36,8 @@
     "Name": "fw",
     "ID": 78,
     "Dataset": "jira",
-    "Filters": "\"project=Firmware",
-    "Synonyms": null
+    "Filters": "\"project=Firmware\"",
+    "Synonyms": "firmware"
   },
   {
     "id": "rec5lvW2VK5xMx6KY",
@@ -181,6 +181,14 @@
     "ID": 28,
     "Dataset": "main-orders",
     "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Enterprise\"\n                ]",
+    "Synonyms": null
+  },
+  {
+    "id": "recNeZdMLXG74t9cR",
+    "Name": null,
+    "ID": 79,
+    "Dataset": "j",
+    "Filters": null,
     "Synonyms": null
   },
   {
@@ -503,4 +511,4 @@
     "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
     "Synonyms": null
   }
-]  
+] 
