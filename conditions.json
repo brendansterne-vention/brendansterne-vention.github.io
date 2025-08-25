@@ -289,11 +289,11 @@
   },
   {
     "id": "recVTQFH1FTNGvkyC",
-    "Name": "sim",
+    "Name": "simulation",
     "ID": 76,
     "Dataset": "jira",
     "Filters": "\"project=Simulation\"",
-    "Synonyms": "simulation"
+    "Synonyms": null
   },
   {
     "id": "recVjVmoTTRakKhyq",
@@ -509,7 +509,7 @@
     "ID": 75,
     "Dataset": "jira",
     "Filters": "\"project='Machine Code'\"",
-    "Synonyms": null
+    "Synonyms": "mc"
   },
   {
     "id": "recwwtsZyCi5QQGzm",
@@ -543,4 +543,4 @@
     "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
     "Synonyms": null
   }
-]  
+]
