@@ -96,7 +96,7 @@
     "Dataset": "jira",
     "Filters": null,
     "Dimension": "\"description\"",
-    "Synonyms": null
+    "Synonyms": "desc"
   },
   {
     "id": "recAOJrZd4jo8Yh6q",
@@ -474,7 +474,7 @@
     "Dataset": "jira",
     "Filters": null,
     "Dimension": "\"Summary\"",
-    "Synonyms": null
+    "Synonyms": "sum"
   },
   {
     "id": "reck9xQ45nmaHYjTw",
