@@ -50,7 +50,7 @@
     "Name": "program",
     "Dataset": "jira",
     "Filters": null,
-    "Dimension": "\"",
+    "Dimension": "\"'Program[Select List (multiple choices)]",
     "Synonyms": null
   },
   {
@@ -611,4 +611,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-]  
+] 
