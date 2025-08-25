@@ -140,8 +140,8 @@
     "Name": "mb",
     "ID": 74,
     "Dataset": "jira",
-    "Filters": "\"project='Machin",
-    "Synonyms": null
+    "Filters": "\"project='MachineBuilder'\"",
+    "Synonyms": "machine-builder"
   },
   {
     "id": "recKQWHVk8rnyZZ68",
