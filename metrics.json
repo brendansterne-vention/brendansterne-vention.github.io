@@ -351,9 +351,9 @@
   },
   {
     "id": "reclSxTqHFcmpQZ0L",
-    "Name": null,
+    "Name": "epic-list",
     "ID": 55,
-    "Dataset": null,
+    "Dataset": "jira",
     "Zone": null,
     "Measure": null,
     "Timefield": null,
@@ -361,7 +361,7 @@
     "Synonyms": null,
     "DatasetConfig": null,
     "CustomColumns": null,
-    "IsList": null
+    "IsList": true
   },
   {
     "id": "recoOFzLkWokVI1Ee",
