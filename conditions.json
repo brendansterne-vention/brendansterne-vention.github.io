@@ -33,11 +33,11 @@
   },
   {
     "id": "rec52NTonQwreGDTm",
-    "Name": "fw",
+    "Name": "firmware",
     "ID": 78,
     "Dataset": "jira",
     "Filters": "\"project=Firmware\"",
-    "Synonyms": "firmware"
+    "Synonyms": "f"
   },
   {
     "id": "rec5lvW2VK5xMx6KY",
@@ -413,7 +413,7 @@
     "ID": 77,
     "Dataset": "jira",
     "Filters": "\"project='Digital Workflow'\"",
-    "Synonyms": null
+    "Synonyms": "dw"
   },
   {
     "id": "recpHdxsjZkFe0nPW",
@@ -543,4 +543,4 @@
     "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
     "Synonyms": null
   }
-]  
+]
