@@ -4,7 +4,7 @@
     "Name": "closed",
     "ID": 85,
     "Dataset": "jira",
-    "Filters": "\"resolu",
+    "Filters": "\"resolution!=resolv",
     "Synonyms": null
   },
   {
