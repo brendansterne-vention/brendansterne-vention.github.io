@@ -404,7 +404,7 @@
     "Name": "platform-foundations",
     "ID": 82,
     "Dataset": "jira",
-    "Filters": null,
+    "Filters": "\"'Program[Select List (multiple choices)]' = 'Platform Foundations Q3'\"",
     "Synonyms": null
   },
   {
@@ -535,4 +535,4 @@
     "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
     "Synonyms": null
   }
-] 
+]  
