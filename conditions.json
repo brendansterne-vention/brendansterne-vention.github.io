@@ -80,14 +80,6 @@
     "Synonyms": null
   },
   {
-    "id": "recBhtTxYdG9U9Hc1",
-    "Name": null,
-    "ID": 70,
-    "Dataset": "jira",
-    "Filters": null,
-    "Synonyms": null
-  },
-  {
     "id": "recDX4VEVQgzDXwLQ",
     "Name": "structural",
     "ID": 23,
@@ -304,6 +296,14 @@
     "Synonyms": null
   },
   {
+    "id": "recdS5ec0meqw2ikE",
+    "Name": null,
+    "ID": 71,
+    "Dataset": null,
+    "Filters": null,
+    "Synonyms": null
+  },
+  {
     "id": "reciOWRFrXgyVRQjN",
     "Name": "has-subscription",
     "ID": 69,
@@ -447,4 +447,4 @@
     "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
     "Synonyms": null
   }
-]  
+] 
