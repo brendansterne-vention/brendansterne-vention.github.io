@@ -217,7 +217,7 @@
     "Zone": null,
     "Measure": "[]",
     "Timefield": "0",
-    "Filters": null,
+    "Filters": "[",
     "Synonyms": null,
     "DatasetConfig": null,
     "CustomColumns": null,
@@ -489,4 +489,4 @@
     "CustomColumns": null,
     "IsList": null
   }
-] 
+]  
