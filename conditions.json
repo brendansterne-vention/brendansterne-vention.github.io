@@ -444,8 +444,8 @@
     "Name": "mc",
     "ID": 75,
     "Dataset": "jira",
-    "Filters": "\"project",
-    "Synonyms": null
+    "Filters": "\"project='Machine Code'\"",
+    "Synonyms": "machine-code"
   },
   {
     "id": "recwwtsZyCi5QQGzm",
