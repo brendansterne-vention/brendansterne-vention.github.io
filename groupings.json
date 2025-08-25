@@ -209,10 +209,10 @@
   {
     "id": "recMgHHQTPM2m4bSz",
     "ID": 109,
-    "Name": null,
-    "Dataset": "j",
+    "Name": "resolutiondate",
+    "Dataset": "jira",
     "Filters": null,
-    "Dimension": null,
+    "Dimension": "\"resolutiondate\"",
     "Synonyms": null
   },
   {
@@ -656,4 +656,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-]
+]  
