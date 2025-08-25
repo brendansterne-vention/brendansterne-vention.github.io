@@ -52,7 +52,7 @@
     "Name": "demo-day",
     "ID": 81,
     "Dataset": "jira",
-    "Filters": "\"",
+    "Filters": "\"\"Program[Select List (multiple choices)]\" = \"DemoDay 2025'\"",
     "Synonyms": null
   },
   {
