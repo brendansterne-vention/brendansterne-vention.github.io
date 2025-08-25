@@ -357,7 +357,7 @@
     "Zone": null,
     "Measure": "[]",
     "Timefield": "0",
-    "Filters": "['type]",
+    "Filters": "['type = ]",
     "Synonyms": null,
     "DatasetConfig": null,
     "CustomColumns": null,
