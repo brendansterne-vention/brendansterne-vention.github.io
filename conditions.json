@@ -161,11 +161,11 @@
   },
   {
     "id": "recJdsIifjHVdXbA6",
-    "Name": "mb",
+    "Name": "machine-builder",
     "ID": 74,
     "Dataset": "jira",
     "Filters": "\"project='MachineBuilder'\"",
-    "Synonyms": "machine-builder"
+    "Synonyms": null
   },
   {
     "id": "recKQWHVk8rnyZZ68",
@@ -337,11 +337,11 @@
   },
   {
     "id": "recZ6kRowyZmsSC2V",
-    "Name": "ml",
+    "Name": "machine-logic",
     "ID": 73,
     "Dataset": "jira",
     "Filters": "\"project='Machine Logic'\"",
-    "Synonyms": "machine-logic"
+    "Synonyms": "ml"
   },
   {
     "id": "recbP87usxmhQ589n",
