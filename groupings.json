@@ -81,6 +81,15 @@
     "Synonyms": null
   },
   {
+    "id": "rec8iZy8Z1uHlkqt4",
+    "ID": 103,
+    "Name": "description",
+    "Dataset": "jira",
+    "Filters": null,
+    "Dimension": null,
+    "Synonyms": null
+  },
+  {
     "id": "recAOJrZd4jo8Yh6q",
     "ID": 30,
     "Name": "category",
@@ -593,4 +602,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-] 
+]  
