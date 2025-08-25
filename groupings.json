@@ -468,6 +468,15 @@
     "Synonyms": "part-brand"
   },
   {
+    "id": "recf7xJxb7Pr5iF1v",
+    "ID": 108,
+    "Name": null,
+    "Dataset": "jira",
+    "Filters": null,
+    "Dimension": null,
+    "Synonyms": null
+  },
+  {
     "id": "recfr1tFJoLEgQgQ6",
     "ID": 80,
     "Name": "company",
@@ -638,4 +647,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-]
+] 
