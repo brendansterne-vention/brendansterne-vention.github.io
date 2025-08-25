@@ -50,7 +50,7 @@
     "Name": "program",
     "Dataset": "jira",
     "Filters": null,
-    "Dimension": "\"'Program[Select List (multiple choices)]",
+    "Dimension": "\"'Program[Select List (multiple choices)]'\"",
     "Synonyms": null
   },
   {
