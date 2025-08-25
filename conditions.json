@@ -372,8 +372,8 @@
     "Name": "dw",
     "ID": 77,
     "Dataset": "jira",
-    "Filters": "\"project='",
-    "Synonyms": null
+    "Filters": "\"project='Digital Workflow'\"",
+    "Synonyms": "digital-workflow"
   },
   {
     "id": "recpHdxsjZkFe0nPW",
