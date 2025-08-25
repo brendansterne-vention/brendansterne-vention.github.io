@@ -292,8 +292,8 @@
     "Name": "ml",
     "ID": 73,
     "Dataset": "jira",
-    "Filters": "\"project=`",
-    "Synonyms": null
+    "Filters": "\"project='Machine Logic'\"",
+    "Synonyms": "machine-logic"
   },
   {
     "id": "recbP87usxmhQ589n",
