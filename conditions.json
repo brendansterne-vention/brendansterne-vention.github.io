@@ -137,10 +137,10 @@
   },
   {
     "id": "recJdsIifjHVdXbA6",
-    "Name": null,
+    "Name": "mb",
     "ID": 74,
-    "Dataset": "j",
-    "Filters": null,
+    "Dataset": "jira",
+    "Filters": "\"project='Machin",
     "Synonyms": null
   },
   {
