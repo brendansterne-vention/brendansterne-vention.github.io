@@ -438,7 +438,7 @@
     "Dataset": "main-competitors",
     "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Robot Operator\"\n                ]",
     "Synonyms": "robot-operator, ai-operator, rapid-operator"
-  },
+  },  
   {
     "id": "reczGmBoi3IS5Nnh9",
     "Name": "mmai",
