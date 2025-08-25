@@ -213,7 +213,7 @@
     "Dataset": "jira",
     "Filters": null,
     "Dimension": "\"resolutiondate\"",
-    "Synonyms": null
+    "Synonyms": "r"
   },
   {
     "id": "recMiMECzoN5H4yFM",
@@ -656,4 +656,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-]  
+]
