@@ -479,10 +479,10 @@
   {
     "id": "reck9xQ45nmaHYjTw",
     "ID": 106,
-    "Name": null,
-    "Dataset": "j",
+    "Name": "resolution",
+    "Dataset": "jira",
     "Filters": null,
-    "Dimension": null,
+    "Dimension": "\"resolution\"",
     "Synonyms": null
   },
   {
@@ -629,4 +629,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-]
+] 
