@@ -618,7 +618,7 @@
     "Dataset": "jira",
     "Filters": null,
     "Dimension": "\"parentEpic\"",
-    "Synonyms": "parentepic"
+    "Synonyms": "parentepic, epic"
   },
   {
     "id": "recvYWKF4NiPg44n5",
