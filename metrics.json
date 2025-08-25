@@ -355,9 +355,9 @@
     "ID": 55,
     "Dataset": "jira",
     "Zone": null,
-    "Measure": null,
-    "Timefield": null,
-    "Filters": null,
+    "Measure": "[]",
+    "Timefield": "0",
+    "Filters": "[]",
     "Synonyms": null,
     "DatasetConfig": null,
     "CustomColumns": null,
@@ -475,4 +475,4 @@
     "CustomColumns": null,
     "IsList": null
   }
-] 
+]  
