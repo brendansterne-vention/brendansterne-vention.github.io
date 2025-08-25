@@ -86,7 +86,7 @@
     "Name": "description",
     "Dataset": "jira",
     "Filters": null,
-    "Dimension": "\"d",
+    "Dimension": "\"description\"",
     "Synonyms": null
   },
   {
@@ -456,7 +456,7 @@
     "Dataset": "jira",
     "Filters": null,
     "Dimension": "\"Summary\"",
-    "Synonyms": "s"
+    "Synonyms": null
   },
   {
     "id": "reckWTRcmozpZ9zmq",
@@ -602,4 +602,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-] 
+]
