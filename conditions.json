@@ -485,7 +485,7 @@
     "ID": 83,
     "Dataset": "jira",
     "Filters": "\"project='Machine Apps'\"",
-    "Synonyms": "ma, mapp"
+    "Synonyms": "ma, mapp, mapps"
   },
   {
     "id": "recv6jCBw6xpxkAgS",
@@ -543,4 +543,4 @@
     "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
     "Synonyms": null
   }
-]
+]  
