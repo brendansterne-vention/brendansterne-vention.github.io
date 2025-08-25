@@ -5,7 +5,7 @@
     "ID": 85,
     "Dataset": "jira",
     "Filters": "\"resolution!=Unresolved\"",
-    "Synonyms": "resolv"
+    "Synonyms": "resolved"
   },
   {
     "id": "rec3xZdq7BC9gI5Vx",
@@ -559,4 +559,4 @@
     "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
     "Synonyms": null
   }
-] 
+]  
