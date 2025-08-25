@@ -165,7 +165,7 @@
     "ID": 74,
     "Dataset": "jira",
     "Filters": "\"project='MachineBuilder'\"",
-    "Synonyms": null
+    "Synonyms": "mb"
   },
   {
     "id": "recKQWHVk8rnyZZ68",
@@ -505,11 +505,11 @@
   },
   {
     "id": "recwnYMUDHZh4SUPz",
-    "Name": "mc",
+    "Name": "machine-code",
     "ID": 75,
     "Dataset": "jira",
     "Filters": "\"project='Machine Code'\"",
-    "Synonyms": "machine-code"
+    "Synonyms": null
   },
   {
     "id": "recwwtsZyCi5QQGzm",
