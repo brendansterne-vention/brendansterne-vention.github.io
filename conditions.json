@@ -204,7 +204,7 @@
     "Name": "platform",
     "ID": 72,
     "Dataset": "jira",
-    "Filters": null,
+    "Filters": "\"project in ('Machine Logic', MachineBuilder, 'Machine Code', 'Digital WorkFlow', Simulation, Firmware, Robot)\"",
     "Synonyms": null
   },
   {
