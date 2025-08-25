@@ -292,7 +292,7 @@
     "Name": "ml",
     "ID": 73,
     "Dataset": "jira",
-    "Filters": "\"",
+    "Filters": "\"project=`",
     "Synonyms": null
   },
   {
