@@ -380,7 +380,7 @@
     "Name": "open",
     "ID": 71,
     "Dataset": "jira",
-    "Filters": "\"resolution=Unresolved\"",
+    "Filters": "\"resolution=Unresolved and status!=Rejected\"",
     "Synonyms": "unresolved"
   },
   {
