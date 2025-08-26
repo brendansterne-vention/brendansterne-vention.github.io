@@ -399,8 +399,8 @@
     "Zone": null,
     "Measure": "[]",
     "Timefield": "0",
-    "Filters": "[\"type=",
-    "Synonyms": null,
+    "Filters": "[\"type=initiative\"]",
+    "Synonyms": "initiatives",
     "DatasetConfig": null,
     "CustomColumns": null,
     "IsList": true
@@ -503,4 +503,4 @@
     "CustomColumns": null,
     "IsList": null
   }
-]
+]  
