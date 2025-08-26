@@ -395,11 +395,11 @@
     "id": "recpSyGSFziZp6ZLL",
     "Name": "initiative-list",
     "ID": 57,
-    "Dataset": "j",
+    "Dataset": "jira",
     "Zone": null,
-    "Measure": null,
-    "Timefield": null,
-    "Filters": null,
+    "Measure": "[]",
+    "Timefield": "0",
+    "Filters": "[]",
     "Synonyms": null,
     "DatasetConfig": null,
     "CustomColumns": null,
@@ -503,4 +503,4 @@
     "CustomColumns": null,
     "IsList": null
   }
-]  
+]
