@@ -23,7 +23,7 @@
     "Timefield": null,
     "Filters": "[]",
     "Synonyms": null,
-    "DatasetConfig": "{",
+    "DatasetConfig": "{\"source-table\": 1199}",
     "CustomColumns": null,
     "IsList": true
   },
@@ -517,4 +517,4 @@
     "CustomColumns": null,
     "IsList": null
   }
-]  
+]
