@@ -20,7 +20,7 @@
     "Dataset": "main-machine-actions",
     "Zone": null,
     "Measure": "[]",
-    "Timefield": null,
+    "Timefield": "31396",
     "Filters": "[]",
     "Synonyms": null,
     "DatasetConfig": "{\"source-table\": 1199}",
