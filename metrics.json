@@ -463,17 +463,17 @@
   },
   {
     "id": "recuHzaOsMPP4Ccii",
-    "Name": "m",
+    "Name": "machine-actions",
     "ID": 59,
     "Dataset": "main-machine-actions",
     "Zone": null,
-    "Measure": "[]",
+    "Measure": "[\"]",
     "Timefield": "31396",
     "Filters": "[]",
     "Synonyms": null,
     "DatasetConfig": "{\"source-table\": 1199}",
     "CustomColumns": null,
-    "IsList": true
+    "IsList": null
   },
   {
     "id": "recvIOeRMExM8Pagn",
@@ -531,4 +531,4 @@
     "CustomColumns": null,
     "IsList": null
   }
-]  
+] 
