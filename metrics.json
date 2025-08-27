@@ -462,6 +462,20 @@
     "IsList": true
   },
   {
+    "id": "recuHzaOsMPP4Ccii",
+    "Name": "m",
+    "ID": 59,
+    "Dataset": "main-machine-actions",
+    "Zone": null,
+    "Measure": "[]",
+    "Timefield": "31396",
+    "Filters": "[]",
+    "Synonyms": null,
+    "DatasetConfig": "{\"source-table\": 1199}",
+    "CustomColumns": null,
+    "IsList": true
+  },
+  {
     "id": "recvIOeRMExM8Pagn",
     "Name": "users",
     "ID": 36,
@@ -517,4 +531,4 @@
     "CustomColumns": null,
     "IsList": null
   }
-]
+]  
