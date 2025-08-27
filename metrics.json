@@ -21,9 +21,9 @@
     "Zone": null,
     "Measure": "[]",
     "Timefield": null,
-    "Filters": "[",
+    "Filters": "[]",
     "Synonyms": null,
-    "DatasetConfig": null,
+    "DatasetConfig": "{",
     "CustomColumns": null,
     "IsList": true
   },
