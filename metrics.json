@@ -287,7 +287,7 @@
     "Zone": null,
     "Measure": "[]",
     "Timefield": "19459",
-    "Filters": "[[\"!=\",[\"field\",19452,{\"base-type\":\"type/Text\"}],\"Vention\"],]",
+    "Filters": "[[\"!=\",[\"field\",19452,{\"base-type\":\"type/Text\"}],\"Vention\"],[\n                    \"!=\",\n                    [\n                        \"field\",\n                        24776,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"cancelled\"\n                ]]",
     "Synonyms": "deployments-list, \ndeploy-list, \nmain-deployment, \nmain-deployments, \nmain-deployment-list, \nmain-deployments-list",
     "DatasetConfig": "{\"source-table\": 958}",
     "CustomColumns": null,
@@ -371,7 +371,7 @@
     "Zone": null,
     "Measure": "[\"count\"]",
     "Timefield": "19459",
-    "Filters": "[[\"!=\",[\"field\",19452,{\"base-type\":\"type/Text\"}],\"Vention\"]]",
+    "Filters": "[[\"!=\",[\"field\",19452,{\"base-type\":\"type/Text\"}],\"Vention\"],[\n                    \"!=\",\n                    [\n                        \"field\",\n                        24776,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"cancelled\"\n                ]]",
     "Synonyms": "deploys",
     "DatasetConfig": "{\"source-table\": 958}",
     "CustomColumns": null,
@@ -531,4 +531,4 @@
     "CustomColumns": null,
     "IsList": null
   }
-]  
+]
