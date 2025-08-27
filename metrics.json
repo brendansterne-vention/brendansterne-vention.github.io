@@ -15,9 +15,9 @@
   },
   {
     "id": "rec2wqR1PyCYEE7qG",
-    "Name": null,
+    "Name": "machine-action-list",
     "ID": 58,
-    "Dataset": null,
+    "Dataset": "main-",
     "Zone": null,
     "Measure": null,
     "Timefield": null,
@@ -25,7 +25,7 @@
     "Synonyms": null,
     "DatasetConfig": null,
     "CustomColumns": null,
-    "IsList": null
+    "IsList": true
   },
   {
     "id": "rec3Dupxb6pzmV5mx",
@@ -517,4 +517,4 @@
     "CustomColumns": null,
     "IsList": null
   }
-]
+] 
