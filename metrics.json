@@ -231,7 +231,7 @@
     "Zone": null,
     "Measure": "[]",
     "Timefield": "394",
-    "Filters": "[\n\n                [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n                ]\n]",
+    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ],\n[\n                    \"is-null\",\n                    [\n                        \"field\",\n                        303,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]\n                ]\n\n]\n",
     "Synonyms": "orders-list, \nmain-orders,\nmain-order,\nmain-order-list,\nmain-orders-list",
     "DatasetConfig": "{\"source-table\": 35}",
     "CustomColumns": null,
@@ -259,7 +259,7 @@
     "Zone": null,
     "Measure": "[\n                    \"sum\",\n                    [\n                        \"field\",\n                        356,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]\n                ]",
     "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ]\n\n]\n\n",
+    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ],\n[\n                    \"is-null\",\n                    [\n                        \"field\",\n                        303,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]\n                ]\n\n]\n",
     "Synonyms": null,
     "DatasetConfig": "{\"source-table\": 35}",
     "CustomColumns": null,
@@ -427,7 +427,7 @@
     "Zone": null,
     "Measure": "[\n                    \"sum\",\n                    [\n                        \"field\",\n                        293,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]\n                ]",
     "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ]\n\n]\n\n",
+    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ],\n[\n                    \"is-null\",\n                    [\n                        \"field\",\n                        303,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]\n                ]\n\n]\n",
     "Synonyms": null,
     "DatasetConfig": "{\"source-table\": 35}",
     "CustomColumns": null,
@@ -503,4 +503,4 @@
     "CustomColumns": null,
     "IsList": null
   }
-]
+] 
