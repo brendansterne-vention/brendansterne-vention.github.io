@@ -572,8 +572,8 @@
     "Name": "fix-version",
     "Dataset": "jira",
     "Filters": null,
-    "Dimension": "\"fixVersion",
-    "Synonyms": null
+    "Dimension": "\"fixVersion\"",
+    "Synonyms": "release,"
   },
   {
     "id": "recmzhoq03IaAjg9s",
@@ -683,4 +683,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-]  
+]
