@@ -467,7 +467,7 @@
     "ID": 59,
     "Dataset": "main-machine-actions",
     "Zone": null,
-    "Measure": "[\"]",
+    "Measure": "[\"count\"]",
     "Timefield": "31396",
     "Filters": "[]",
     "Synonyms": null,
@@ -531,4 +531,4 @@
     "CustomColumns": null,
     "IsList": null
   }
-] 
+]
