@@ -35,7 +35,7 @@
     "Zone": null,
     "Measure": "[\n                    \"aggregation-options\",\n                    [\n                        \"/\",\n                        [\n                            \"-\",\n                            [\n                                \"sum\",\n                                [\n                                    \"field\",\n                                    380,\n                                    {\n                                        \"base-type\": \"type/Float\"\n                                    }\n                                ]\n                            ],\n                            [\n                                \"sum\",\n                                [\n                                    \"field\",\n                                    332,\n                                    {\n                                        \"base-type\": \"type/Float\"\n                                    }\n                                ]\n                            ]\n                        ],\n                        [\n                            \"sum\",\n                            [\n                                \"field\",\n                                380,\n                                {\n                                    \"base-type\": \"type/Float\"\n                                }\n                            ]\n                        ]\n                    ],\n                    {\n                        \"name\": \"Margin\",\n                        \"display-name\": \"Margin\"\n                    }\n                ]\n",
     "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ],\n[\n                    \"is-null\",\n                    [\n                        \"field\",\n                        303,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]\n                ]\n\n]\n",
+    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ]\n]\n",
     "Synonyms": null,
     "DatasetConfig": "{\"source-table\": 35}",
     "CustomColumns": null,
@@ -531,4 +531,4 @@
     "CustomColumns": null,
     "IsList": null
   }
-]
+] 
