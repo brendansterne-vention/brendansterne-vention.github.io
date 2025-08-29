@@ -414,7 +414,7 @@
     "Measure": "[]",
     "Timefield": "0",
     "Filters": "[\"type=bug\"]",
-    "Synonyms": "b",
+    "Synonyms": "bugs",
     "DatasetConfig": null,
     "CustomColumns": null,
     "IsList": true
