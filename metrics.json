@@ -218,7 +218,7 @@
     "Measure": "[]",
     "Timefield": "0",
     "Filters": "[\"type=idea\"]",
-    "Synonyms": "initiatives",
+    "Synonyms": "ideas",
     "DatasetConfig": null,
     "CustomColumns": null,
     "IsList": true
@@ -406,6 +406,20 @@
     "IsList": true
   },
   {
+    "id": "recnl57wH2ICpWzPQ",
+    "Name": "bug-list",
+    "ID": 61,
+    "Dataset": "jira",
+    "Zone": null,
+    "Measure": "[]",
+    "Timefield": "0",
+    "Filters": "[\"type=bug\"]",
+    "Synonyms": "b",
+    "DatasetConfig": null,
+    "CustomColumns": null,
+    "IsList": true
+  },
+  {
     "id": "recoOFzLkWokVI1Ee",
     "Name": "ma-bookings",
     "ID": 33,
@@ -545,4 +559,4 @@
     "CustomColumns": null,
     "IsList": null
   }
-]  
+] 
