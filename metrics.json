@@ -210,6 +210,20 @@
     "IsList": true
   },
   {
+    "id": "recQCS1zDvry6XO9r",
+    "Name": "idea-list",
+    "ID": 60,
+    "Dataset": "jira",
+    "Zone": null,
+    "Measure": "[]",
+    "Timefield": "0",
+    "Filters": "[\"type=idea\"]",
+    "Synonyms": "initiatives",
+    "DatasetConfig": null,
+    "CustomColumns": null,
+    "IsList": true
+  },
+  {
     "id": "recQEvrnqS1uTMXcN",
     "Name": "competitor-list",
     "ID": 52,
@@ -531,4 +545,4 @@
     "CustomColumns": null,
     "IsList": null
   }
-]
+]  
