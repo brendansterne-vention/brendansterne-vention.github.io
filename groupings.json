@@ -101,10 +101,10 @@
   {
     "id": "rec8s4PakUsIkFGs5",
     "ID": 114,
-    "Name": "part",
+    "Name": "has-design",
     "Dataset": "main-designs",
     "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        22371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Dimension": "[\n                    \"not-empty\",\n                    [\n                        \"field\",\n                        307,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]\n                ]",
     "Synonyms": "parts"
   },
   {
@@ -701,4 +701,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-]
+]  
