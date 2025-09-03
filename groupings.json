@@ -573,7 +573,7 @@
     "Dataset": "main-deployments",
     "Filters": null,
     "Dimension": "[\n                        \"field\",\n                        31855,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "m"
+    "Synonyms": "mmtype"
   },
   {
     "id": "recmfg0yQJz0eN4YO",
@@ -692,4 +692,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-]
+] 
