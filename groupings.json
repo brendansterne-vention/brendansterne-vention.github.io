@@ -105,7 +105,7 @@
     "Dataset": "main-designs",
     "Filters": null,
     "Dimension": "[\n                    \"not-empty\",\n                    [\n                        \"field\",\n                        307,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]\n                ]",
-    "Synonyms": "has-designs, pic"
+    "Synonyms": "has-designs, pic, pictures, has-pic, has-pictures"
   },
   {
     "id": "recAOJrZd4jo8Yh6q",
