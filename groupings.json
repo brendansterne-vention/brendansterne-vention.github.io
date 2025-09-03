@@ -429,7 +429,7 @@
     "Dataset": "main-orders",
     "Filters": null,
     "Dimension": "[\n                    \"field\",\n                   299,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Synonyms": "account, account-name"
+    "Synonyms": "account, account-name,"
   },
   {
     "id": "recaw7yxyEbofzPIk",
@@ -701,4 +701,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-] 
+]
