@@ -572,8 +572,8 @@
     "Name": "mm-type",
     "Dataset": "main-deployments",
     "Filters": null,
-    "Dimension": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        31855,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MMAI\"\n                ]",
-    "Synonyms": null
+    "Dimension": "[\n                        \"field\",\n                        31855,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "m"
   },
   {
     "id": "recmfg0yQJz0eN4YO",
