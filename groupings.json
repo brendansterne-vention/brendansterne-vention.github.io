@@ -465,7 +465,7 @@
     "Dataset": "opportunities",
     "Filters": null,
     "Dimension": "[\n                        \"field\",\n                        23243,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "account, account-name, company, company-name"
+    "Synonyms": "account, account-name, company, company-name, customer"
   },
   {
     "id": "rece36p5bd89NOLvL",
@@ -701,4 +701,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-]
+]  
