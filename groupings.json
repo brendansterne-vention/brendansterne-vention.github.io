@@ -60,7 +60,7 @@
     "Dataset": "main-deployments",
     "Filters": null,
     "Dimension": "[\n                        \"field\",\n                        19452,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "account, account-name"
+    "Synonyms": "account, account-name, customer"
   },
   {
     "id": "rec6W6yTB7RK1EtNM",
@@ -501,7 +501,7 @@
     "Dataset": "main-ordered-parts",
     "Filters": null,
     "Dimension": "[\"field\",24674,{\"base-type\": \"type/Text\"}]",
-    "Synonyms": "company-name"
+    "Synonyms": "company-name, account, customer"
   },
   {
     "id": "recjV9E74ie1t6PZ4",
@@ -701,4 +701,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-]
+] 
