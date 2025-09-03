@@ -344,6 +344,14 @@
     "Synonyms": null
   },
   {
+    "id": "recYZ1sSotgSPtDRM",
+    "Name": "mmai",
+    "ID": 86,
+    "Dataset": "main-deployments",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        31855,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MMAI\"\n                ]",
+    "Synonyms": null
+  },
+  {
     "id": "recYZHm9r2jkNjSfG",
     "Name": "palletizing",
     "ID": 40,
@@ -559,4 +567,4 @@
     "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
     "Synonyms": null
   }
-]  
+] 
