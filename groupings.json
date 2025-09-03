@@ -105,7 +105,7 @@
     "Dataset": "main-designs",
     "Filters": null,
     "Dimension": "[\n                    \"not-empty\",\n                    [\n                        \"field\",\n                        307,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]\n                ]",
-    "Synonyms": "has-designs,"
+    "Synonyms": "has-designs, "
   },
   {
     "id": "recAOJrZd4jo8Yh6q",
@@ -701,4 +701,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-] 
+]
