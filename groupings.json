@@ -99,6 +99,15 @@
     "Synonyms": "desc"
   },
   {
+    "id": "rec8s4PakUsIkFGs5",
+    "ID": 114,
+    "Name": "part",
+    "Dataset": "main-designs",
+    "Filters": null,
+    "Dimension": "[\n                        \"field\",\n                        22371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "parts"
+  },
+  {
     "id": "recAOJrZd4jo8Yh6q",
     "ID": 30,
     "Name": "category",
@@ -692,4 +701,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-] 
+]
