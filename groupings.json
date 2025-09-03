@@ -569,10 +569,10 @@
   {
     "id": "recmK5QpQuhMn2y5y",
     "ID": 113,
-    "Name": "m",
+    "Name": "mm-type",
     "Dataset": "main-deployments",
     "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        31214,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Dimension": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        31855,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MMAI\"\n                ]",
     "Synonyms": null
   },
   {
@@ -692,4 +692,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-]  
+]
