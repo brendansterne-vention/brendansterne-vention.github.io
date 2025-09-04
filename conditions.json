@@ -340,8 +340,8 @@
     "Name": "support",
     "ID": 87,
     "Dataset": "jira",
-    "Filters": "\"project='Vent",
-    "Synonyms": null
+    "Filters": "\"project='Vention Support'\"",
+    "Synonyms": "vention-support"
   },
   {
     "id": "recXqAep0i7k3vtP1",
