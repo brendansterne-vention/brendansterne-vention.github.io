@@ -465,7 +465,7 @@
     "Dataset": "main-ordered-parts",
     "Filters": null,
     "Dimension": "[\n                        \"field\",\n                        24676,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Synonyms": "a"
+    "Synonyms": "account-size"
   },
   {
     "id": "recca4pmoT3PeCqi8",
@@ -710,4 +710,4 @@
     "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
     "Synonyms": "stagename, stage-name"
   }
-]
+] 
