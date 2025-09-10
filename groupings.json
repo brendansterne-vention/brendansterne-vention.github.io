@@ -461,11 +461,11 @@
   {
     "id": "recbxB4hiO36hXx1I",
     "ID": 115,
-    "Name": "c",
+    "Name": "company-size",
     "Dataset": "main-ordered-parts",
     "Filters": null,
-    "Dimension": "[\n                        \"field\",\n                        646,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
-    "Synonyms": "order-id, order-num"
+    "Dimension": "[\n                        \"field\",\n                        24676,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Synonyms": "a"
   },
   {
     "id": "recca4pmoT3PeCqi8",
