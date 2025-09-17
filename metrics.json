@@ -265,18 +265,6 @@
   },
   {
     "Zone": "",
-    "Name": "subscription-bundle-bookings",
-    "IsList": false,
-    "Dataset": "main-orders",
-    "Measure": "[\n                    \"sum\",\n                    [\n                        \"field\",\n                        335,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]\n                ]",
-    "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ],\n[\n                    \"is-null\",\n                    [\n                        \"field\",\n                        303,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]\n                ]\n\n]\n",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
     "Name": "partsdb-list",
     "IsList": true,
     "Dataset": "main-partsdb",
@@ -477,6 +465,18 @@
     "Filters": "[[\n                    \"!=\",\n                    [\n                        \"field\",\n                        31677,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Vention\"\n                ]]",
     "Synonyms": "",
     "DatasetConfig": "{\"source-table\": 1199}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "n/a",
+    "Name": "subscription-bundle-bookings",
+    "IsList": false,
+    "Dataset": "main-orders",
+    "Measure": "[\r\n                    \"sum\",\r\n                    [\r\n                        \"field\",\r\n                        335,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ]\r\n                ]",
+    "Timefield": "394",
+    "Filters": "[\r\n         [\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22364,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ],\r\n                    0\r\n         ]\r\n\r\n]",
+    "Synonyms": "",
+    "DatasetConfig": "{\"source-table\": 35}",
     "CustomColumns": ""
   }
 ]
