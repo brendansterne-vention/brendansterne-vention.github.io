@@ -1,482 +1,555 @@
 [
   {
-    "Zone": "",
-    "Name": "deployment-accounts",
-    "IsList": false,
-    "Dataset": "main-deployments",
-    "Measure": "[\n                    \"distinct\",\n                    [\n                        \"field\",\n                        19476,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]\n                ]",
-    "Timefield": "19459",
-    "Filters": "[[\"!=\",[\"field\",19452,{\"base-type\":\"type/Text\"}],\"Vention\"],[\n                    \"!=\",\n                    [\n                        \"field\",\n                        24776,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"cancelled\"\n                ]]",
-    "Synonyms": "deployers",
-    "DatasetConfig": "{\"source-table\": 958}",
-    "CustomColumns": ""
+    "Dataset": "jira",
+    "Name": "summary",
+    "Dimension": "\"Summary\"",
+    "Filters": "",
+    "Synonyms": "sum"
   },
   {
-    "Zone": "",
-    "Name": "deployment-list",
-    "IsList": true,
-    "Dataset": "main-deployments",
-    "Measure": "[]",
-    "Timefield": "19459",
-    "Filters": "[[\"!=\",[\"field\",19452,{\"base-type\":\"type/Text\"}],\"Vention\"],[\n                    \"!=\",\n                    [\n                        \"field\",\n                        24776,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"cancelled\"\n                ]]",
-    "Synonyms": "deployments-list, \ndeploy-list, \nmain-deployment, \nmain-deployments, \nmain-deployment-list, \nmain-deployments-list",
-    "DatasetConfig": "{\"source-table\": 958}",
-    "CustomColumns": ""
+    "Dataset": "jira",
+    "Name": "description",
+    "Dimension": "\"description\"",
+    "Filters": "",
+    "Synonyms": "desc"
   },
   {
-    "Zone": "",
-    "Name": "deployments",
-    "IsList": false,
-    "Dataset": "main-deployments",
-    "Measure": "[\"count\"]",
-    "Timefield": "19459",
-    "Filters": "[[\"!=\",[\"field\",19452,{\"base-type\":\"type/Text\"}],\"Vention\"],[\n                    \"!=\",\n                    [\n                        \"field\",\n                        24776,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"cancelled\"\n                ]]",
-    "Synonyms": "deploys",
-    "DatasetConfig": "{\"source-table\": 958}",
-    "CustomColumns": ""
+    "Dataset": "jira",
+    "Name": "program",
+    "Dimension": "\"'Program[Select List (multiple choices)]'\"",
+    "Filters": "",
+    "Synonyms": ""
   },
   {
-    "Zone": "",
-    "Name": "design-list",
-    "IsList": true,
+    "Dataset": "jira",
+    "Name": "status",
+    "Dimension": "\"status\"",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "jira",
+    "Name": "resolution",
+    "Dimension": "\"resolution\"",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "jira",
+    "Name": "type",
+    "Dimension": "\"type\"",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "jira",
+    "Name": "text",
+    "Dimension": "\"text\"",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "jira",
+    "Name": "resolutiondate",
+    "Dimension": "\"resolutiondate\"",
+    "Filters": "",
+    "Synonyms": "resolution-date"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "updated",
+    "Dimension": "\"updated\"",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "jira",
+    "Name": "parent-epic",
+    "Dimension": "\"parentEpic\"",
+    "Filters": "",
+    "Synonyms": "parentepic, epic"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "fix-version",
+    "Dimension": "\"fixVersion\"",
+    "Filters": "",
+    "Synonyms": "release, fixversion, version"
+  },
+  {
+    "Dataset": "main-competitors",
+    "Name": "category",
+    "Dimension": "[\n                    \"field\",\n                    29114,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": "cat, application, app"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "software-strategy",
+    "Dimension": "[\"field\",19460,{\"base-type\": \"type/*\"}]",
+    "Filters": "",
+    "Synonyms": "software, sw"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "company",
+    "Dimension": "[\n                        \"field\",\n                        19452,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "account, account-name, customer"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "price",
+    "Dimension": "[\n                        \"field\",\n                        19464,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "total,net-sales,net-sale,bookings,booking,amount"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "software-plan",
+    "Dimension": "[\n                        \"field\",\n                        19462,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "design-name",
+    "Dimension": "[\n                        \"field\",\n                        19451,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "design-name"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "software-plan-name",
+    "Dimension": "[\n                        \"field\",\n                        19462,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "software-plan, subscription"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "part",
+    "Dimension": "[\n                        \"field\",\n                        24777,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "part-num"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "design",
+    "Dimension": "[\"field\", 19447,{\"base-type\": \"type/Number\"}]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "order",
+    "Dimension": "[\n                    \"field\",\n                    19455,\n                    {\n                        \"base-type\": \"type/Number\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "date",
+    "Dimension": "[\n                        \"field\",\n                        19459,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "time"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "has-subscription",
+    "Dimension": "[\n                        \"field\",\n                        23147,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "software-category",
+    "Dimension": "[\n                        \"field\",\n                        31214,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "mm-type",
+    "Dimension": "[\n                        \"field\",\n                        31855,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "mmtype"
+  },
+  {
     "Dataset": "main-designs",
-    "Measure": "[]",
-    "Timefield": "1282",
-    "Filters": "[]",
-    "Synonyms": "designs-list, \nmain-design, \nmain-designs, \nmain-design-list,\nmain-designs-list",
-    "DatasetConfig": "{\"source-table\": 109}",
-    "CustomColumns": ""
+    "Name": "price",
+    "Dimension": "[\n                        \"field\",\n                        1258,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "amount"
   },
   {
-    "Zone": "",
-    "Name": "designs",
-    "IsList": false,
     "Dataset": "main-designs",
-    "Measure": "[\"count\"]",
-    "Timefield": "1282",
-    "Filters": "[]",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 109}",
-    "CustomColumns": ""
+    "Name": "name",
+    "Dimension": "[\n                        \"field\",\n                        1277,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "design-name"
   },
   {
-    "Zone": "",
-    "Name": "ordered-part-amount-sold",
-    "IsList": false,
+    "Dataset": "main-designs",
+    "Name": "last-graph-user-email",
+    "Dimension": "[\n                        \"field\",\n                        1281,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "last-graph-email"
+  },
+  {
+    "Dataset": "main-designs",
+    "Name": "part",
+    "Dimension": "[\n                        \"field\",\n                        22371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "parts"
+  },
+  {
+    "Dataset": "main-designs",
+    "Name": "has-design",
+    "Dimension": "[\n                    \"not-empty\",\n                    [\n                        \"field\",\n                        307,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]\n                ]",
+    "Filters": "",
+    "Synonyms": "has-designs, pic, pictures, has-pic, has-pictures"
+  },
+  {
     "Dataset": "main-ordered-parts",
-    "Measure": "[\n                    \"sum\",\n                    [\n                        \"field\",\n                        664,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]\n                ]",
-    "Timefield": "666",
-    "Filters": "[[\"!=\",[\"field\",668,{\"base-type\": \"type/Text\"}],\"cancelled\"],\n[\"not-empty\",[\"field\",660,{\"base-type\": \"type/Text\"}]],\n[\"!=\",[\"field\",647,{\"base-type\": \"type/Text\"}],\"zero\"]]",
-    "Synonyms": "ordered-parts-bookings, \nordered-part-bookings, \npart-bookings, \nparts-bookings",
-    "DatasetConfig": "{\"source-table\": 43}",
-    "CustomColumns": ""
+    "Name": "part-num",
+    "Dimension": "[\"field\",667,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "part, part-number"
   },
   {
-    "Zone": "",
-    "Name": "ordered-parts",
-    "IsList": false,
     "Dataset": "main-ordered-parts",
-    "Measure": "[\"sum\",[\"field\",669,{\"base-type\": \"type/Float\"}]]",
-    "Timefield": "666",
-    "Filters": "[[\"!=\",[\"field\",668,{\"base-type\": \"type/Text\"}],\"cancelled\"],\n[\"not-empty\",[\"field\",660,{\"base-type\": \"type/Text\"}]],\n[\"!=\",[\"field\",647,{\"base-type\": \"type/Text\"}],\"zero\"]]",
-    "Synonyms": "o-parts",
-    "DatasetConfig": "{\"source-table\": 43}",
-    "CustomColumns": ""
+    "Name": "part-name",
+    "Dimension": "[\"field\",19264,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "name"
   },
   {
-    "Zone": "",
-    "Name": "ordered-parts-list",
-    "IsList": true,
     "Dataset": "main-ordered-parts",
-    "Measure": "[]",
-    "Timefield": "666",
-    "Filters": "[[\"!=\",[\"field\",668,{\"base-type\": \"type/Text\"}],\"cancelled\"],\n[\"not-empty\",[\"field\",660,{\"base-type\": \"type/Text\"}]],\n[\"!=\",[\"field\",647,{\"base-type\": \"type/Text\"}],\"zero\"]]",
-    "Synonyms": "ordered-part-list,\nop-list,\nmain-order-line-items,\nmain-order-line-items-list,\norder-line-item-list,\norder-line-items-list",
-    "DatasetConfig": "{\"source-table\": 43}",
-    "CustomColumns": ""
+    "Name": "subcategory",
+    "Dimension": "[\"field\",19266,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "part-subcategory, sub-category, sub-cat"
   },
   {
-    "Zone": "",
-    "Name": "average-order-value",
-    "IsList": false,
+    "Dataset": "main-ordered-parts",
+    "Name": "category",
+    "Dimension": "[\"field\",19263,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "part-category, cat"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "order",
+    "Dimension": "[\"field\",646,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "order-num, order-id"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "design",
+    "Dimension": "[\n                        \"field\",\n                        665,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "brand",
+    "Dimension": "[\"field\",19261,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "part-brand"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "company",
+    "Dimension": "[\"field\",24674,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "company-name, account, customer"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "price",
+    "Dimension": "[\n                        \"field\",\n                        664,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "amount"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "order",
+    "Dimension": "[\n                        \"field\",\n                        646,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "order-id, order-num"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "company-size",
+    "Dimension": "[\n                        \"field\",\n                        24676,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "account-size"
+  },
+  {
     "Dataset": "main-orders",
-    "Measure": "[\n                    \"aggregation-options\",\n                    [\n                        \"/\",\n                        [\n                            \"sum\",\n                            [\n                                \"field\",\n                                380,\n                                {\n                                    \"base-type\": \"type/Float\"\n                                }\n                            ]\n                        ],\n                        [\n                            \"sum\",\n                            [\n                                \"field\",\n                                24656,\n                                {\n                                    \"base-type\": \"type/Number\"\n                                }\n                            ]\n                        ]\n                    ],\n                    {\n                        \"name\": \"Bookings / Sum of Order Count \",\n                        \"display-name\": \"Bookings / Sum of Order Count \"\n                    }\n                ]\n\n",
-    "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ]\n\n]\n",
-    "Synonyms": "aov",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
+    "Name": "company-size",
+    "Dimension": "[\n                    \"field\",\n                    371,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": "account-size"
   },
   {
-    "Zone": "",
-    "Name": "bookings",
-    "IsList": false,
     "Dataset": "main-orders",
-    "Measure": "[\n                    \"sum\",\n                    [\n                        \"field\",\n                        380,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]\n                ]",
-    "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ]\n]\n",
-    "Synonyms": "sales",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": "{\n                \"machine-type\": [\n                    \"case\",\n                    [\n                        [\n                            [\n                                \"and\",\n                                [\n                                    \"<=\",\n                                    [\n                                        \"field\",\n                                        347,\n                                        {\n                                            \"base-type\": \"type/Float\"\n                                        }\n                                    ],\n                                    \"0\"\n                                ],\n                                [\n                                    \"<=\",\n                                    [\n                                        \"field\",\n                                        292,\n                                        {\n                                            \"base-type\": \"type/Float\"\n                                        }\n                                    ],\n                                    \"0\"\n                                ]\n                            ],\n                            \"structures\"\n                        ],\n                        [\n                            [\n                                \"and\",\n                                [\n                                    \">\",\n                                    [\n                                        \"field\",\n                                        347,\n                                        {\n                                            \"base-type\": \"type/Float\"\n                                        }\n                                    ],\n                                    \"0\"\n                                ],\n                                [\n                                    \"<=\",\n                                    [\n                                        \"field\",\n                                        292,\n                                        {\n                                            \"base-type\": \"type/Float\"\n                                        }\n                                    ],\n                                    \"0\"\n                                ]\n                            ],\n                            \"robots-no-mm\"\n                        ],\n                        [\n                            [\n                                \"and\",\n                                [\n                                    \"<=\",\n                                    [\n                                        \"field\",\n                                        347,\n                                        {\n                                            \"base-type\": \"type/Float\"\n                                        }\n                                    ],\n                                    \"0\"\n                                ],\n                                [\n                                    \">\",\n                                    [\n                                        \"field\",\n                                        292,\n                                        {\n                                            \"base-type\": \"type/Float\"\n                                        }\n                                    ],\n                                    \"0\"\n                                ]\n                            ],\n                            \"mm-no-robots\"\n                        ],\n                        [\n                            [\n                                \"and\",\n                                [\n                                    \">\",\n                                    [\n                                        \"field\",\n                                        347,\n                                        {\n                                            \"base-type\": \"type/Float\"\n                                        }\n                                    ],\n                                    \"0\"\n                                ],\n                                [\n                                    \">\",\n                                    [\n                                        \"field\",\n                                        292,\n                                        {\n                                            \"base-type\": \"type/Float\"\n                                        }\n                                    ],\n                                    \"0\"\n                                ]\n                            ],\n                            \"robots-with-mms\"\n                        ]\n                    ]\n                ]\n            }"
+    "Name": "closing-team",
+    "Dimension": "[\n                    \"field\",\n                    379,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]\n\n\n",
+    "Filters": "",
+    "Synonyms": "sales-team, closing-rep-team"
   },
   {
-    "Zone": "",
-    "Name": "bookings-cad",
-    "IsList": false,
     "Dataset": "main-orders",
-    "Measure": "[\n                    \"aggregation-options\",\n                    [\n                        \"*\",\n                        [\n                            \"sum\",\n                            [\n                                \"field\",\n                                380,\n                                {\n                                    \"base-type\": \"type/Float\"\n                                }\n                            ]\n                        ],\n                        1.25\n                    ],\n                    {\n                        \"name\": \"Bookings (CAD)\",\n                        \"display-name\": \"Bookings (CAD)\"\n                    }\n                ]",
-    "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ]\n]\n",
-    "Synonyms": "sales-cad, cad-bookings",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
+    "Name": "primary-application",
+    "Dimension": " [\n                        \"field\",\n                        319,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]\n               ",
+    "Filters": "",
+    "Synonyms": "app, application"
   },
   {
-    "Zone": "",
-    "Name": "ml-bookings",
-    "IsList": false,
     "Dataset": "main-orders",
-    "Measure": "[\n                    \"sum\",\n                    [\n                        \"field\",\n                        293,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]\n                ]",
-    "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ]\n]\n",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
+    "Name": "opportunity-name",
+    "Dimension": "[\n                        \"field\",\n                        323,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "name"
   },
   {
-    "Zone": "",
-    "Name": "machine-action-list",
-    "IsList": true,
-    "Dataset": "main-machine-actions",
-    "Measure": "[]",
-    "Timefield": "31396",
-    "Filters": "[[\n                    \"!=\",\n                    [\n                        \"field\",\n                        31677,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Vention\"\n                ]]",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 1199}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "margin",
-    "IsList": false,
     "Dataset": "main-orders",
-    "Measure": "[\n                    \"aggregation-options\",\n                    [\n                        \"/\",\n                        [\n                            \"-\",\n                            [\n                                \"sum\",\n                                [\n                                    \"field\",\n                                    380,\n                                    {\n                                        \"base-type\": \"type/Float\"\n                                    }\n                                ]\n                            ],\n                            [\n                                \"sum\",\n                                [\n                                    \"field\",\n                                    332,\n                                    {\n                                        \"base-type\": \"type/Float\"\n                                    }\n                                ]\n                            ]\n                        ],\n                        [\n                            \"sum\",\n                            [\n                                \"field\",\n                                380,\n                                {\n                                    \"base-type\": \"type/Float\"\n                                }\n                            ]\n                        ]\n                    ],\n                    {\n                        \"name\": \"Margin\",\n                        \"display-name\": \"Margin\"\n                    }\n                ]\n",
-    "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ]\n]\n",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
+    "Name": "price",
+    "Dimension": "[\n                        \"field\",\n                        380,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "total,net-sales,net-sale,bookings,booking,amount"
   },
   {
-    "Zone": "",
-    "Name": "order-gross-profit",
-    "IsList": false,
     "Dataset": "main-orders",
-    "Measure": "[\n                    \"aggregation-options\",\n                    [\n                        \"-\",\n                        [\n                            \"sum\",\n                            [\n                                \"field\",\n                                380,\n                                {\n                                    \"base-type\": \"type/Float\"\n                                }\n                            ]\n                        ],\n                        [\n                            \"sum\",\n                            [\n                                \"field\",\n                                332,\n                                {\n                                    \"base-type\": \"type/Float\"\n                                }\n                            ]\n                        ]\n                    ],\n                    {\n                        \"name\": \"Gross Profit\",\n                        \"display-name\": \"Gross Profit\"\n                    }\n                ]\n",
-    "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ],\n[\n                    \"is-null\",\n                    [\n                        \"field\",\n                        303,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]\n                ]\n\n]\n",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
+    "Name": "robot-units",
+    "Dimension": "[\n                    \"field\",\n                    347,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": "robots, robot"
   },
   {
-    "Zone": "",
-    "Name": "fulfilled-gross-profit",
-    "IsList": false,
     "Dataset": "main-orders",
-    "Measure": "[\n                    \"aggregation-options\",\n                    [\n                        \"-\",\n                        [\n                            \"sum\",\n                            [\n                                \"field\",\n                                380,\n                                {\n                                    \"base-type\": \"type/Float\"\n                                }\n                            ]\n                        ],\n                        [\n                            \"sum\",\n                            [\n                                \"field\",\n                                332,\n                                {\n                                    \"base-type\": \"type/Float\"\n                                }\n                            ]\n                        ]\n                    ],\n                    {\n                        \"name\": \"Gross Profit\",\n                        \"display-name\": \"Gross Profit\"\n                    }\n                ]\n",
-    "Timefield": "322",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ]\n]\n",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
+    "Name": "machine-motion-units",
+    "Dimension": "[\n                    \"field\",\n                   292,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": "machine-motion, machine-motions, mms, mm"
   },
   {
-    "Zone": "",
-    "Name": "fulfilled-gross-profit-cad",
-    "IsList": false,
     "Dataset": "main-orders",
-    "Measure": "[\n                    \"aggregation-options\",\n                    [\n                        \"*\",\n                        [\n                            \"-\",\n                            [\n                                \"sum\",\n                                [\n                                    \"field\",\n                                    380,\n                                    {\n                                        \"base-type\": \"type/Float\"\n                                    }\n                                ]\n                            ],\n                            [\n                                \"sum\",\n                                [\n                                    \"field\",\n                                    332,\n                                    {\n                                        \"base-type\": \"type/Float\"\n                                    }\n                                ]\n                            ]\n                        ],\n                        1.25\n                    ],\n                    {\n                        \"name\": \"Gross Profit (CAD)\",\n                        \"display-name\": \"Gross Profit (CAD)\"\n                    }\n                ]",
-    "Timefield": "322",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ]\n]\n",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
+    "Name": "order-type",
+    "Dimension": "[\n                    \"field\",\n                    286,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": ""
   },
   {
-    "Zone": "",
-    "Name": "ma-bookings",
-    "IsList": false,
     "Dataset": "main-orders",
-    "Measure": "[\n                    \"sum\",\n                    [\n                        \"field\",\n                        364,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]\n                ]\n\n",
-    "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ]\n]\n",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
+    "Name": "company",
+    "Dimension": "[\n                    \"field\",\n                   299,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": "account, account-name, customer"
   },
   {
-    "Zone": "",
-    "Name": "mb-bookings",
-    "IsList": false,
     "Dataset": "main-orders",
-    "Measure": "[\n                    \"sum\",\n                    [\n                        \"field\",\n                        356,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]\n                ]",
-    "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ]\n]\n",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
+    "Name": "sales-motion",
+    "Dimension": "[\n                    \"field\",\n                   327,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": ""
   },
   {
-    "Zone": "",
-    "Name": "order-list",
-    "IsList": true,
     "Dataset": "main-orders",
-    "Measure": "[]",
-    "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ],\n[\n                    \"is-null\",\n                    [\n                        \"field\",\n                        303,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]\n                ]\n\n]\n",
-    "Synonyms": "orders-list, \nmain-orders,\nmain-order,\nmain-order-list,\nmain-orders-list",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
+    "Name": "account-type",
+    "Dimension": "[\n                    \"field\",\n                   22118,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": "company-type, new-existing"
   },
   {
-    "Zone": "",
-    "Name": "ordering-billing-accounts",
-    "IsList": false,
     "Dataset": "main-orders",
-    "Measure": "[\n                    \"distinct\",\n                    [\n                        \"field\",\n                        386,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]\n                ]\n",
-    "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ],\n[\n                    \"is-null\",\n                    [\n                        \"field\",\n                        303,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]\n                ]\n\n]\n",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
+    "Name": "sales-office",
+    "Dimension": "[\n                    \"field\",\n                   21905,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": "region"
   },
   {
-    "Zone": "",
-    "Name": "orders",
-    "IsList": false,
     "Dataset": "main-orders",
-    "Measure": "[\n                    \"sum\",\n                    [\n                        \"field\",\n                        24656,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ]\n                ]",
-    "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ]\n]\n",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
+    "Name": "design-scope",
+    "Dimension": "[\n                    \"field\",\n                   21790,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": ""
   },
   {
-    "Zone": "",
-    "Name": "subscription-bundle-bookings",
-    "IsList": false,
     "Dataset": "main-orders",
-    "Measure": "[\n                    \"sum\",\n                    [\n                        \"field\",\n                        335,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]\n                ]",
-    "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ],\n[\n                    \"is-null\",\n                    [\n                        \"field\",\n                        303,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]\n                ]\n\n]\n",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
+    "Name": "design",
+    "Dimension": "[\n                        \"field\",\n                        307,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "design-list"
   },
   {
-    "Zone": "",
-    "Name": "partsdb-list",
-    "IsList": true,
+    "Dataset": "main-orders",
+    "Name": "order-status",
+    "Dimension": "[\n                        \"field\",\n                        416,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "status"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "order",
+    "Dimension": "[\n                        \"field\",\n                        362,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "order-id, order-num"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "date",
+    "Dimension": "[\n                        \"field\",\n                        394,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "time"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "machine-type",
+    "Dimension": "[\n                    \"expression\",\n                    \"machine-type\",\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
     "Dataset": "main-partsdb",
-    "Measure": "[]",
-    "Timefield": "null",
-    "Filters": "[[\n                \"!=\",\n                [\n                    \"field\",\n                    18463,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ],\n                \"deprecated\"\n            ],[\n                    \"=\",\n                    [\n                        \"field\",\n                        18457,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    1\n                ]]",
-    "Synonyms": "partdb-list,part-list,parts-list",
-    "DatasetConfig": "{\"source-table\": 943}",
-    "CustomColumns": ""
+    "Name": "name",
+    "Dimension": "[\n                        \"field\",\n                        18458,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "part-name"
   },
   {
-    "Zone": "",
-    "Name": "user-list",
-    "IsList": true,
+    "Dataset": "main-partsdb",
+    "Name": "category",
+    "Dimension": "[\n                        \"field\",\n                        19232,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "cat"
+  },
+  {
+    "Dataset": "main-partsdb",
+    "Name": "subcategory",
+    "Dimension": "[\n                        \"field\",\n                        19233,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "sub-category, subcat"
+  },
+  {
+    "Dataset": "main-partsdb",
+    "Name": "brand",
+    "Dimension": "[\n                        \"field\",\n                        19236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-partsdb",
+    "Name": "part",
+    "Dimension": "[\n                        \"field\",\n                        18443,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "part-num"
+  },
+  {
     "Dataset": "main-users",
-    "Measure": "[]",
-    "Timefield": "1328",
-    "Filters": "[[\n                \"!=\",\n                [\n                    \"field\",\n                    1318,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ],\n                \"sf only\"\n            ]\n]",
-    "Synonyms": "signups-list, signup-list",
-    "DatasetConfig": "{\"source-table\": 28}",
-    "CustomColumns": ""
+    "Name": "generic-email",
+    "Dimension": "[\n                    \"expression\",\n                    \"generic-email\",\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": "email-type, email-domain"
   },
   {
-    "Zone": "",
-    "Name": "users",
-    "IsList": false,
     "Dataset": "main-users",
-    "Measure": "[\n                    \"count\"\n                ]",
-    "Timefield": "1328",
-    "Filters": "[[\n                \"!=\",\n                [\n                    \"field\",\n                    1318,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ],\n                \"sf only\"\n            ]]",
-    "Synonyms": "signups",
-    "DatasetConfig": "{\"source-table\": 28}",
-    "CustomColumns": ""
+    "Name": "activated",
+    "Dimension": "[\n                        \"field\",\n                        1307,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "user-activated"
   },
   {
-    "Zone": "",
-    "Name": "opportunities",
-    "IsList": false,
+    "Dataset": "main-users",
+    "Name": "source",
+    "Dimension": "[\n                    \"field\",\n                    1327,\n                    {\n                        \"base-type\": \"type/*\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": "lead-source"
+  },
+  {
+    "Dataset": "main-users",
+    "Name": "contact-status",
+    "Dimension": "[\n                        \"field\",\n                        1302,\n                        {\n                            \"base-type\": \"type/*\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "user-status, status"
+  },
+  {
+    "Dataset": "main-users",
+    "Name": "email",
+    "Dimension": "[\n                        \"field\",\n                        1295,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
     "Dataset": "opportunities",
-    "Measure": "[\"count\"]",
-    "Timefield": "23265",
-    "Filters": "[]",
-    "Synonyms": "opps",
-    "DatasetConfig": "{\"source-table\": 1006, \"database\": 2\n}",
-    "CustomColumns": ""
+    "Name": "primary-application",
+    "Dimension": "[\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "primary-application, application, app"
   },
   {
-    "Zone": "",
-    "Name": "opportunity-list",
-    "IsList": true,
     "Dataset": "opportunities",
-    "Measure": "[]",
-    "Timefield": "23265",
-    "Filters": "[]",
-    "Synonyms": "pipeline-list, \nopportunities-list, \nopp-list, \nopps-list,\nmain-opportunity,\nmain-opportunities",
-    "DatasetConfig": "{\"source-table\": 1006, \"database\": 2\n}",
-    "CustomColumns": ""
+    "Name": "account",
+    "Dimension": "[\n                        \"field\",\n                        23243,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "account, account-name, company, company-name, customer"
   },
   {
-    "Zone": "",
-    "Name": "pipeline",
-    "IsList": false,
     "Dataset": "opportunities",
-    "Measure": "[\"sum\",[\n                        \"field\",\n                        23255,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]]",
-    "Timefield": "23265",
-    "Filters": "[]",
-    "Synonyms": "pipe",
-    "DatasetConfig": "{\"source-table\": 1006, \"database\": 2\n}",
-    "CustomColumns": ""
+    "Name": "stage",
+    "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "stagename, stage-name"
   },
   {
-    "Zone": "",
-    "Name": "pipeline-cad",
-    "IsList": false,
     "Dataset": "opportunities",
-    "Measure": "[\n                    \"aggregation-options\",\n                    [\n                        \"*\",\n                        [\n                            \"sum\",\n                            [\n                                \"field\",\n                                23255,\n                                {\n                                    \"base-type\": \"type/Float\"\n                                }\n                            ]\n                        ],\n                        1.25\n                    ],\n                    {\n                        \"name\": \"Bookings (CAD)\",\n                        \"display-name\": \"Bookings (CAD)\"\n                    }\n                ]",
-    "Timefield": "23265",
-    "Filters": "[]",
-    "Synonyms": "pipe-cad",
-    "DatasetConfig": "{\"source-table\": 1006, \"database\": 2\n}",
-    "CustomColumns": ""
+    "Name": "secondary-application",
+    "Dimension": "[\n                        \"field\",\n                        24663,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "secondary-app"
   },
   {
-    "Zone": "",
-    "Name": "projects-list",
-    "IsList": true,
-    "Dataset": "main-projects",
-    "Measure": "[]",
-    "Timefield": "\"CREATED_AT\"",
-    "Filters": "[]",
-    "Synonyms": "project-list, main-projects",
-    "DatasetConfig": "{\"database\":3, \"joins\": [\n                {\n                    \"ident\": \"whIXnJHcggPgF0B4yKSyw\",\n                    \"strategy\": \"left-join\",\n                    \"alias\": \"Users - OWNER_USER_ID\",\n                    \"fields\": \"all\",\n                    \"condition\": [\n                        \"=\",\n                        [\n                            \"field\",\n                            \"OWNER_USER_ID\",\n                            {\n                                \"base-type\": \"type/Number\"\n                            }\n                        ],\n                        [\n                            \"field\",\n                            4103,\n                            {\n                                \"base-type\": \"type/Number\",\n                                \"join-alias\": \"Users - OWNER_USER_ID\"\n                            }\n                        ]\n                    ],\n                    \"source-table\": 425\n                }\n            ],\n            \"source-table\": \"card__128\"\n}",
-    "CustomColumns": ""
+    "Dataset": "opportunities",
+    "Name": "amount",
+    "Dimension": "[\n                    \"field\",\n                    23255,\n                    {\n                        \"base-type\": \"type/Float\",\n                        \"binning\": {\n                            \"strategy\": \"default\"\n                        }\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": ""
   },
   {
-    "Zone": "",
-    "Name": "competitor-list",
-    "IsList": true,
-    "Dataset": "main-competitors",
-    "Measure": "[]",
-    "Timefield": "29115",
-    "Filters": "[]",
-    "Synonyms": "main-competitors, competitors-list, competitors",
-    "DatasetConfig": "{\"source-table\": 1194}",
-    "CustomColumns": ""
+    "Dataset": "opportunities",
+    "Name": "primary-application-group",
+    "Dimension": "[\n                        \"field\",\n                        24664,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": "primary-application-group, application, app-group"
   },
   {
-    "Zone": "",
-    "Name": "competitor-count",
-    "IsList": false,
-    "Dataset": "main-competitors",
-    "Measure": "[\"count\"]",
-    "Timefield": "29115",
-    "Filters": "[]",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 1194}",
-    "CustomColumns": ""
+    "Dataset": "opportunities",
+    "Name": "new-vs-existing",
+    "Dimension": "[\n                    \"field\",\n                    23259,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": "new,existing,recurring"
   },
   {
-    "Zone": "",
-    "Name": "jira-list",
-    "IsList": true,
-    "Dataset": "jira",
-    "Measure": "[]",
-    "Timefield": "0",
-    "Filters": "[]",
-    "Synonyms": "",
-    "DatasetConfig": "",
-    "CustomColumns": ""
+    "Dataset": "opportunities",
+    "Name": "name",
+    "Dimension": "[\n                        \"field\",\n                        22508,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
+    "Filters": "",
+    "Synonyms": ""
   },
   {
-    "Zone": "",
-    "Name": "epic-list",
-    "IsList": true,
-    "Dataset": "jira",
-    "Measure": "[]",
-    "Timefield": "0",
-    "Filters": "[\"type=epic\"]",
-    "Synonyms": "epics",
-    "DatasetConfig": "",
-    "CustomColumns": ""
+    "Dataset": "opportunities",
+    "Name": "sales-motion",
+    "Dimension": "[\n                    \"field\",\n                    23268,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": ""
   },
   {
-    "Zone": "",
-    "Name": "task-list",
-    "IsList": true,
-    "Dataset": "jira",
-    "Measure": "[]",
-    "Timefield": "0",
-    "Filters": "[\"type=task\"]",
-    "Synonyms": "tasks",
-    "DatasetConfig": "",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "initiative-list",
-    "IsList": true,
-    "Dataset": "jira",
-    "Measure": "[]",
-    "Timefield": "0",
-    "Filters": "[\"type=initiative\"]",
-    "Synonyms": "initiatives",
-    "DatasetConfig": "",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "idea-list",
-    "IsList": true,
-    "Dataset": "jira",
-    "Measure": "[]",
-    "Timefield": "0",
-    "Filters": "[\"type=idea\"]",
-    "Synonyms": "ideas",
-    "DatasetConfig": "",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "bug-list",
-    "IsList": true,
-    "Dataset": "jira",
-    "Measure": "[]",
-    "Timefield": "0",
-    "Filters": "[\"type=bug\"]",
-    "Synonyms": "bugs",
-    "DatasetConfig": "",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "machine-actions",
-    "IsList": false,
-    "Dataset": "main-machine-actions",
-    "Measure": "[\"count\"]",
-    "Timefield": "31396",
-    "Filters": "[[\n                    \"!=\",\n                    [\n                        \"field\",\n                        31677,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Vention\"\n                ]]",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 1199}",
-    "CustomColumns": ""
+    "Dataset": "opportunities",
+    "Name": "app-eng-team",
+    "Dimension": "[\n                    \"field\",\n                    23232,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": ""
   }
 ]
