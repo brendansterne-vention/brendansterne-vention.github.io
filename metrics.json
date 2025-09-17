@@ -1,555 +1,434 @@
 [
   {
-    "Dataset": "jira",
-    "Name": "summary",
-    "Dimension": "\"Summary\"",
-    "Filters": "",
-    "Synonyms": "sum"
-  },
-  {
-    "Dataset": "jira",
-    "Name": "description",
-    "Dimension": "\"description\"",
-    "Filters": "",
-    "Synonyms": "desc"
-  },
-  {
-    "Dataset": "jira",
-    "Name": "program",
-    "Dimension": "\"'Program[Select List (multiple choices)]'\"",
-    "Filters": "",
+    "Dataset": "main-designs",
+    "Name": "mmai",
+    "Filters": "[\n                    \"contains\",{\n                        \"case-sensitive\": true,\n                        \"effective-type\": \"type/Boolean\"\n                    },\n                    [\n                        \"field\",\n                        22371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
     "Synonyms": ""
-  },
-  {
-    "Dataset": "jira",
-    "Name": "status",
-    "Dimension": "\"status\"",
-    "Filters": "",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "jira",
-    "Name": "resolution",
-    "Dimension": "\"resolution\"",
-    "Filters": "",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "jira",
-    "Name": "type",
-    "Dimension": "\"type\"",
-    "Filters": "",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "jira",
-    "Name": "text",
-    "Dimension": "\"text\"",
-    "Filters": "",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "jira",
-    "Name": "resolutiondate",
-    "Dimension": "\"resolutiondate\"",
-    "Filters": "",
-    "Synonyms": "resolution-date"
-  },
-  {
-    "Dataset": "jira",
-    "Name": "updated",
-    "Dimension": "\"updated\"",
-    "Filters": "",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "jira",
-    "Name": "parent-epic",
-    "Dimension": "\"parentEpic\"",
-    "Filters": "",
-    "Synonyms": "parentepic, epic"
-  },
-  {
-    "Dataset": "jira",
-    "Name": "fix-version",
-    "Dimension": "\"fixVersion\"",
-    "Filters": "",
-    "Synonyms": "release, fixversion, version"
-  },
-  {
-    "Dataset": "main-competitors",
-    "Name": "category",
-    "Dimension": "[\n                    \"field\",\n                    29114,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": "cat, application, app"
-  },
-  {
-    "Dataset": "main-deployments",
-    "Name": "software-strategy",
-    "Dimension": "[\"field\",19460,{\"base-type\": \"type/*\"}]",
-    "Filters": "",
-    "Synonyms": "software, sw"
-  },
-  {
-    "Dataset": "main-deployments",
-    "Name": "company",
-    "Dimension": "[\n                        \"field\",\n                        19452,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "account, account-name, customer"
-  },
-  {
-    "Dataset": "main-deployments",
-    "Name": "price",
-    "Dimension": "[\n                        \"field\",\n                        19464,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "total,net-sales,net-sale,bookings,booking,amount"
-  },
-  {
-    "Dataset": "main-deployments",
-    "Name": "software-plan",
-    "Dimension": "[\n                        \"field\",\n                        19462,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-deployments",
-    "Name": "design-name",
-    "Dimension": "[\n                        \"field\",\n                        19451,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "design-name"
-  },
-  {
-    "Dataset": "main-deployments",
-    "Name": "software-plan-name",
-    "Dimension": "[\n                        \"field\",\n                        19462,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "software-plan, subscription"
-  },
-  {
-    "Dataset": "main-deployments",
-    "Name": "part",
-    "Dimension": "[\n                        \"field\",\n                        24777,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "part-num"
-  },
-  {
-    "Dataset": "main-deployments",
-    "Name": "design",
-    "Dimension": "[\"field\", 19447,{\"base-type\": \"type/Number\"}]",
-    "Filters": "",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-deployments",
-    "Name": "order",
-    "Dimension": "[\n                    \"field\",\n                    19455,\n                    {\n                        \"base-type\": \"type/Number\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-deployments",
-    "Name": "date",
-    "Dimension": "[\n                        \"field\",\n                        19459,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "time"
-  },
-  {
-    "Dataset": "main-deployments",
-    "Name": "has-subscription",
-    "Dimension": "[\n                        \"field\",\n                        23147,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-deployments",
-    "Name": "software-category",
-    "Dimension": "[\n                        \"field\",\n                        31214,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-deployments",
-    "Name": "mm-type",
-    "Dimension": "[\n                        \"field\",\n                        31855,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "mmtype"
   },
   {
     "Dataset": "main-designs",
-    "Name": "price",
-    "Dimension": "[\n                        \"field\",\n                        1258,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "amount"
+    "Name": "customer-led",
+    "Filters": "[\n                    \"does-not-contain\",\n                    [\n                        \"field\",\n                        1275,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"@vention.cc\",\n                    {\n                        \"case-sensitive\": false\n                    }\n                ]",
+    "Synonyms": "customer"
   },
   {
     "Dataset": "main-designs",
-    "Name": "name",
-    "Dimension": "[\n                        \"field\",\n                        1277,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "design-name"
-  },
-  {
-    "Dataset": "main-designs",
-    "Name": "last-graph-user-email",
-    "Dimension": "[\n                        \"field\",\n                        1281,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "last-graph-email"
-  },
-  {
-    "Dataset": "main-designs",
-    "Name": "part",
-    "Dimension": "[\n                        \"field\",\n                        22371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "parts"
-  },
-  {
-    "Dataset": "main-designs",
-    "Name": "has-design",
-    "Dimension": "[\n                    \"not-empty\",\n                    [\n                        \"field\",\n                        307,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]\n                ]",
-    "Filters": "",
-    "Synonyms": "has-designs, pic, pictures, has-pic, has-pictures"
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "part-num",
-    "Dimension": "[\"field\",667,{\"base-type\": \"type/Text\"}]",
-    "Filters": "",
-    "Synonyms": "part, part-number"
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "part-name",
-    "Dimension": "[\"field\",19264,{\"base-type\": \"type/Text\"}]",
-    "Filters": "",
-    "Synonyms": "name"
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "subcategory",
-    "Dimension": "[\"field\",19266,{\"base-type\": \"type/Text\"}]",
-    "Filters": "",
-    "Synonyms": "part-subcategory, sub-category, sub-cat"
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "category",
-    "Dimension": "[\"field\",19263,{\"base-type\": \"type/Text\"}]",
-    "Filters": "",
-    "Synonyms": "part-category, cat"
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "order",
-    "Dimension": "[\"field\",646,{\"base-type\": \"type/Text\"}]",
-    "Filters": "",
-    "Synonyms": "order-num, order-id"
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "design",
-    "Dimension": "[\n                        \"field\",\n                        665,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ]",
-    "Filters": "",
+    "Name": "mmv2",
+    "Filters": "[\n                    \"contains\",{\n                        \"case-sensitive\": true,\n                        \"effective-type\": \"type/Boolean\"\n                    },\n                    [\n                        \"field\",\n                        22371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-010-0004\",\n                    \"CE-CL-010-0001\"\n                ]",
     "Synonyms": ""
   },
   {
     "Dataset": "main-ordered-parts",
-    "Name": "brand",
-    "Dimension": "[\"field\",19261,{\"base-type\": \"type/Text\"}]",
-    "Filters": "",
-    "Synonyms": "part-brand"
+    "Name": "robot",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19263,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Robots\"\n                ]",
+    "Synonyms": "robots"
   },
   {
     "Dataset": "main-ordered-parts",
-    "Name": "company",
-    "Dimension": "[\"field\",24674,{\"base-type\": \"type/Text\"}]",
-    "Filters": "",
-    "Synonyms": "company-name, account, customer"
+    "Name": "fanuc",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19266,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"FANUC\"\n                ]",
+    "Synonyms": ""
   },
   {
     "Dataset": "main-ordered-parts",
-    "Name": "price",
-    "Dimension": "[\n                        \"field\",\n                        664,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "amount"
+    "Name": "ur",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19266,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Universal Robots\"\n                ]",
+    "Synonyms": "universal-robots,universal-robot"
   },
   {
     "Dataset": "main-ordered-parts",
-    "Name": "order",
-    "Dimension": "[\n                        \"field\",\n                        646,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "order-id, order-num"
+    "Name": "xl-extrusion",
+    "Filters": "[\n                    \"contains\",\n                    {\n                        \"case-sensitive\": true,\n                        \"effective-type\": \"type/Boolean\"\n                    },\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"ST-EXT-011-0540\",\n                    \"ST-EXT-011-2295\",\n                    \"ST-EXT-011-1845\",\n                    \"ST-EXT-011-1170\",\n                    \"ST-EXT-011-0900\"\n                ]",
+    "Synonyms": ""
   },
   {
     "Dataset": "main-ordered-parts",
-    "Name": "company-size",
-    "Dimension": "[\n                        \"field\",\n                        24676,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "account-size"
+    "Name": "mmv2",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-010-0001\",\n                    \"CE-CL-010-0004\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "mmai",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "mm",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\",\n                    \"CE-CL-010-0001\",\n                    \"CE-CL-010-0004\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "partner-part",
+    "Filters": "[\n                \"=\",\n                [\n                    \"field\",\n                    24660,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ],\n                \"true\"\n            ]\n",
+    "Synonyms": "partner"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "panels",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19263,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Panels and Table Tops\",\n                    {\n                        \"case-sensitive\": false,\n                        \"effective-type\": \"type/Boolean\"\n                    }\n                ]",
+    "Synonyms": "panel"
   },
   {
     "Dataset": "main-orders",
-    "Name": "company-size",
-    "Dimension": "[\n                    \"field\",\n                    371,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": "account-size"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "closing-team",
-    "Dimension": "[\n                    \"field\",\n                    379,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]\n\n\n",
-    "Filters": "",
-    "Synonyms": "sales-team, closing-rep-team"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "primary-application",
-    "Dimension": " [\n                        \"field\",\n                        319,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]\n               ",
-    "Filters": "",
-    "Synonyms": "app, application"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "opportunity-name",
-    "Dimension": "[\n                        \"field\",\n                        323,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "name"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "price",
-    "Dimension": "[\n                        \"field\",\n                        380,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "total,net-sales,net-sale,bookings,booking,amount"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "robot-units",
-    "Dimension": "[\n                    \"field\",\n                    347,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": "robots, robot"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "machine-motion-units",
-    "Dimension": "[\n                    \"field\",\n                   292,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": "machine-motion, machine-motions, mms, mm"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "order-type",
-    "Dimension": "[\n                    \"field\",\n                    286,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
+    "Name": "robot",
+    "Filters": "[\n                    \">=\",\n                    [\n                        \"field\",\n                        347,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ],\n                    1\n                ]",
     "Synonyms": ""
   },
   {
     "Dataset": "main-orders",
-    "Name": "company",
-    "Dimension": "[\n                    \"field\",\n                   299,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": "account, account-name, customer"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "sales-motion",
-    "Dimension": "[\n                    \"field\",\n                   327,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
+    "Name": "structural",
+    "Filters": "[\n                     \"in\",\n                    [\n                        \"field\",\n                        366,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Parts\",\n                    \"Structural\"\n\n\n                ]\n",
     "Synonyms": ""
   },
   {
     "Dataset": "main-orders",
-    "Name": "account-type",
-    "Dimension": "[\n                    \"field\",\n                   22118,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": "company-type, new-existing"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "sales-office",
-    "Dimension": "[\n                    \"field\",\n                   21905,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": "region"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "design-scope",
-    "Dimension": "[\n                    \"field\",\n                   21790,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
+    "Name": "automation",
+    "Filters": "[\n                   \"=\",\n                    [\n                        \"field\",\n                        366,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Automation\"\n                ]\n\n",
     "Synonyms": ""
   },
   {
     "Dataset": "main-orders",
-    "Name": "design",
-    "Dimension": "[\n                        \"field\",\n                        307,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "design-list"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "order-status",
-    "Dimension": "[\n                        \"field\",\n                        416,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "status"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "order",
-    "Dimension": "[\n                        \"field\",\n                        362,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "order-id, order-num"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "date",
-    "Dimension": "[\n                        \"field\",\n                        394,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "time"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "machine-type",
-    "Dimension": "[\n                    \"expression\",\n                    \"machine-type\",\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
+    "Name": "robotics",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        366,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Robotics\"\n\n                ]\n",
     "Synonyms": ""
   },
   {
-    "Dataset": "main-partsdb",
-    "Name": "name",
-    "Dimension": "[\n                        \"field\",\n                        18458,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "part-name"
+    "Dataset": "main-orders",
+    "Name": "new-account",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22118,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"New\"\n                ]",
+    "Synonyms": "new, new-logo"
   },
   {
-    "Dataset": "main-partsdb",
-    "Name": "category",
-    "Dimension": "[\n                        \"field\",\n                        19232,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "cat"
+    "Dataset": "main-orders",
+    "Name": "existing-account",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22118,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Existing\"\n                ]",
+    "Synonyms": "existing, recurring"
   },
   {
-    "Dataset": "main-partsdb",
-    "Name": "subcategory",
-    "Dimension": "[\n                        \"field\",\n                        19233,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "sub-category, subcat"
+    "Dataset": "jira",
+    "Name": "open",
+    "Filters": "\"resolution=Unresolved and status!=Rejected\"",
+    "Synonyms": "unresolved"
   },
   {
-    "Dataset": "main-partsdb",
-    "Name": "brand",
-    "Dimension": "[\n                        \"field\",\n                        19236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
+    "Dataset": "jira",
+    "Name": "machine-builder",
+    "Filters": "\"project='MachineBuilder'\"",
+    "Synonyms": "mb"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "enterprise",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Enterprise\"\n                ]",
     "Synonyms": ""
   },
   {
-    "Dataset": "main-partsdb",
-    "Name": "part",
-    "Dimension": "[\n                        \"field\",\n                        18443,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "part-num"
+    "Dataset": "main-orders",
+    "Name": "academia",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Academia & Government Research\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "platform",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        327,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Platform\"\n                ]\n",
+    "Synonyms": "hvs"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "application",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        327,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"APP\"\n                ]\n",
+    "Synonyms": "applications,app"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "vap",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        327,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"VAP\"\n                ]\n",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "emea",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        21905,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"EMEA\"\n                ]\n",
+    "Synonyms": "europe"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "fulfilled",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        416,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"fulfilled\"\n                ]",
+    "Synonyms": "fullfilled"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "north-america",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        21905,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"North America\"\n                ]\n",
+    "Synonyms": "na"
+  },
+  {
+    "Dataset": "main-parts",
+    "Name": "partner-part",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        18464,\n                        {\n                            \"base-type\": \"type/Boolean\"\n                        }\n                    ],\n                    true\n                ]",
+    "Synonyms": ""
   },
   {
     "Dataset": "main-users",
     "Name": "generic-email",
-    "Dimension": "[\n                    \"expression\",\n                    \"generic-email\",\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": "email-type, email-domain"
+    "Filters": "[\n                    \"contains\",\n                    {\n                        \"case-sensitive\": false\n                    },\n                    [\n                        \"field\",\n                        1295,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"@gmail.com\",\n\"@yahoo.com\",\n\"@outlook.com\",\n\"@hotmail.com\",\n\"@icloud.com\",\n\"@aol.com\",\n\"@protonmail.com\",\n\"@mail.com\",\n\"@zoho.com\",\n\"@gmx.com\",\n\"@yandex.com\",\n\"@me.com\",\n\"@live.com\",\n\"@msn.com\",\n\"@tutanota.com\",\n\"@inbox.com\",\n\"@fastmail.com\",\n\"@email.com\",\n\"@usa.com\",\n\"@pm.me\"\n                ]",
+    "Synonyms": "generic"
+  },
+  {
+    "Dataset": "main-users",
+    "Name": "corporate-email",
+    "Filters": "[\n                    \"does-not-contain\",\n                    {\n                        \"case-sensitive\": false,\n                        \"effective-type\": \"type/Boolean\"\n                    },\n                    [\n                        \"field\",\n                        1295,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"@gmail.com\",\n\"@yahoo.com\",\n\"@outlook.com\",\n\"@hotmail.com\",\n\"@icloud.com\",\n\"@aol.com\",\n\"@protonmail.com\",\n\"@mail.com\",\n\"@zoho.com\",\n\"@gmx.com\",\n\"@yandex.com\",\n\"@me.com\",\n\"@live.com\",\n\"@msn.com\",\n\"@tutanota.com\",\n\"@inbox.com\",\n\"@fastmail.com\",\n\"@email.com\",\n\"@usa.com\",\n\"@pm.me\"\n                ]",
+    "Synonyms": "corporate"
   },
   {
     "Dataset": "main-users",
     "Name": "activated",
-    "Dimension": "[\n                        \"field\",\n                        1307,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "user-activated"
-  },
-  {
-    "Dataset": "main-users",
-    "Name": "source",
-    "Dimension": "[\n                    \"field\",\n                    1327,\n                    {\n                        \"base-type\": \"type/*\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": "lead-source"
-  },
-  {
-    "Dataset": "main-users",
-    "Name": "contact-status",
-    "Dimension": "[\n                        \"field\",\n                        1302,\n                        {\n                            \"base-type\": \"type/*\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "user-status, status"
-  },
-  {
-    "Dataset": "main-users",
-    "Name": "email",
-    "Dimension": "[\n                        \"field\",\n                        1295,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        1307,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    1\n                ]",
     "Synonyms": ""
   },
   {
     "Dataset": "opportunities",
-    "Name": "primary-application",
-    "Dimension": "[\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "primary-application, application, app"
-  },
-  {
-    "Dataset": "opportunities",
-    "Name": "account",
-    "Dimension": "[\n                        \"field\",\n                        23243,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "account, account-name, company, company-name, customer"
-  },
-  {
-    "Dataset": "opportunities",
-    "Name": "stage",
-    "Dimension": "[\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "stagename, stage-name"
-  },
-  {
-    "Dataset": "opportunities",
-    "Name": "secondary-application",
-    "Dimension": "[\n                        \"field\",\n                        24663,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "secondary-app"
-  },
-  {
-    "Dataset": "opportunities",
-    "Name": "amount",
-    "Dimension": "[\n                    \"field\",\n                    23255,\n                    {\n                        \"base-type\": \"type/Float\",\n                        \"binning\": {\n                            \"strategy\": \"default\"\n                        }\n                    }\n                ]",
-    "Filters": "",
+    "Name": "open",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Awaiting Purchase\",\n                    \"Closing Stage\",\n                    \"Design Review\",\n                    \"Project Discovery\",\n                    \"Project Quoted\",\n                    \"Prospect\"\n                ]\n",
     "Synonyms": ""
   },
   {
     "Dataset": "opportunities",
-    "Name": "primary-application-group",
-    "Dimension": "[\n                        \"field\",\n                        24664,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "primary-application-group, application, app-group"
-  },
-  {
-    "Dataset": "opportunities",
-    "Name": "new-vs-existing",
-    "Dimension": "[\n                    \"field\",\n                    23259,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": "new,existing,recurring"
-  },
-  {
-    "Dataset": "opportunities",
-    "Name": "name",
-    "Dimension": "[\n                        \"field\",\n                        22508,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
+    "Name": "closed",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Closed Lost\",\n                    \"Closed Won\"\n           \n                ]\n",
     "Synonyms": ""
   },
   {
     "Dataset": "opportunities",
-    "Name": "sales-motion",
-    "Dimension": "[\n                    \"field\",\n                    23268,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
+    "Name": "rapid-series",
+    "Filters": "[\n                    \"contains\",\n                    [\n                        \"field\",\n                        24663,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Rapid Series\",\n                    {\n                        \"case-sensitive\": false\n                    }\n                ]",
     "Synonyms": ""
   },
   {
     "Dataset": "opportunities",
-    "Name": "app-eng-team",
-    "Dimension": "[\n                    \"field\",\n                    23232,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
+    "Name": "sanding",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Sanding & Surface Finishing\"\n                ]",
     "Synonyms": ""
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "palletizing",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Cartesian Palletizer\",\n                    \"Cobot Palletizer\",\n                    \"Industrial Robot Palletizer\"\n                ]",
+    "Synonyms": "palletizer"
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "tending",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Machine Tending\",\n                    \"Robotic Tending Cells\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "jira",
+    "Name": "platform",
+    "Filters": "\"project in ('Machine Logic', MachineBuilder, 'Machine Code', 'Digital WorkFlow', Simulation, Firmware, Robot, Operate)\"",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "jira",
+    "Name": "machine-logic",
+    "Filters": "\"project='Machine Logic'\"",
+    "Synonyms": "ml"
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "welding",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Welding\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "lost",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Closed Lost\"\n                ]",
+    "Synonyms": "closed-lost"
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "won",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Closed Won\"\n                ]",
+    "Synonyms": "closed-won"
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "has-design",
+    "Filters": "[\n                    \"not-empty\",\n                    [\n                        \"field\",\n                        23226,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]\n                ]\n",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "platform",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23268,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Platform\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "applications",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23268,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"APPS\"\n                ]",
+    "Synonyms": "apps,application"
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "vap",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23268,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"VAP\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "no-code",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19460,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MachineLogic (no-code)\"\n                ]",
+    "Synonyms": "ml-no-code"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "python",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19460,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MachineLogic (Python)\"\n                ]",
+    "Synonyms": "ml-python"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "ml",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        19460,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MachineLogic (Python)\",\n                    \"MachineLogic (no-code)\"\n                ]",
+    "Synonyms": "machine-logic"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "has-subscription",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23147,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    1\n                ]",
+    "Synonyms": "subscription"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "external",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        19460,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"EthernetIP\",\n                    \"Fanuc Extension\",\n                    \"LLSAPI\",\n                    \"Native Robot Programming\"\n                ]",
+    "Synonyms": "external-control"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "machine-app",
+    "Filters": "[\n                \"=\",\n                [\n                    \"field\",\n                    19460,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ],\n                \"MachineApp Edge\"\n            ]",
+    "Synonyms": "machineapp, mapp, machine-apps"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "mmai",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        31855,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MMAI\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-competitors",
+    "Name": "welding",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"welding\",\n                    \"Welding\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-competitors",
+    "Name": "sanding",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"sanding\",\n                    \"Sanding\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-competitors",
+    "Name": "tending",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"machine tending\",\n                    \"Machine Tending\"\n                ]",
+    "Synonyms": "machine-tending"
+  },
+  {
+    "Dataset": "main-competitors",
+    "Name": "palletizing",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"palletizing\",\n                    \"Palletizing\"\n                ]",
+    "Synonyms": "palletizer"
+  },
+  {
+    "Dataset": "main-competitors",
+    "Name": "toolpath",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Toolpath Generation\"\n                ]",
+    "Synonyms": "toolpath-generation"
+  },
+  {
+    "Dataset": "main-competitors",
+    "Name": "programming",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Robot Programming\"\n                ]",
+    "Synonyms": "robot-programming"
+  },
+  {
+    "Dataset": "main-competitors",
+    "Name": "operator",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Robot Operator\"\n                ]",
+    "Synonyms": "robot-operator, ai-operator, rapid-operator"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "machine-code",
+    "Filters": "\"project='Machine Code'\"",
+    "Synonyms": "mc"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "simulation",
+    "Filters": "\"project=Simulation\"",
+    "Synonyms": "sim"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "digital-workflow",
+    "Filters": "\"project='Digital Workflow'\"",
+    "Synonyms": "dw"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "firmware",
+    "Filters": "\"project=Firmware\"",
+    "Synonyms": "fw"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "robot",
+    "Filters": "\"project=Robot\"",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "jira",
+    "Name": "operate",
+    "Filters": "\"project=Operate\"",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "jira",
+    "Name": "demo-day",
+    "Filters": "\"'Program[Select List (multiple choices)]' = 'DemoDay 2025'\"",
+    "Synonyms": "demoday"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "platform-foundations",
+    "Filters": "\"'Program[Select List (multiple choices)]' = 'Platform Foundations Q3'\"",
+    "Synonyms": "platform-foundation"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "machine-apps",
+    "Filters": "\"project='Machine Apps'\"",
+    "Synonyms": "ma, mapp, mapps, machine-app"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "closed",
+    "Filters": "\"resolution!=Unresolved\"",
+    "Synonyms": "resolved"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "support",
+    "Filters": "\"project='Vention Support'\"",
+    "Synonyms": "vention-support, vs"
   }
 ]
