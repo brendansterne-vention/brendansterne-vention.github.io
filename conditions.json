@@ -1,578 +1,434 @@
 [
   {
-    "id": "rec09guZVRXna28Sz",
-    "Name": "closed",
-    "ID": 85,
-    "Dataset": "jira",
-    "Filters": "\"resolution!=Unresolved\"",
-    "Synonyms": "resolved"
-  },
-  {
-    "id": "rec3xZdq7BC9gI5Vx",
-    "Name": "ml",
-    "ID": 59,
-    "Dataset": "main-deployments",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        19460,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MachineLogic (Python)\",\n                    \"MachineLogic (no-code)\"\n                ]",
-    "Synonyms": "machine-logic"
-  },
-  {
-    "id": "rec4EILcEjVI30pIy",
-    "Name": "automation",
-    "ID": 24,
-    "Dataset": "main-orders",
-    "Filters": "[\n                   \"=\",\n                    [\n                        \"field\",\n                        366,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Automation\"\n                ]\n\n",
-    "Synonyms": null
-  },
-  {
-    "id": "rec4ZDaNkk4GIkLQO",
-    "Name": "existing-account",
-    "ID": 27,
-    "Dataset": "main-orders",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22118,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Existing\"\n                ]",
-    "Synonyms": "existing, recurring"
-  },
-  {
-    "id": "rec4qfExezTHyD7gf",
-    "Name": "welding",
-    "ID": 42,
-    "Dataset": "opportunities",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Welding\"\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "rec52NTonQwreGDTm",
-    "Name": "firmware",
-    "ID": 78,
-    "Dataset": "jira",
-    "Filters": "\"project=Firmware\"",
-    "Synonyms": "fw"
-  },
-  {
-    "id": "rec5lvW2VK5xMx6KY",
-    "Name": "vap",
-    "ID": 52,
-    "Dataset": "opportunities",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23268,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"VAP\"\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "rec6kHPg1yvFs4Tcp",
-    "Name": "demo-day",
-    "ID": 81,
-    "Dataset": "jira",
-    "Filters": "\"'Program[Select List (multiple choices)]' = 'DemoDay 2025'\"",
-    "Synonyms": "demoday"
-  },
-  {
-    "id": "rec7KHNQy28rQnTvC",
-    "Name": "application",
-    "ID": 31,
-    "Dataset": "main-orders",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        327,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"APP\"\n                ]\n",
-    "Synonyms": "applications,app"
-  },
-  {
-    "id": "rec7VY1JQGdjCfMYh",
-    "Name": "closed",
-    "ID": 37,
-    "Dataset": "opportunities",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Closed Lost\",\n                    \"Closed Won\"\n           \n                ]\n",
-    "Synonyms": null
-  },
-  {
-    "id": "rec7XtmwOOTGGyT94",
-    "Name": "operate",
-    "ID": 80,
-    "Dataset": "jira",
-    "Filters": "\"project=Operate\"",
-    "Synonyms": null
-  },
-  {
-    "id": "rec7vks9i1tCPEmpL",
-    "Name": "toolpath",
-    "ID": 66,
-    "Dataset": "main-competitors",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Toolpath Generation\"\n                ]",
-    "Synonyms": "toolpath-generation"
-  },
-  {
-    "id": "recAeLizgk0PHIdr5",
-    "Name": "customer-led",
-    "ID": 43,
     "Dataset": "main-designs",
+    "Name": "mmai",
+    "Filters": "[\n                    \"contains\",{\n                        \"case-sensitive\": true,\n                        \"effective-type\": \"type/Boolean\"\n                    },\n                    [\n                        \"field\",\n                        22371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-designs",
+    "Name": "customer-led",
     "Filters": "[\n                    \"does-not-contain\",\n                    [\n                        \"field\",\n                        1275,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"@vention.cc\",\n                    {\n                        \"case-sensitive\": false\n                    }\n                ]",
     "Synonyms": "customer"
   },
   {
-    "id": "recApczi6EeIG6DhA",
-    "Name": "open",
-    "ID": 36,
-    "Dataset": "opportunities",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Awaiting Purchase\",\n                    \"Closing Stage\",\n                    \"Design Review\",\n                    \"Project Discovery\",\n                    \"Project Quoted\",\n                    \"Prospect\"\n                ]\n",
-    "Synonyms": null
-  },
-  {
-    "id": "recDX4VEVQgzDXwLQ",
-    "Name": "structural",
-    "ID": 23,
-    "Dataset": "main-orders",
-    "Filters": "[\n                     \"in\",\n                    [\n                        \"field\",\n                        366,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Parts\",\n                    \"Structural\"\n\n\n                ]\n",
-    "Synonyms": null
-  },
-  {
-    "id": "recE5c4k32UF7oTA9",
-    "Name": "programming",
-    "ID": 67,
-    "Dataset": "main-competitors",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Robot Programming\"\n                ]",
-    "Synonyms": "robot-programming"
-  },
-  {
-    "id": "recEVJTQIJ6fUsJhL",
-    "Name": "academia",
-    "ID": 55,
-    "Dataset": "main-orders",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Academia & Government Research\"\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recGU26clwVjuFUPl",
-    "Name": "sanding",
-    "ID": 63,
-    "Dataset": "main-competitors",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"sanding\",\n                    \"Sanding\"\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recINgpm9tI1jBON7",
-    "Name": "palletizing",
-    "ID": 65,
-    "Dataset": "main-competitors",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"palletizing\",\n                    \"Palletizing\"\n                ]",
-    "Synonyms": "palletizer"
-  },
-  {
-    "id": "recJJgqbxtyG8edma",
-    "Name": "won",
-    "ID": 46,
-    "Dataset": "opportunities",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Closed Won\"\n                ]",
-    "Synonyms": "closed-won"
-  },
-  {
-    "id": "recJPn2W0ykK2P1gZ",
-    "Name": "mmv2",
-    "ID": 19,
-    "Dataset": "main-ordered-parts",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-010-0001\",\n                    \"CE-CL-010-0004\"\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recJdsIifjHVdXbA6",
-    "Name": "machine-builder",
-    "ID": 74,
-    "Dataset": "jira",
-    "Filters": "\"project='MachineBuilder'\"",
-    "Synonyms": "mb"
-  },
-  {
-    "id": "recKQWHVk8rnyZZ68",
-    "Name": "platform",
-    "ID": 50,
-    "Dataset": "opportunities",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23268,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Platform\"\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recKVWC1ahm76Qt8B",
-    "Name": "external",
-    "ID": 60,
-    "Dataset": "main-deployments",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        19460,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"EthernetIP\",\n                    \"Fanuc Extension\",\n                    \"LLSAPI\",\n                    \"Native Robot Programming\"\n                ]",
-    "Synonyms": "external-control"
-  },
-  {
-    "id": "recLmvqVjSqRaEzVO",
-    "Name": "corporate-email",
-    "ID": 22,
-    "Dataset": "main-users",
-    "Filters": "[\n                    \"does-not-contain\",\n                    {\n                        \"case-sensitive\": false,\n                        \"effective-type\": \"type/Boolean\"\n                    },\n                    [\n                        \"field\",\n                        1295,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"@gmail.com\",\n\"@yahoo.com\",\n\"@outlook.com\",\n\"@hotmail.com\",\n\"@icloud.com\",\n\"@aol.com\",\n\"@protonmail.com\",\n\"@mail.com\",\n\"@zoho.com\",\n\"@gmx.com\",\n\"@yandex.com\",\n\"@me.com\",\n\"@live.com\",\n\"@msn.com\",\n\"@tutanota.com\",\n\"@inbox.com\",\n\"@fastmail.com\",\n\"@email.com\",\n\"@usa.com\",\n\"@pm.me\"\n                ]",
-    "Synonyms": "corporate"
-  },
-  {
-    "id": "recM1BzywToqiA8RU",
-    "Name": "enterprise",
-    "ID": 28,
-    "Dataset": "main-orders",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Enterprise\"\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recNCGMyIYYmBdtk4",
-    "Name": "mm",
-    "ID": 84,
-    "Dataset": "main-ordered-parts",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\",\n                    \"CE-CL-010-0001\",\n                    \"CE-CL-010-0004\"\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recNeZdMLXG74t9cR",
-    "Name": "robot",
-    "ID": 79,
-    "Dataset": "jira",
-    "Filters": "\"project=Robot\"",
-    "Synonyms": null
-  },
-  {
-    "id": "recOVMSRoe3ZiNI1C",
-    "Name": "partner-part",
-    "ID": 49,
-    "Dataset": "main-ordered-parts",
-    "Filters": "[\n                \"=\",\n                [\n                    \"field\",\n                    24660,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ],\n                \"true\"\n            ]\n",
-    "Synonyms": "partner"
-  },
-  {
-    "id": "recQGOaqZliq50WY0",
-    "Name": "tending",
-    "ID": 64,
-    "Dataset": "main-competitors",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"machine tending\",\n                    \"Machine Tending\"\n                ]",
-    "Synonyms": "machine-tending"
-  },
-  {
-    "id": "recQRhojU3chw0BZY",
-    "Name": "no-code",
-    "ID": 57,
-    "Dataset": "main-deployments",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19460,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MachineLogic (no-code)\"\n                ]",
-    "Synonyms": "ml-no-code"
-  },
-  {
-    "id": "recQiCj1Kz9a1NFsR",
-    "Name": "new-account",
-    "ID": 26,
-    "Dataset": "main-orders",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22118,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"New\"\n                ]",
-    "Synonyms": "new, new-logo"
-  },
-  {
-    "id": "recRAZodPyJ5NKSJ6",
-    "Name": "platform",
-    "ID": 72,
-    "Dataset": "jira",
-    "Filters": "\"project in ('Machine Logic', MachineBuilder, 'Machine Code', 'Digital WorkFlow', Simulation, Firmware, Robot, Operate)\"",
-    "Synonyms": null
-  },
-  {
-    "id": "recSFyqs5bIYSUIuL",
-    "Name": "welding",
-    "ID": 62,
-    "Dataset": "main-competitors",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"welding\",\n                    \"Welding\"\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recSMvSyoWqj06Ixz",
-    "Name": "emea",
-    "ID": 33,
-    "Dataset": "main-orders",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        21905,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"EMEA\"\n                ]\n",
-    "Synonyms": "europe"
-  },
-  {
-    "id": "recScGFJJko3N0BJa",
-    "Name": "xl-extrusion",
-    "ID": 17,
-    "Dataset": "main-ordered-parts",
-    "Filters": "[\n                    \"contains\",\n                    {\n                        \"case-sensitive\": true,\n                        \"effective-type\": \"type/Boolean\"\n                    },\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"ST-EXT-011-0540\",\n                    \"ST-EXT-011-2295\",\n                    \"ST-EXT-011-1845\",\n                    \"ST-EXT-011-1170\",\n                    \"ST-EXT-011-0900\"\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recSoVzLSyCWWPZhh",
-    "Name": "ur",
-    "ID": 16,
-    "Dataset": "main-ordered-parts",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19266,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Universal Robots\"\n                ]",
-    "Synonyms": "universal-robots,universal-robot"
-  },
-  {
-    "id": "recTUWsJZjhmxCs5v",
-    "Name": "generic-email",
-    "ID": 21,
-    "Dataset": "main-users",
-    "Filters": "[\n                    \"contains\",\n                    {\n                        \"case-sensitive\": false\n                    },\n                    [\n                        \"field\",\n                        1295,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"@gmail.com\",\n\"@yahoo.com\",\n\"@outlook.com\",\n\"@hotmail.com\",\n\"@icloud.com\",\n\"@aol.com\",\n\"@protonmail.com\",\n\"@mail.com\",\n\"@zoho.com\",\n\"@gmx.com\",\n\"@yandex.com\",\n\"@me.com\",\n\"@live.com\",\n\"@msn.com\",\n\"@tutanota.com\",\n\"@inbox.com\",\n\"@fastmail.com\",\n\"@email.com\",\n\"@usa.com\",\n\"@pm.me\"\n                ]",
-    "Synonyms": "generic"
-  },
-  {
-    "id": "recVTQFH1FTNGvkyC",
-    "Name": "simulation",
-    "ID": 76,
-    "Dataset": "jira",
-    "Filters": "\"project=Simulation\"",
-    "Synonyms": "sim"
-  },
-  {
-    "id": "recVjVmoTTRakKhyq",
-    "Name": "activated",
-    "ID": 29,
-    "Dataset": "main-users",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        1307,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    1\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recVpJYIKbb4SQVSM",
-    "Name": "vap",
-    "ID": 32,
-    "Dataset": "main-orders",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        327,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"VAP\"\n                ]\n",
-    "Synonyms": null
-  },
-  {
-    "id": "recW7ntpSyXjZVGQ0",
-    "Name": "fanuc",
-    "ID": 15,
-    "Dataset": "main-ordered-parts",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19266,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"FANUC\"\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recWTipGV81Esj3jC",
-    "Name": "support",
-    "ID": 87,
-    "Dataset": "jira",
-    "Filters": "\"project='Vention Support'\"",
-    "Synonyms": "vention-support, vs"
-  },
-  {
-    "id": "recXqAep0i7k3vtP1",
-    "Name": "tending",
-    "ID": 41,
-    "Dataset": "opportunities",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Machine Tending\",\n                    \"Robotic Tending Cells\"\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recYZ1sSotgSPtDRM",
-    "Name": "mmai",
-    "ID": 86,
-    "Dataset": "main-deployments",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        31855,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MMAI\"\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recYZHm9r2jkNjSfG",
-    "Name": "palletizing",
-    "ID": 40,
-    "Dataset": "opportunities",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Cartesian Palletizer\",\n                    \"Cobot Palletizer\",\n                    \"Industrial Robot Palletizer\"\n                ]",
-    "Synonyms": "palletizer"
-  },
-  {
-    "id": "recZ6kRowyZmsSC2V",
-    "Name": "machine-logic",
-    "ID": 73,
-    "Dataset": "jira",
-    "Filters": "\"project='Machine Logic'\"",
-    "Synonyms": "ml"
-  },
-  {
-    "id": "recbP87usxmhQ589n",
-    "Name": "robot",
-    "ID": 18,
-    "Dataset": "main-orders",
-    "Filters": "[\n                    \">=\",\n                    [\n                        \"field\",\n                        347,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ],\n                    1\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "reccJXUS14j9TMYLR",
-    "Name": "mmai",
-    "ID": 35,
     "Dataset": "main-designs",
-    "Filters": "[\n                    \"contains\",{\n                        \"case-sensitive\": true,\n                        \"effective-type\": \"type/Boolean\"\n                    },\n                    [\n                        \"field\",\n                        22371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
-    "Synonyms": null
+    "Name": "mmv2",
+    "Filters": "[\n                    \"contains\",{\n                        \"case-sensitive\": true,\n                        \"effective-type\": \"type/Boolean\"\n                    },\n                    [\n                        \"field\",\n                        22371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-010-0004\",\n                    \"CE-CL-010-0001\"\n                ]",
+    "Synonyms": ""
   },
   {
-    "id": "recdS5ec0meqw2ikE",
-    "Name": "open",
-    "ID": 71,
-    "Dataset": "jira",
-    "Filters": "\"resolution=Unresolved and status!=Rejected\"",
-    "Synonyms": "unresolved"
-  },
-  {
-    "id": "reciOWRFrXgyVRQjN",
-    "Name": "has-subscription",
-    "ID": 69,
-    "Dataset": "main-deployments",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23147,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    1\n                ]",
-    "Synonyms": "subscription"
-  },
-  {
-    "id": "recin5QXm6P80gOYm",
-    "Name": "robotics",
-    "ID": 25,
-    "Dataset": "main-orders",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        366,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Robotics\"\n\n                ]\n",
-    "Synonyms": null
-  },
-  {
-    "id": "recjWbpeaDBJ1VCTP",
-    "Name": "python",
-    "ID": 58,
-    "Dataset": "main-deployments",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19460,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MachineLogic (Python)\"\n                ]",
-    "Synonyms": "ml-python"
-  },
-  {
-    "id": "recl0Tu1EYsbebvSi",
-    "Name": "north-america",
-    "ID": 34,
-    "Dataset": "main-orders",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        21905,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"North America\"\n                ]\n",
-    "Synonyms": "na"
-  },
-  {
-    "id": "recljsNnh7aHqfH6Q",
-    "Name": "platform-foundations",
-    "ID": 82,
-    "Dataset": "jira",
-    "Filters": "\"'Program[Select List (multiple choices)]' = 'Platform Foundations Q3'\"",
-    "Synonyms": "platform-foundation"
-  },
-  {
-    "id": "recp1zdZrvfFLoVbf",
-    "Name": "digital-workflow",
-    "ID": 77,
-    "Dataset": "jira",
-    "Filters": "\"project='Digital Workflow'\"",
-    "Synonyms": "dw"
-  },
-  {
-    "id": "recpHdxsjZkFe0nPW",
-    "Name": "applications",
-    "ID": 51,
-    "Dataset": "opportunities",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23268,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"APPS\"\n                ]",
-    "Synonyms": "apps,application"
-  },
-  {
-    "id": "recqOjmcBqeBWH4bJ",
-    "Name": "machine-app",
-    "ID": 61,
-    "Dataset": "main-deployments",
-    "Filters": "[\n                \"=\",\n                [\n                    \"field\",\n                    19460,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ],\n                \"MachineApp Edge\"\n            ]",
-    "Synonyms": "machineapp, mapp, machine-apps"
-  },
-  {
-    "id": "recs43y42RMbxQB8I",
-    "Name": "robot",
-    "ID": 14,
     "Dataset": "main-ordered-parts",
+    "Name": "robot",
     "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19263,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Robots\"\n                ]",
     "Synonyms": "robots"
   },
   {
-    "id": "rectF7tcYh0TBEpBH",
-    "Name": "sanding",
-    "ID": 39,
-    "Dataset": "opportunities",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Sanding & Surface Finishing\"\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "rectRrUrLNp7Qc9gN",
-    "Name": "lost",
-    "ID": 45,
-    "Dataset": "opportunities",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Closed Lost\"\n                ]",
-    "Synonyms": "closed-lost"
-  },
-  {
-    "id": "recu6dFeWLWHx1esa",
-    "Name": "mmv2",
-    "ID": 44,
-    "Dataset": "main-designs",
-    "Filters": "[\n                    \"contains\",{\n                        \"case-sensitive\": true,\n                        \"effective-type\": \"type/Boolean\"\n                    },\n                    [\n                        \"field\",\n                        22371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-010-0004\",\n                    \"CE-CL-010-0001\"\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recu9WeK7E02yr2xV",
-    "Name": "platform",
-    "ID": 30,
-    "Dataset": "main-orders",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        327,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Platform\"\n                ]\n",
-    "Synonyms": "hvs"
-  },
-  {
-    "id": "recueQZO1hMqICHvQ",
-    "Name": "has-design",
-    "ID": 47,
-    "Dataset": "opportunities",
-    "Filters": "[\n                    \"not-empty\",\n                    [\n                        \"field\",\n                        23226,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]\n                ]\n",
-    "Synonyms": null
-  },
-  {
-    "id": "recv6W320oSknFJiR",
-    "Name": "machine-apps",
-    "ID": 83,
-    "Dataset": "jira",
-    "Filters": "\"project='Machine Apps'\"",
-    "Synonyms": "ma, mapp, mapps, machine-app"
-  },
-  {
-    "id": "recv6jCBw6xpxkAgS",
-    "Name": "rapid-series",
-    "ID": 38,
-    "Dataset": "opportunities",
-    "Filters": "[\n                    \"contains\",\n                    [\n                        \"field\",\n                        24663,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Rapid Series\",\n                    {\n                        \"case-sensitive\": false\n                    }\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recwHlgwrTeCqRovJ",
-    "Name": "panels",
-    "ID": 56,
     "Dataset": "main-ordered-parts",
+    "Name": "fanuc",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19266,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"FANUC\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "ur",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19266,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Universal Robots\"\n                ]",
+    "Synonyms": "universal-robots,universal-robot"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "xl-extrusion",
+    "Filters": "[\n                    \"contains\",\n                    {\n                        \"case-sensitive\": true,\n                        \"effective-type\": \"type/Boolean\"\n                    },\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"ST-EXT-011-0540\",\n                    \"ST-EXT-011-2295\",\n                    \"ST-EXT-011-1845\",\n                    \"ST-EXT-011-1170\",\n                    \"ST-EXT-011-0900\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "mmv2",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-010-0001\",\n                    \"CE-CL-010-0004\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "mmai",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "mm",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\",\n                    \"CE-CL-010-0001\",\n                    \"CE-CL-010-0004\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "partner-part",
+    "Filters": "[\n                \"=\",\n                [\n                    \"field\",\n                    24660,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ],\n                \"true\"\n            ]\n",
+    "Synonyms": "partner"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "panels",
     "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19263,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Panels and Table Tops\",\n                    {\n                        \"case-sensitive\": false,\n                        \"effective-type\": \"type/Boolean\"\n                    }\n                ]",
     "Synonyms": "panel"
   },
   {
-    "id": "recwnYMUDHZh4SUPz",
-    "Name": "machine-code",
-    "ID": 75,
-    "Dataset": "jira",
-    "Filters": "\"project='Machine Code'\"",
-    "Synonyms": "mc"
-  },
-  {
-    "id": "recwwtsZyCi5QQGzm",
-    "Name": "partner-part",
-    "ID": 13,
-    "Dataset": "main-parts",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        18464,\n                        {\n                            \"base-type\": \"type/Boolean\"\n                        }\n                    ],\n                    true\n                ]",
-    "Synonyms": null
-  },
-  {
-    "id": "recxclnTJo7DEKeIm",
-    "Name": "fulfilled",
-    "ID": 54,
     "Dataset": "main-orders",
+    "Name": "robot",
+    "Filters": "[\n                    \">=\",\n                    [\n                        \"field\",\n                        347,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ],\n                    1\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "structural",
+    "Filters": "[\n                     \"in\",\n                    [\n                        \"field\",\n                        366,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Parts\",\n                    \"Structural\"\n\n\n                ]\n",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "automation",
+    "Filters": "[\n                   \"=\",\n                    [\n                        \"field\",\n                        366,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Automation\"\n                ]\n\n",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "robotics",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        366,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Robotics\"\n\n                ]\n",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "new-account",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22118,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"New\"\n                ]",
+    "Synonyms": "new, new-logo"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "existing-account",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22118,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Existing\"\n                ]",
+    "Synonyms": "existing, recurring"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "open",
+    "Filters": "\"resolution=Unresolved and status!=Rejected\"",
+    "Synonyms": "unresolved"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "machine-builder",
+    "Filters": "\"project='MachineBuilder'\"",
+    "Synonyms": "mb"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "enterprise",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Enterprise\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "academia",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Academia & Government Research\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "platform",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        327,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Platform\"\n                ]\n",
+    "Synonyms": "hvs"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "application",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        327,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"APP\"\n                ]\n",
+    "Synonyms": "applications,app"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "vap",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        327,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"VAP\"\n                ]\n",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "emea",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        21905,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"EMEA\"\n                ]\n",
+    "Synonyms": "europe"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "fulfilled",
     "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        416,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"fulfilled\"\n                ]",
     "Synonyms": "fullfilled"
   },
   {
-    "id": "recxqaiQhsam0M2Ui",
-    "Name": "operator",
-    "ID": 68,
+    "Dataset": "main-orders",
+    "Name": "north-america",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        21905,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"North America\"\n                ]\n",
+    "Synonyms": "na"
+  },
+  {
+    "Dataset": "main-parts",
+    "Name": "partner-part",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        18464,\n                        {\n                            \"base-type\": \"type/Boolean\"\n                        }\n                    ],\n                    true\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-users",
+    "Name": "generic-email",
+    "Filters": "[\n                    \"contains\",\n                    {\n                        \"case-sensitive\": false\n                    },\n                    [\n                        \"field\",\n                        1295,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"@gmail.com\",\n\"@yahoo.com\",\n\"@outlook.com\",\n\"@hotmail.com\",\n\"@icloud.com\",\n\"@aol.com\",\n\"@protonmail.com\",\n\"@mail.com\",\n\"@zoho.com\",\n\"@gmx.com\",\n\"@yandex.com\",\n\"@me.com\",\n\"@live.com\",\n\"@msn.com\",\n\"@tutanota.com\",\n\"@inbox.com\",\n\"@fastmail.com\",\n\"@email.com\",\n\"@usa.com\",\n\"@pm.me\"\n                ]",
+    "Synonyms": "generic"
+  },
+  {
+    "Dataset": "main-users",
+    "Name": "corporate-email",
+    "Filters": "[\n                    \"does-not-contain\",\n                    {\n                        \"case-sensitive\": false,\n                        \"effective-type\": \"type/Boolean\"\n                    },\n                    [\n                        \"field\",\n                        1295,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"@gmail.com\",\n\"@yahoo.com\",\n\"@outlook.com\",\n\"@hotmail.com\",\n\"@icloud.com\",\n\"@aol.com\",\n\"@protonmail.com\",\n\"@mail.com\",\n\"@zoho.com\",\n\"@gmx.com\",\n\"@yandex.com\",\n\"@me.com\",\n\"@live.com\",\n\"@msn.com\",\n\"@tutanota.com\",\n\"@inbox.com\",\n\"@fastmail.com\",\n\"@email.com\",\n\"@usa.com\",\n\"@pm.me\"\n                ]",
+    "Synonyms": "corporate"
+  },
+  {
+    "Dataset": "main-users",
+    "Name": "activated",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        1307,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    1\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "open",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Awaiting Purchase\",\n                    \"Closing Stage\",\n                    \"Design Review\",\n                    \"Project Discovery\",\n                    \"Project Quoted\",\n                    \"Prospect\"\n                ]\n",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "closed",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Closed Lost\",\n                    \"Closed Won\"\n           \n                ]\n",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "rapid-series",
+    "Filters": "[\n                    \"contains\",\n                    [\n                        \"field\",\n                        24663,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Rapid Series\",\n                    {\n                        \"case-sensitive\": false\n                    }\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "sanding",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Sanding & Surface Finishing\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "palletizing",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Cartesian Palletizer\",\n                    \"Cobot Palletizer\",\n                    \"Industrial Robot Palletizer\"\n                ]",
+    "Synonyms": "palletizer"
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "tending",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Machine Tending\",\n                    \"Robotic Tending Cells\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "jira",
+    "Name": "platform",
+    "Filters": "\"project in ('Machine Logic', MachineBuilder, 'Machine Code', 'Digital WorkFlow', Simulation, Firmware, Robot, Operate)\"",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "jira",
+    "Name": "machine-logic",
+    "Filters": "\"project='Machine Logic'\"",
+    "Synonyms": "ml"
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "welding",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23236,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Welding\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "lost",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Closed Lost\"\n                ]",
+    "Synonyms": "closed-lost"
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "won",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22472,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Closed Won\"\n                ]",
+    "Synonyms": "closed-won"
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "has-design",
+    "Filters": "[\n                    \"not-empty\",\n                    [\n                        \"field\",\n                        23226,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]\n                ]\n",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "platform",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23268,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Platform\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "applications",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23268,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"APPS\"\n                ]",
+    "Synonyms": "apps,application"
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "vap",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23268,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"VAP\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "no-code",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19460,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MachineLogic (no-code)\"\n                ]",
+    "Synonyms": "ml-no-code"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "python",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19460,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MachineLogic (Python)\"\n                ]",
+    "Synonyms": "ml-python"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "ml",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        19460,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MachineLogic (Python)\",\n                    \"MachineLogic (no-code)\"\n                ]",
+    "Synonyms": "machine-logic"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "has-subscription",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        23147,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    1\n                ]",
+    "Synonyms": "subscription"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "external",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        19460,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"EthernetIP\",\n                    \"Fanuc Extension\",\n                    \"LLSAPI\",\n                    \"Native Robot Programming\"\n                ]",
+    "Synonyms": "external-control"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "machine-app",
+    "Filters": "[\n                \"=\",\n                [\n                    \"field\",\n                    19460,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ],\n                \"MachineApp Edge\"\n            ]",
+    "Synonyms": "machineapp, mapp, machine-apps"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "mmai",
+    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        31855,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"MMAI\"\n                ]",
+    "Synonyms": ""
+  },
+  {
     "Dataset": "main-competitors",
+    "Name": "welding",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"welding\",\n                    \"Welding\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-competitors",
+    "Name": "sanding",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"sanding\",\n                    \"Sanding\"\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-competitors",
+    "Name": "tending",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"machine tending\",\n                    \"Machine Tending\"\n                ]",
+    "Synonyms": "machine-tending"
+  },
+  {
+    "Dataset": "main-competitors",
+    "Name": "palletizing",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"palletizing\",\n                    \"Palletizing\"\n                ]",
+    "Synonyms": "palletizer"
+  },
+  {
+    "Dataset": "main-competitors",
+    "Name": "toolpath",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Toolpath Generation\"\n                ]",
+    "Synonyms": "toolpath-generation"
+  },
+  {
+    "Dataset": "main-competitors",
+    "Name": "programming",
+    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Robot Programming\"\n                ]",
+    "Synonyms": "robot-programming"
+  },
+  {
+    "Dataset": "main-competitors",
+    "Name": "operator",
     "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        29114,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Robot Operator\"\n                ]",
     "Synonyms": "robot-operator, ai-operator, rapid-operator"
   },
   {
-    "id": "reczGmBoi3IS5Nnh9",
-    "Name": "mmai",
-    "ID": 20,
-    "Dataset": "main-ordered-parts",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
-    "Synonyms": null
+    "Dataset": "jira",
+    "Name": "machine-code",
+    "Filters": "\"project='Machine Code'\"",
+    "Synonyms": "mc"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "simulation",
+    "Filters": "\"project=Simulation\"",
+    "Synonyms": "sim"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "digital-workflow",
+    "Filters": "\"project='Digital Workflow'\"",
+    "Synonyms": "dw"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "firmware",
+    "Filters": "\"project=Firmware\"",
+    "Synonyms": "fw"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "robot",
+    "Filters": "\"project=Robot\"",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "jira",
+    "Name": "operate",
+    "Filters": "\"project=Operate\"",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "jira",
+    "Name": "demo-day",
+    "Filters": "\"'Program[Select List (multiple choices)]' = 'DemoDay 2025'\"",
+    "Synonyms": "demoday"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "platform-foundations",
+    "Filters": "\"'Program[Select List (multiple choices)]' = 'Platform Foundations Q3'\"",
+    "Synonyms": "platform-foundation"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "machine-apps",
+    "Filters": "\"project='Machine Apps'\"",
+    "Synonyms": "ma, mapp, mapps, machine-app"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "closed",
+    "Filters": "\"resolution!=Unresolved\"",
+    "Synonyms": "resolved"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "support",
+    "Filters": "\"project='Vention Support'\"",
+    "Synonyms": "vention-support, vs"
   }
-] 
+]
