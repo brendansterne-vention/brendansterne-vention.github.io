@@ -210,86 +210,65 @@
     "Synonyms": "has-designs, pic, pictures, has-pic, has-pictures"
   },
   {
-    "Dataset": "main-ordered-parts",
-    "Name": "part-num",
-    "Dimension": "[\"field\",667,{\"base-type\": \"type/Text\"}]",
+    "Dataset": "main-orders",
+    "Name": "company-size",
+    "Dimension": "[\n                    \"field\",\n                    371,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
     "Filters": "",
-    "Synonyms": "part, part-number"
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "part-name",
-    "Dimension": "[\"field\",19264,{\"base-type\": \"type/Text\"}]",
-    "Filters": "",
-    "Synonyms": "name"
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "subcategory",
-    "Dimension": "[\"field\",19266,{\"base-type\": \"type/Text\"}]",
-    "Filters": "",
-    "Synonyms": "part-subcategory, sub-category, sub-cat"
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "category",
-    "Dimension": "[\"field\",19263,{\"base-type\": \"type/Text\"}]",
-    "Filters": "",
-    "Synonyms": "part-category, cat"
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "order",
-    "Dimension": "[\"field\",646,{\"base-type\": \"type/Text\"}]",
-    "Filters": "",
-    "Synonyms": "order-num, order-id"
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "design",
-    "Dimension": "[\n                        \"field\",\n                        665,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "brand",
-    "Dimension": "[\"field\",19261,{\"base-type\": \"type/Text\"}]",
-    "Filters": "",
-    "Synonyms": "part-brand"
+    "Synonyms": "account-size"
   },
   {
     "Dataset": "main-ordered-parts",
     "Name": "company",
-    "Dimension": "[\"field\",24674,{\"base-type\": \"type/Text\"}]",
+    "Dimension": "[\"field\",33091,{\"base-type\": \"type/Text\"}]",
     "Filters": "",
     "Synonyms": "company-name, account, customer"
   },
   {
     "Dataset": "main-ordered-parts",
+    "Name": "part-num",
+    "Dimension": "[\"field\",33083,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "part, part-number"
+  },
+  {
+    "Dataset": "main-ordered-parts",
     "Name": "price",
-    "Dimension": "[\n                        \"field\",\n                        664,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
+    "Dimension": "[\r\n                        \"field\",\r\n                        33069,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ]",
     "Filters": "",
     "Synonyms": "amount"
   },
   {
     "Dataset": "main-ordered-parts",
-    "Name": "order",
-    "Dimension": "[\n                        \"field\",\n                        646,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
+    "Name": "category",
+    "Dimension": "[\"field\",33084,{\"base-type\": \"type/Text\"}]",
     "Filters": "",
-    "Synonyms": "order-id, order-num"
+    "Synonyms": "part-category, cat"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "subcategory",
+    "Dimension": "[\"field\",33090,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "part-subcategory, sub-category, sub-cat"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "brand",
+    "Dimension": "[\"field\",33089,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "part-brand"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "part-name",
+    "Dimension": "[\"field\",33082,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "name"
   },
   {
     "Dataset": "main-ordered-parts",
     "Name": "company-size",
-    "Dimension": "[\n                        \"field\",\n                        24676,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "account-size"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "company-size",
-    "Dimension": "[\n                    \"field\",\n                    371,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Dimension": "[\r\n                        \"field\",\r\n                        33080,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ]",
     "Filters": "",
     "Synonyms": "account-size"
   },
@@ -549,6 +528,20 @@
     "Dataset": "opportunities",
     "Name": "app-eng-team",
     "Dimension": "[\n                    \"field\",\n                    23232,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "order",
+    "Dimension": "[\"field\", 33060,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "order-num, order-id"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "design",
+    "Dimension": "[\r\n                        \"field\",\r\n                        33104,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ]",
     "Filters": "",
     "Synonyms": ""
   }
