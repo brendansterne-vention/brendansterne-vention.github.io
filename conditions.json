@@ -18,60 +18,6 @@
     "Synonyms": ""
   },
   {
-    "Dataset": "main-ordered-parts",
-    "Name": "robot",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19263,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Robots\"\n                ]",
-    "Synonyms": "robots"
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "fanuc",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19266,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"FANUC\"\n                ]",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "ur",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19266,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Universal Robots\"\n                ]",
-    "Synonyms": "universal-robots,universal-robot"
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "xl-extrusion",
-    "Filters": "[\n                    \"contains\",\n                    {\n                        \"case-sensitive\": true,\n                        \"effective-type\": \"type/Boolean\"\n                    },\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"ST-EXT-011-0540\",\n                    \"ST-EXT-011-2295\",\n                    \"ST-EXT-011-1845\",\n                    \"ST-EXT-011-1170\",\n                    \"ST-EXT-011-0900\"\n                ]",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "mmv2",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-010-0001\",\n                    \"CE-CL-010-0004\"\n                ]",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "mmai",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"\n                ]",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "mm",
-    "Filters": "[\n                    \"in\",\n                    [\n                        \"field\",\n                        667,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\",\n                    \"CE-CL-010-0001\",\n                    \"CE-CL-010-0004\"\n                ]",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "partner-part",
-    "Filters": "[\n                \"=\",\n                [\n                    \"field\",\n                    24660,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ],\n                \"true\"\n            ]\n",
-    "Synonyms": "partner"
-  },
-  {
-    "Dataset": "main-ordered-parts",
-    "Name": "panels",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        19263,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Panels and Table Tops\",\n                    {\n                        \"case-sensitive\": false,\n                        \"effective-type\": \"type/Boolean\"\n                    }\n                ]",
-    "Synonyms": "panel"
-  },
-  {
     "Dataset": "main-orders",
     "Name": "robot",
     "Filters": "[\n                    \">=\",\n                    [\n                        \"field\",\n                        347,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ],\n                    1\n                ]",
@@ -118,6 +64,48 @@
     "Name": "machine-builder",
     "Filters": "\"project='MachineBuilder'\"",
     "Synonyms": "mb"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "mmai",
+    "Filters": "[\r\n                    \"in\",\r\n                    [\r\n                        \"field\",\r\n                        33083,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"CE-CL-030-0000\",\r\n                    \"CE-CL-031-0000\",\r\n                    \"CE-CL-030-1500\",\r\n                    \"CE-CL-031-3000\"\r\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "mmv2",
+    "Filters": "[\r\n                    \"in\",\r\n                    [\r\n                        \"field\",\r\n                        33083,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"CE-CL-010-0001\",\r\n                    \"CE-CL-010-0004\"\r\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "ur",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        33089,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Universal Robots\"\r\n                ]",
+    "Synonyms": "universal-robots,universal-robot"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "fanuc",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        33089,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"FANUC\"\r\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "robot",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        33084,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Robots\"\r\n                ]",
+    "Synonyms": "robots"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "panels",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        33084,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Panels and Table Tops\",\r\n                    {\r\n                        \"case-sensitive\": false,\r\n                        \"effective-type\": \"type/Boolean\"\r\n                    }\r\n                ]",
+    "Synonyms": "panel"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "partner-part",
+    "Filters": "[\r\n                \"=\",\r\n                [\r\n                    \"field\",\r\n                    33060,\r\n                    {\r\n                        \"base-type\": \"type/Text\"\r\n                    }\r\n                ],\r\n                \"true\"\r\n            ]",
+    "Synonyms": "partner"
   },
   {
     "Dataset": "main-orders",
@@ -430,5 +418,17 @@
     "Name": "support",
     "Filters": "\"project='Vention Support'\"",
     "Synonyms": "vention-support, vs"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "mm",
+    "Filters": "[\r\n                    \"in\",\r\n                    [\r\n                        \"field\",\r\n                        33083,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"CE-CL-030-0000\",\r\n                    \"CE-CL-031-0000\",\r\n                    \"CE-CL-030-1500\",\r\n                    \"CE-CL-031-3000\",\r\n                    \"CE-CL-010-0001\",\r\n                    \"CE-CL-010-0004\"\r\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "xl-extrusion",
+    "Filters": "[\r\n                    \"contains\",\r\n                    {\r\n                        \"case-sensitive\": true,\r\n                        \"effective-type\": \"type/Boolean\"\r\n                    },\r\n                    [\r\n                        \"field\",\r\n                        33083,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"ST-EXT-011-0540\",\r\n                    \"ST-EXT-011-2295\",\r\n                    \"ST-EXT-011-1845\",\r\n                    \"ST-EXT-011-1170\",\r\n                    \"ST-EXT-011-0900\"\r\n                ]",
+    "Synonyms": ""
   }
 ]
