@@ -126,7 +126,7 @@
     "Dataset": "main-ordered-parts",
     "Measure": "[\"sum\",[\"field\",33092,{\"base-type\": \"type/Float\"}]]",
     "Timefield": "33063",
-    "Filters": "[[\"!=\",[\"field\",33070,{\"base-type\": \"type/Text\"}],\"cancelled\"]]",
+    "Filters": "[[\"!=\",[\"field\",33070,{\"base-type\": \"type/Text\"}],\"cancelled\"],\r\n[\"!=\",[\"field\",33075,{\"base-type\": \"type/Text\"}],\"zero\"]]",
     "Synonyms": "o-parts",
     "DatasetConfig": "{\"source-table\": 1205}",
     "CustomColumns": ""
@@ -462,7 +462,7 @@
     "Dataset": "main-ordered-parts",
     "Measure": "[]",
     "Timefield": "33063",
-    "Filters": "[[\"!=\",[\"field\",33070,{\"base-type\": \"type/Text\"}],\"cancelled\"]]",
+    "Filters": "[[\"!=\",[\"field\",33070,{\"base-type\": \"type/Text\"}],\"cancelled\"],\r\n[\"!=\",[\"field\",33075,{\"base-type\": \"type/Text\"}],\"zero\"]]",
     "Synonyms": "ordered-part-list,\r\nop-list,\r\nmain-order-line-items,\r\nmain-order-line-items-list,\r\norder-line-item-list,\r\norder-line-items-list",
     "DatasetConfig": "{\"source-table\": 1205}",
     "CustomColumns": ""
@@ -474,7 +474,7 @@
     "Dataset": "main-ordered-parts",
     "Measure": "[\"sum\",[\"field\",33069,{\"base-type\": \"type/Float\"}]]",
     "Timefield": "33063",
-    "Filters": "[[\"!=\",[\"field\",33070,{\"base-type\": \"type/Text\"}],\"cancelled\"]]",
+    "Filters": "[[\"!=\",[\"field\",33070,{\"base-type\": \"type/Text\"}],\"cancelled\"],\r\n[\"!=\",[\"field\",33075,{\"base-type\": \"type/Text\"}],\"zero\"]]",
     "Synonyms": "ordered-parts-bookings, \r\nordered-part-bookings, \r\npart-bookings, \r\nparts-bookings",
     "DatasetConfig": "{\"source-table\": 1205}",
     "CustomColumns": ""
