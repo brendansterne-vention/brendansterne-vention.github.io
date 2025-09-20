@@ -61,42 +61,6 @@
   },
   {
     "Zone": "",
-    "Name": "ordered-part-amount-sold",
-    "IsList": false,
-    "Dataset": "main-ordered-parts",
-    "Measure": "[\n                    \"sum\",\n                    [\n                        \"field\",\n                        664,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]\n                ]",
-    "Timefield": "666",
-    "Filters": "[[\"!=\",[\"field\",668,{\"base-type\": \"type/Text\"}],\"cancelled\"],\n[\"not-empty\",[\"field\",660,{\"base-type\": \"type/Text\"}]],\n[\"!=\",[\"field\",647,{\"base-type\": \"type/Text\"}],\"zero\"]]",
-    "Synonyms": "ordered-parts-bookings, \nordered-part-bookings, \npart-bookings, \nparts-bookings",
-    "DatasetConfig": "{\"source-table\": 43}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "ordered-parts",
-    "IsList": false,
-    "Dataset": "main-ordered-parts",
-    "Measure": "[\"sum\",[\"field\",669,{\"base-type\": \"type/Float\"}]]",
-    "Timefield": "666",
-    "Filters": "[[\"!=\",[\"field\",668,{\"base-type\": \"type/Text\"}],\"cancelled\"],\n[\"not-empty\",[\"field\",660,{\"base-type\": \"type/Text\"}]],\n[\"!=\",[\"field\",647,{\"base-type\": \"type/Text\"}],\"zero\"]]",
-    "Synonyms": "o-parts",
-    "DatasetConfig": "{\"source-table\": 43}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "ordered-parts-list",
-    "IsList": true,
-    "Dataset": "main-ordered-parts",
-    "Measure": "[]",
-    "Timefield": "666",
-    "Filters": "[[\"!=\",[\"field\",668,{\"base-type\": \"type/Text\"}],\"cancelled\"],\n[\"not-empty\",[\"field\",660,{\"base-type\": \"type/Text\"}]],\n[\"!=\",[\"field\",647,{\"base-type\": \"type/Text\"}],\"zero\"]]",
-    "Synonyms": "ordered-part-list,\nop-list,\nmain-order-line-items,\nmain-order-line-items-list,\norder-line-item-list,\norder-line-items-list",
-    "DatasetConfig": "{\"source-table\": 43}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
     "Name": "average-order-value",
     "IsList": false,
     "Dataset": "main-orders",
@@ -153,6 +117,18 @@
     "Filters": "[[\n                    \"!=\",\n                    [\n                        \"field\",\n                        31677,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Vention\"\n                ]]",
     "Synonyms": "",
     "DatasetConfig": "{\"source-table\": 1199}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
+    "Name": "ordered-parts",
+    "IsList": false,
+    "Dataset": "main-ordered-parts",
+    "Measure": "[\"sum\",[\"field\",33092,{\"base-type\": \"type/Float\"}]]",
+    "Timefield": "33063",
+    "Filters": "[[\"!=\",[\"field\",33070,{\"base-type\": \"type/Text\"}],\"cancelled\"]]",
+    "Synonyms": "o-parts",
+    "DatasetConfig": "{\"source-table\": 1205}",
     "CustomColumns": ""
   },
   {
@@ -259,6 +235,18 @@
     "Measure": "[\n                    \"sum\",\n                    [\n                        \"field\",\n                        24656,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ]\n                ]",
     "Timefield": "394",
     "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ]\n]\n",
+    "Synonyms": "",
+    "DatasetConfig": "{\"source-table\": 35}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
+    "Name": "subscription-bundle-bookings",
+    "IsList": false,
+    "Dataset": "main-orders",
+    "Measure": "[\n                    \"sum\",\n                    [\n                        \"field\",\n                        335,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]\n                ]",
+    "Timefield": "394",
+    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ],\n[\n                    \"is-null\",\n                    [\n                        \"field\",\n                        303,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]\n                ]\n\n]\n",
     "Synonyms": "",
     "DatasetConfig": "{\"source-table\": 35}",
     "CustomColumns": ""
@@ -468,15 +456,27 @@
     "CustomColumns": ""
   },
   {
-    "Zone": "n/a",
-    "Name": "subscription-bundle-bookings",
+    "Zone": "",
+    "Name": "ordered-parts-list",
+    "IsList": true,
+    "Dataset": "main-ordered-parts",
+    "Measure": "[]",
+    "Timefield": "33063",
+    "Filters": "[[\"!=\",[\"field\",33070,{\"base-type\": \"type/Text\"}],\"cancelled\"]]",
+    "Synonyms": "ordered-part-list,\r\nop-list,\r\nmain-order-line-items,\r\nmain-order-line-items-list,\r\norder-line-item-list,\r\norder-line-items-list",
+    "DatasetConfig": "{\"source-table\": 1205}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
+    "Name": "ordered-part-amount-sold",
     "IsList": false,
-    "Dataset": "main-orders",
-    "Measure": "[\r\n                    \"sum\",\r\n                    [\r\n                        \"field\",\r\n                        335,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ]\r\n                ]",
-    "Timefield": "394",
-    "Filters": "[\r\n         [\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22364,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ],\r\n                    0\r\n         ]\r\n\r\n]",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
+    "Dataset": "main-ordered-parts",
+    "Measure": "[\"sum\",[\"field\",33069,{\"base-type\": \"type/Float\"}]]",
+    "Timefield": "33063",
+    "Filters": "[[\"!=\",[\"field\",33070,{\"base-type\": \"type/Text\"}],\"cancelled\"]]",
+    "Synonyms": "ordered-parts-bookings, \r\nordered-part-bookings, \r\npart-bookings, \r\nparts-bookings",
+    "DatasetConfig": "{\"source-table\": 1205}",
     "CustomColumns": ""
   }
 ]
