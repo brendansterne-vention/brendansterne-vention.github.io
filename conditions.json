@@ -430,5 +430,11 @@
     "Name": "xl-extrusion",
     "Filters": "[\r\n                    \"contains\",\r\n                    {\r\n                        \"case-sensitive\": true,\r\n                        \"effective-type\": \"type/Boolean\"\r\n                    },\r\n                    [\r\n                        \"field\",\r\n                        33083,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"ST-EXT-011-0540\",\r\n                    \"ST-EXT-011-2295\",\r\n                    \"ST-EXT-011-1845\",\r\n                    \"ST-EXT-011-1170\",\r\n                    \"ST-EXT-011-0900\"\r\n                ]",
     "Synonyms": ""
+  },
+  {
+    "Dataset": "main-competitors",
+    "Name": "depalletizing",
+    "Filters": "[\r\n                    \"in\",\r\n                    [\r\n                        \"field\",\r\n                        29114,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"depalletizing\",\r\n                    \"Depalletizing\"\r\n                ]",
+    "Synonyms": "depalletizer, depal"
   }
 ]
