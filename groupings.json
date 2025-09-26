@@ -498,13 +498,6 @@
   },
   {
     "Dataset": "opportunities",
-    "Name": "primary-application-group",
-    "Dimension": "[\n                        \"field\",\n                        24664,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "primary-application-group, application, app-group"
-  },
-  {
-    "Dataset": "opportunities",
     "Name": "new-vs-existing",
     "Dimension": "[\n                    \"field\",\n                    23259,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
     "Filters": "",
@@ -544,5 +537,19 @@
     "Dimension": "[\r\n                        \"field\",\r\n                        33104,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ]",
     "Filters": "",
     "Synonyms": ""
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "primary-application-group",
+    "Dimension": "[\r\n                        \"field\",\r\n                        24664,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ]",
+    "Filters": "",
+    "Synonyms": "application-group, app-group"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "part",
+    "Dimension": "[\"field\",33707,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "part-num"
   }
 ]
