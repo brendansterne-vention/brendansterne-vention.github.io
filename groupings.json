@@ -197,13 +197,6 @@
   },
   {
     "Dataset": "main-designs",
-    "Name": "part",
-    "Dimension": "[\n                        \"field\",\n                        22371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "parts"
-  },
-  {
-    "Dataset": "main-designs",
     "Name": "has-design",
     "Dimension": "[\n                    \"not-empty\",\n                    [\n                        \"field\",\n                        307,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]\n                ]",
     "Filters": "",
@@ -271,6 +264,13 @@
     "Dimension": "[\r\n                        \"field\",\r\n                        33080,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ]",
     "Filters": "",
     "Synonyms": "account-size"
+  },
+  {
+    "Dataset": "main-designs",
+    "Name": "part",
+    "Dimension": "[\r\n                        \"field\",\r\n                        22371,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ]",
+    "Filters": "",
+    "Synonyms": "parts, part-num"
   },
   {
     "Dataset": "main-orders",
