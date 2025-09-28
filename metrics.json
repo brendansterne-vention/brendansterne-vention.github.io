@@ -61,18 +61,6 @@
   },
   {
     "Zone": "",
-    "Name": "average-order-value",
-    "IsList": false,
-    "Dataset": "main-orders",
-    "Measure": "[\n                    \"aggregation-options\",\n                    [\n                        \"/\",\n                        [\n                            \"sum\",\n                            [\n                                \"field\",\n                                380,\n                                {\n                                    \"base-type\": \"type/Float\"\n                                }\n                            ]\n                        ],\n                        [\n                            \"sum\",\n                            [\n                                \"field\",\n                                24656,\n                                {\n                                    \"base-type\": \"type/Number\"\n                                }\n                            ]\n                        ]\n                    ],\n                    {\n                        \"name\": \"Bookings / Sum of Order Count \",\n                        \"display-name\": \"Bookings / Sum of Order Count \"\n                    }\n                ]\n\n",
-    "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ]\n\n]\n",
-    "Synonyms": "aov",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
     "Name": "bookings",
     "IsList": false,
     "Dataset": "main-orders",
@@ -82,18 +70,6 @@
     "Synonyms": "sales",
     "DatasetConfig": "{\"source-table\": 35}",
     "CustomColumns": "{\n                \"machine-type\": [\n                    \"case\",\n                    [\n                        [\n                            [\n                                \"and\",\n                                [\n                                    \"<=\",\n                                    [\n                                        \"field\",\n                                        347,\n                                        {\n                                            \"base-type\": \"type/Float\"\n                                        }\n                                    ],\n                                    \"0\"\n                                ],\n                                [\n                                    \"<=\",\n                                    [\n                                        \"field\",\n                                        292,\n                                        {\n                                            \"base-type\": \"type/Float\"\n                                        }\n                                    ],\n                                    \"0\"\n                                ]\n                            ],\n                            \"structures\"\n                        ],\n                        [\n                            [\n                                \"and\",\n                                [\n                                    \">\",\n                                    [\n                                        \"field\",\n                                        347,\n                                        {\n                                            \"base-type\": \"type/Float\"\n                                        }\n                                    ],\n                                    \"0\"\n                                ],\n                                [\n                                    \"<=\",\n                                    [\n                                        \"field\",\n                                        292,\n                                        {\n                                            \"base-type\": \"type/Float\"\n                                        }\n                                    ],\n                                    \"0\"\n                                ]\n                            ],\n                            \"robots-no-mm\"\n                        ],\n                        [\n                            [\n                                \"and\",\n                                [\n                                    \"<=\",\n                                    [\n                                        \"field\",\n                                        347,\n                                        {\n                                            \"base-type\": \"type/Float\"\n                                        }\n                                    ],\n                                    \"0\"\n                                ],\n                                [\n                                    \">\",\n                                    [\n                                        \"field\",\n                                        292,\n                                        {\n                                            \"base-type\": \"type/Float\"\n                                        }\n                                    ],\n                                    \"0\"\n                                ]\n                            ],\n                            \"mm-no-robots\"\n                        ],\n                        [\n                            [\n                                \"and\",\n                                [\n                                    \">\",\n                                    [\n                                        \"field\",\n                                        347,\n                                        {\n                                            \"base-type\": \"type/Float\"\n                                        }\n                                    ],\n                                    \"0\"\n                                ],\n                                [\n                                    \">\",\n                                    [\n                                        \"field\",\n                                        292,\n                                        {\n                                            \"base-type\": \"type/Float\"\n                                        }\n                                    ],\n                                    \"0\"\n                                ]\n                            ],\n                            \"robots-with-mms\"\n                        ]\n                    ]\n                ]\n            }"
-  },
-  {
-    "Zone": "",
-    "Name": "bookings-cad",
-    "IsList": false,
-    "Dataset": "main-orders",
-    "Measure": "[\n                    \"aggregation-options\",\n                    [\n                        \"*\",\n                        [\n                            \"sum\",\n                            [\n                                \"field\",\n                                380,\n                                {\n                                    \"base-type\": \"type/Float\"\n                                }\n                            ]\n                        ],\n                        1.25\n                    ],\n                    {\n                        \"name\": \"Bookings (CAD)\",\n                        \"display-name\": \"Bookings (CAD)\"\n                    }\n                ]",
-    "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ]\n]\n",
-    "Synonyms": "sales-cad, cad-bookings",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
   },
   {
     "Zone": "",
@@ -130,6 +106,18 @@
     "Synonyms": "o-parts",
     "DatasetConfig": "{\"source-table\": 1205}",
     "CustomColumns": ""
+  },
+  {
+    "Zone": "",
+    "Name": "bookings-cad",
+    "IsList": false,
+    "Dataset": "main-orders",
+    "Measure": "[\r\n                    \"aggregation-options\",\r\n                    [\r\n                        \"*\",\r\n                        [\r\n                            \"sum\",\r\n                            [\r\n                                \"field\",\r\n                                380,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ]\r\n                        ],\r\n                        1.25\r\n                    ],\r\n                    {\r\n                        \"name\": \"Bookings (CAD)\",\r\n                        \"display-name\": \"Bookings (CAD)\"\r\n                    }\r\n                ]",
+    "Timefield": "394",
+    "Filters": "[\r\n         [\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22364,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ],\r\n                    0\r\n         ]\r\n]",
+    "Synonyms": "sales-cad, cad-bookings",
+    "DatasetConfig": "{\"source-table\": 35}",
+    "CustomColumns": "{ \"machine-type\": [ \"case\", [ [ [ \"and\", [ \"<=\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \"<=\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"structures\" ], [ [ \"and\", [ \">\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \"<=\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"robots-no-mm\" ], [ [ \"and\", [ \"<=\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \">\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"mm-no-robots\" ], [ [ \"and\", [ \">\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \">\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"robots-with-mms\" ] ] ] }"
   },
   {
     "Zone": "",
@@ -223,18 +211,6 @@
     "Measure": "[\n                    \"distinct\",\n                    [\n                        \"field\",\n                        386,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]\n                ]\n",
     "Timefield": "394",
     "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ],\n[\n                    \"is-null\",\n                    [\n                        \"field\",\n                        303,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]\n                ]\n\n]\n",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "orders",
-    "IsList": false,
-    "Dataset": "main-orders",
-    "Measure": "[\n                    \"sum\",\n                    [\n                        \"field\",\n                        24656,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ]\n                ]",
-    "Timefield": "394",
-    "Filters": "[\n         [\n                    \"=\",\n                    [\n                        \"field\",\n                        22364,\n                        {\n                            \"base-type\": \"type/Number\"\n                        }\n                    ],\n                    0\n         ]\n]\n",
     "Synonyms": "",
     "DatasetConfig": "{\"source-table\": 35}",
     "CustomColumns": ""
@@ -478,5 +454,29 @@
     "Synonyms": "ordered-parts-bookings, \r\nordered-part-bookings, \r\npart-bookings, \r\nparts-bookings",
     "DatasetConfig": "{\"source-table\": 1205}",
     "CustomColumns": ""
+  },
+  {
+    "Zone": "",
+    "Name": "average-order-value",
+    "IsList": false,
+    "Dataset": "main-orders",
+    "Measure": "[\r\n                    \"aggregation-options\",\r\n                    [\r\n                        \"/\",\r\n                        [\r\n                            \"sum\",\r\n                            [\r\n                                \"field\",\r\n                                380,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ]\r\n                        ],\r\n                        [\r\n                            \"sum\",\r\n                            [\r\n                                \"field\",\r\n                                24656,\r\n                                {\r\n                                    \"base-type\": \"type/Number\"\r\n                                }\r\n                            ]\r\n                        ]\r\n                    ],\r\n                    {\r\n                        \"name\": \"Bookings / Sum of Order Count \",\r\n                        \"display-name\": \"Bookings / Sum of Order Count \"\r\n                    }\r\n                ]",
+    "Timefield": "394",
+    "Filters": "[\r\n         [\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22364,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ],\r\n                    0\r\n         ]\r\n\r\n]",
+    "Synonyms": "aov",
+    "DatasetConfig": "{\"source-table\": 35}",
+    "CustomColumns": "{ \"machine-type\": [ \"case\", [ [ [ \"and\", [ \"<=\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \"<=\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"structures\" ], [ [ \"and\", [ \">\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \"<=\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"robots-no-mm\" ], [ [ \"and\", [ \"<=\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \">\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"mm-no-robots\" ], [ [ \"and\", [ \">\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \">\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"robots-with-mms\" ] ] ] }"
+  },
+  {
+    "Zone": "",
+    "Name": "orders",
+    "IsList": false,
+    "Dataset": "main-orders",
+    "Measure": "[\r\n                    \"sum\",\r\n                    [\r\n                        \"field\",\r\n                        24656,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ]\r\n                ]",
+    "Timefield": "394",
+    "Filters": "[\r\n         [\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22364,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ],\r\n                    0\r\n         ]\r\n]",
+    "Synonyms": "",
+    "DatasetConfig": "{\"source-table\": 35}",
+    "CustomColumns": "{ \"machine-type\": [ \"case\", [ [ [ \"and\", [ \"<=\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \"<=\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"structures\" ], [ [ \"and\", [ \">\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \"<=\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"robots-no-mm\" ], [ [ \"and\", [ \"<=\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \">\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"mm-no-robots\" ], [ [ \"and\", [ \">\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \">\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"robots-with-mms\" ] ] ] }"
   }
 ]
