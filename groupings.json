@@ -551,5 +551,12 @@
     "Dimension": "[\"field\",33707,{\"base-type\": \"type/Text\"}]",
     "Filters": "",
     "Synonyms": "part-num"
+  },
+  {
+    "Dataset": "main-designs",
+    "Name": "design",
+    "Dimension": "[\"field\",1283,{\"base-type\": \"type/Number\"}]",
+    "Filters": "",
+    "Synonyms": "design-id, id"
   }
 ]
