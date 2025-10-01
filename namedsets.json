@@ -72,15 +72,15 @@
     "Description": "Pneumatics"
   },
   {
-    "Name": "rsp2",
-    "Value": "[\"RS-PL-002-0001\",\"RS-PL-001-0001\",\"RS-PL-002-0011\",\"RS-PL-001-0011\"]",
-    "Synonyms": "rapid-series-palletizer-2",
-    "Description": "RSP 2.0 Bases"
-  },
-  {
     "Name": "rsp1",
     "Value": "[\"ST-RB-040-0001\",\"ST-RB-040-0011\",\"ST-RB-040-0101\",\"ST-RB-040-0111\",\"ST-RB-040-8001\",\"ST-RB-040-8011\",\"ST-RB-040-8101\",\"ST-RB-040-8111\",\"ST-RB-040-9001\",\"ST-RB-040-9011\",\"ST-RB-040-9101\",\"ST-RB-040-9111\"]",
     "Synonyms": "",
     "Description": "Rapid Series Palletizer Base"
+  },
+  {
+    "Name": "rsp2",
+    "Value": "[\"RS-PL-002-0001\",\"RS-PL-001-0001\",\"RS-PL-002-0011\",\"RS-PL-001-0011\",\"RS-PL-901-0001\",\"\r\nRS-PL-901-0008\",\"RS-PL-901-0011\",\"RS-PL-901-0018\",\"RS-PL-902-0011\",\"RS-PL-902-0018\",\"RS-PL-900-0001\",\"RS-PL-900-1001\"]",
+    "Synonyms": "rapid-series-palletizer-2",
+    "Description": "RSP 2.0 Bases"
   }
 ]
