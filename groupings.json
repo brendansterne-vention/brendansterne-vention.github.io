@@ -558,5 +558,12 @@
     "Dimension": "[\"field\",1283,{\"base-type\": \"type/Number\"}]",
     "Filters": "",
     "Synonyms": "design-id, id"
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "lost-reason",
+    "Dimension": "[\"field\",23270,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "loss-reason, closed-lost-reason, reason"
   }
 ]
