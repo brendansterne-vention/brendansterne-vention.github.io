@@ -1,11 +1,5 @@
 [
   {
-    "Name": "MMAI",
-    "Value": "[\"CE-CL-030-0000\",\n                    \"CE-CL-031-0000\",\n                    \"CE-CL-030-1500\",\n                    \"CE-CL-031-3000\"]",
-    "Synonyms": "MMAI_PART_IDS",
-    "Description": "MMAI Controller Part Numbers"
-  },
-  {
     "Name": "BELT_CONVEYOR",
     "Value": "[\"MO-CV-004-\", \"MO-CV-005-\", \"MO-CV-006-\", \"MO-CV-007-\",\n \"MO-CV-024-\", \"MO-CV-025-\", \"MO-CV-026-\", \"MO-CV-027-\"]",
     "Synonyms": "",
@@ -82,5 +76,11 @@
     "Value": "[\"RS-PL-002-0001\",\"RS-PL-001-0001\",\"RS-PL-002-0011\",\"RS-PL-001-0011\",\"RS-PL-901-0001\",\"RS-PL-901-0008\",\"RS-PL-901-0011\",\"RS-PL-901-0018\",\"RS-PL-902-0011\",\"RS-PL-902-0018\"]",
     "Synonyms": "rapid-series-palletizer-2",
     "Description": "RSP 2.0 Bases"
+  },
+  {
+    "Name": "mmai",
+    "Value": "[\"CE-CL-030-0000\",\r\n                    \"CE-CL-031-0000\",\r\n                    \"CE-CL-030-1500\",\r\n                    \"CE-CL-031-3000\"]",
+    "Synonyms": "MMAI_PART_IDS",
+    "Description": "MMAI Controller Part Numbers"
   }
 ]
