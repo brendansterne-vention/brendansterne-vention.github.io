@@ -436,5 +436,11 @@
     "Name": "depalletizing",
     "Filters": "[\r\n                    \"in\",\r\n                    [\r\n                        \"field\",\r\n                        29114,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"depalletizing\",\r\n                    \"Depalletizing\"\r\n                ]",
     "Synonyms": "depalletizer, depal"
+  },
+  {
+    "Dataset": "opportunities",
+    "Name": "ai-operator",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        24663,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"AI Operator\"\r\n                ]",
+    "Synonyms": ""
   }
 ]
