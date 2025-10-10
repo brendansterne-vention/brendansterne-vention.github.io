@@ -12,12 +12,6 @@
     "Description": "Vention Roller Conveyor Part Numbers"
   },
   {
-    "Name": "PALLETIZER_MA",
-    "Value": "[\"CE-SW-002-0004\"]",
-    "Synonyms": "",
-    "Description": "Palletizer Machine App Software"
-  },
-  {
     "Name": "SANDING_MA",
     "Value": "[\"CE-SW-002-0014\"]",
     "Synonyms": "",
@@ -82,5 +76,11 @@
     "Value": "[\"CE-CL-030-0000\",\r\n                    \"CE-CL-031-0000\",\r\n                    \"CE-CL-030-1500\",\r\n                    \"CE-CL-031-3000\"]",
     "Synonyms": "MMAI_PART_IDS",
     "Description": "MMAI Controller Part Numbers"
+  },
+  {
+    "Name": "palletizer-app",
+    "Value": "[\"CE-SW-002-0004\"]",
+    "Synonyms": "ma-palletizer",
+    "Description": "Palletizer Machine App Software"
   }
 ]
