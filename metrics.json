@@ -433,6 +433,18 @@
   },
   {
     "Zone": "",
+    "Name": "ordered-robot-units",
+    "IsList": false,
+    "Dataset": "main-orders",
+    "Measure": "[\r\n                    \"sum\",\r\n                    [\r\n                        \"field\",\r\n                        347,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ]\r\n                ]",
+    "Timefield": "394",
+    "Filters": "[\r\n         [\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22364,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ],\r\n                    0\r\n         ]\r\n]",
+    "Synonyms": "ordered-robots, ordered-robots,units",
+    "DatasetConfig": "{\"source-table\": 35}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
     "Name": "ordered-parts-list",
     "IsList": true,
     "Dataset": "main-ordered-parts",
