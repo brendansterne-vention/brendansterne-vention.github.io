@@ -88,5 +88,23 @@
     "Value": "[\"PR-SH-001-0001\"]",
     "Synonyms": "welding-table",
     "Description": ""
+  },
+  {
+    "Name": "smooth-tool",
+    "Value": "[\"PR-SR-001-0001\",\"PR-SR-001-0002\"]",
+    "Synonyms": "smooth-tool-flange",
+    "Description": ""
+  },
+  {
+    "Name": "tending-kit",
+    "Value": "[\"RS-MT-000-0001\",\"RS-MT-000-0101\"]",
+    "Synonyms": "machine-tending-kit, tending-base, machine-tending-base",
+    "Description": ""
+  },
+  {
+    "Name": "palletizer-base",
+    "Value": "[\"RS-PL-002-0001\",\"RS-PL-001-0001\",\"RS-PL-002-0011\",\"RS-PL-001-0011\",\"RS-PL-901-0001\",\"RS-PL-901-0008\",\"RS-PL-901-0011\",\"RS-PL-901-0018\",\"RS-PL-902-0011\",\"RS-PL-902-0018\"]",
+    "Synonyms": "",
+    "Description": ""
   }
 ]
