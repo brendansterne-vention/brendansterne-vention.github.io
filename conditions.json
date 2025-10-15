@@ -42,18 +42,6 @@
     "Synonyms": ""
   },
   {
-    "Dataset": "main-orders",
-    "Name": "new-account",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22118,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"New\"\n                ]",
-    "Synonyms": "new, new-logo"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "existing-account",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        22118,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Existing\"\n                ]",
-    "Synonyms": "existing, recurring"
-  },
-  {
     "Dataset": "jira",
     "Name": "open",
     "Filters": "\"resolution=Unresolved and status!=Rejected\"",
@@ -109,6 +97,18 @@
   },
   {
     "Dataset": "main-orders",
+    "Name": "new-account",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22010,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"New\"\r\n                ]",
+    "Synonyms": "new, new-logo"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "existing-account",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22010,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Existing\"\r\n                ]",
+    "Synonyms": "existing, recurring"
+  },
+  {
+    "Dataset": "main-orders",
     "Name": "enterprise",
     "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Enterprise\"\n                ]",
     "Synonyms": ""
@@ -133,27 +133,9 @@
   },
   {
     "Dataset": "main-orders",
-    "Name": "vap",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        327,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"VAP\"\n                ]\n",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "emea",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        21905,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"EMEA\"\n                ]\n",
-    "Synonyms": "europe"
-  },
-  {
-    "Dataset": "main-orders",
     "Name": "fulfilled",
     "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        416,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"fulfilled\"\n                ]",
     "Synonyms": "fullfilled"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "north-america",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        21905,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"North America\"\n                ]\n",
-    "Synonyms": "na"
   },
   {
     "Dataset": "main-parts",
@@ -226,6 +208,18 @@
     "Name": "machine-logic",
     "Filters": "\"project='Machine Logic'\"",
     "Synonyms": "ml"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "emea",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        379,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"HVS Berlin\"\r\n                ]",
+    "Synonyms": "europe"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "north-america",
+    "Filters": "[\r\n                    \"!=\",\r\n                    [\r\n                        \"field\",\r\n                        379,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"HVS Berlin\"\r\n                ]",
+    "Synonyms": "na"
   },
   {
     "Dataset": "opportunities",
@@ -459,6 +453,18 @@
     "Dataset": "main-orders",
     "Name": "vention-services",
     "Filters": "[\r\n                    \"!=\",\r\n                    [\r\n                        \"field\",\r\n                        390,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ],\r\n                    0\r\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "vap",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        35876,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"VAP\"\r\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "applications-v2",
+    "Filters": "[\r\n                \"or\",\r\n                [\r\n                    \"in\",\r\n                    [\r\n                        \"field\",\r\n                        319,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Cobot Palletizer\", \"Case Packing\", \"Depalletizer\", \"Industrial Robot Palletizer\"\r\n                ],\r\n                [\r\n                    \"and\",\r\n                    [\r\n                        \"in\",\r\n                        [\r\n                            \"field\",\r\n                            319,\r\n                            {\r\n                                \"base-type\": \"type/Text\"\r\n                            }\r\n                        ],\r\n                        \"Machine Tending\",\r\n                        \"Welding\",\r\n                        \"Pick & Place\",\r\n                        \"Full end-of line packaging\",\r\n                        \"Sanding & Surface Finishing\"\r\n                    ],\r\n                    [\r\n                        \"or\",\r\n                        [\r\n                            \"!=\",\r\n                            [\r\n                                \"field\",\r\n                                324,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ],\r\n                            0\r\n                        ],\r\n                        [\r\n                            \"!=\",\r\n                            [\r\n                                \"field\",\r\n                                390,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ],\r\n                            0\r\n                        ]\r\n                    ]\r\n                ]\r\n            ]",
     "Synonyms": ""
   }
 ]
