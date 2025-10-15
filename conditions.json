@@ -442,5 +442,17 @@
     "Name": "ai-operator",
     "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        24663,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"AI Operator\"\r\n                ]",
     "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "always-applications",
+    "Filters": "[\r\n                    \"in\",\r\n                    [\r\n                        \"field\",\r\n                        319,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Cobot Palletizer\",\r\n                    \"Case Packing\",\r\n                    \"Depalletizer\",\r\n                    \"Industrial Robot Palletizer\"\r\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "sometimes-applications",
+    "Filters": "[\r\n                    \"in\",\r\n                    [\r\n                        \"field\",\r\n                        319,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Machine Tending\",\r\n                    \"Welding\",\r\n                    \"Pick & Place\",\r\n                    \"Cartesian Palletizer\",\r\n                    \"Full end-of line packaging\",\r\n                    \"Sanding & Surface Finishing\"\r\n                ]",
+    "Synonyms": ""
   }
 ]
