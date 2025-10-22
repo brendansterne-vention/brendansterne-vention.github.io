@@ -599,6 +599,6 @@
     "Name": "serial-number",
     "Dimension": "[\"field\",31394,{\"base-type\": \"type/Text\"}]",
     "Filters": "",
-    "Synonyms": ""
+    "Synonyms": "sn"
   }
 ]
