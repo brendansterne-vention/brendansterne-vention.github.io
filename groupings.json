@@ -239,13 +239,6 @@
   },
   {
     "Dataset": "main-ordered-parts",
-    "Name": "subcategory",
-    "Dimension": "[\"field\",33090,{\"base-type\": \"type/Text\"}]",
-    "Filters": "",
-    "Synonyms": "part-subcategory, sub-category, sub-cat"
-  },
-  {
-    "Dataset": "main-ordered-parts",
     "Name": "brand",
     "Dimension": "[\"field\",33089,{\"base-type\": \"type/Text\"}]",
     "Filters": "",
@@ -271,6 +264,13 @@
     "Dimension": "[\r\n                        \"field\",\r\n                        22371,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ]",
     "Filters": "",
     "Synonyms": "parts, part-num"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "subcategory",
+    "Dimension": "[\"field\",33090,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "part-subcategory, sub-category, subcat, sub-cat"
   },
   {
     "Dataset": "main-orders",
@@ -334,13 +334,6 @@
     "Dimension": "[\n                    \"field\",\n                   327,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
     "Filters": "",
     "Synonyms": ""
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "account-type",
-    "Dimension": "[\n                    \"field\",\n                   22118,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": "company-type, new-existing"
   },
   {
     "Dataset": "main-orders",
@@ -565,5 +558,47 @@
     "Dimension": "[\"field\",23270,{\"base-type\": \"type/Text\"}]",
     "Filters": "",
     "Synonyms": "loss-reason, closed-lost-reason, reason"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "account-type",
+    "Dimension": "[\"field\",22010,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "company-type, new-existing"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "channel-type",
+    "Dimension": "[\r\n                        \"field\",\r\n                        35876,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ]",
+    "Filters": "",
+    "Synonyms": "channel"
+  },
+  {
+    "Dataset": "main-machine-actions",
+    "Name": "event-type",
+    "Dimension": "[\"field\",31395,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "type"
+  },
+  {
+    "Dataset": "main-machine-actions",
+    "Name": "event-name",
+    "Dimension": "[\"field\",31397,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "name"
+  },
+  {
+    "Dataset": "main-machine-actions",
+    "Name": "company",
+    "Dimension": "[\"field\",31677,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "company-name"
+  },
+  {
+    "Dataset": "main-machine-actions",
+    "Name": "serial-number",
+    "Dimension": "[\"field\",31394,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": ""
   }
 ]
