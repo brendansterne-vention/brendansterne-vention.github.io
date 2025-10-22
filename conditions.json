@@ -466,5 +466,35 @@
     "Name": "applications-v2",
     "Filters": "[\r\n                \"or\",\r\n                [\r\n                    \"in\",\r\n                    [\r\n                        \"field\",\r\n                        319,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Cobot Palletizer\", \"Case Packing\", \"Depalletizer\", \"Industrial Robot Palletizer\"\r\n                ],\r\n                [\r\n                    \"and\",\r\n                    [\r\n                        \"in\",\r\n                        [\r\n                            \"field\",\r\n                            319,\r\n                            {\r\n                                \"base-type\": \"type/Text\"\r\n                            }\r\n                        ],\r\n                        \"Machine Tending\",\r\n                        \"Welding\",\r\n                        \"Pick & Place\",\r\n                        \"Full end-of line packaging\",\r\n                        \"Sanding & Surface Finishing\"\r\n                    ],\r\n                    [\r\n                        \"or\",\r\n                        [\r\n                            \"!=\",\r\n                            [\r\n                                \"field\",\r\n                                324,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ],\r\n                            0\r\n                        ],\r\n                        [\r\n                            \"!=\",\r\n                            [\r\n                                \"field\",\r\n                                390,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ],\r\n                            0\r\n                        ]\r\n                    ]\r\n                ]\r\n            ]",
     "Synonyms": ""
+  },
+  {
+    "Dataset": "main-machine-actions",
+    "Name": "remote-support",
+    "Filters": "[\"=\",[\"field\",31395,{\"base-type\":\"type/Text\"}],\"zendesk remote support ticket\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-partsdb",
+    "Name": "material-handling",
+    "Filters": "[\"=\",[\"field\",19232,{\"base-type\":\"type/Text\"}],\"Material Handling\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "material-handling",
+    "Filters": "[\"=\",[\"field\",33084,{\"base-type\":\"type/Text\"}],\"Material Handling\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "zdt",
+    "Filters": "[\"=\",[\"field\",296,{\"base-type\":\"type/Text\"}],\"zero\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "machine-action",
+    "Name": "remote-support-requests",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        31395,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"zendesk remote support ticket\"\r\n                ]",
+    "Synonyms": "rs-requests"
   }
 ]
