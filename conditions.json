@@ -18,30 +18,6 @@
     "Synonyms": ""
   },
   {
-    "Dataset": "main-orders",
-    "Name": "robot",
-    "Filters": "[\n                    \">=\",\n                    [\n                        \"field\",\n                        347,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ],\n                    1\n                ]",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "structural",
-    "Filters": "[\n                     \"in\",\n                    [\n                        \"field\",\n                        366,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Parts\",\n                    \"Structural\"\n\n\n                ]\n",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "automation",
-    "Filters": "[\n                   \"=\",\n                    [\n                        \"field\",\n                        366,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Automation\"\n                ]\n\n",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "robotics",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        366,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Robotics\"\n\n                ]\n",
-    "Synonyms": ""
-  },
-  {
     "Dataset": "jira",
     "Name": "open",
     "Filters": "\"resolution=Unresolved and status!=Rejected\"",
@@ -96,46 +72,40 @@
     "Synonyms": "partner"
   },
   {
-    "Dataset": "main-orders",
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "robotics",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        366,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Robotics\"\r\n\r\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
     "Name": "new-account",
     "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22010,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"New\"\r\n                ]",
     "Synonyms": "new, new-logo"
   },
   {
-    "Dataset": "main-orders",
+    "Dataset": "main-orders-with-cancellations",
     "Name": "existing-account",
     "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22010,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Existing\"\r\n                ]",
     "Synonyms": "existing, recurring"
   },
   {
-    "Dataset": "main-orders",
-    "Name": "enterprise",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Enterprise\"\n                ]",
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "automation",
+    "Filters": "[\r\n                   \"=\",\r\n                    [\r\n                        \"field\",\r\n                        366,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Automation\"\r\n                ]",
     "Synonyms": ""
   },
   {
-    "Dataset": "main-orders",
-    "Name": "academia",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        371,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Academia & Government Research\"\n                ]",
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "structural",
+    "Filters": "[\r\n                     \"in\",\r\n                    [\r\n                        \"field\",\r\n                        366,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Parts\",\r\n                    \"Structural\"\r\n\r\n\r\n                ]",
     "Synonyms": ""
   },
   {
-    "Dataset": "main-orders",
-    "Name": "platform",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        327,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Platform\"\n                ]\n",
-    "Synonyms": "hvs"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "application",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        327,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"APP\"\n                ]\n",
-    "Synonyms": "applications,app"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "fulfilled",
-    "Filters": "[\n                    \"=\",\n                    [\n                        \"field\",\n                        416,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"fulfilled\"\n                ]",
-    "Synonyms": "fullfilled"
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "robot",
+    "Filters": "[\r\n                    \">=\",\r\n                    [\r\n                        \"field\",\r\n                        347,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ],\r\n                    1\r\n                ]",
+    "Synonyms": ""
   },
   {
     "Dataset": "main-parts",
@@ -210,16 +180,40 @@
     "Synonyms": "ml"
   },
   {
-    "Dataset": "main-orders",
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "application",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        327,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"APP\"\r\n                ]",
+    "Synonyms": "applications,app"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
     "Name": "emea",
     "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        379,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"HVS Berlin\"\r\n                ]",
     "Synonyms": "europe"
   },
   {
-    "Dataset": "main-orders",
+    "Dataset": "main-orders-with-cancellations",
     "Name": "north-america",
     "Filters": "[\r\n                    \"!=\",\r\n                    [\r\n                        \"field\",\r\n                        379,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"HVS Berlin\"\r\n                ]",
     "Synonyms": "na"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "platform",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        327,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Platform\"\r\n                ]",
+    "Synonyms": "hvs"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "academia",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        371,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Academia & Government Research\"\r\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "enterprise",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        371,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Enterprise\"\r\n                ]",
+    "Synonyms": ""
   },
   {
     "Dataset": "opportunities",
@@ -438,39 +432,45 @@
     "Synonyms": ""
   },
   {
-    "Dataset": "main-orders",
-    "Name": "always-applications",
-    "Filters": "[\r\n                    \"in\",\r\n                    [\r\n                        \"field\",\r\n                        319,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Cobot Palletizer\",\r\n                    \"Case Packing\",\r\n                    \"Depalletizer\",\r\n                    \"Industrial Robot Palletizer\"\r\n                ]",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "ready-to-deploy",
-    "Filters": "[\r\n                    \"!=\",\r\n                    [\r\n                        \"field\",\r\n                        324,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ],\r\n                    0\r\n                ]",
-    "Synonyms": "turnkey"
-  },
-  {
-    "Dataset": "main-orders",
+    "Dataset": "main-orders-with-cancellations",
     "Name": "vention-services",
     "Filters": "[\r\n                    \"!=\",\r\n                    [\r\n                        \"field\",\r\n                        390,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ],\r\n                    0\r\n                ]",
     "Synonyms": ""
   },
   {
     "Dataset": "main-orders",
+    "Name": "existing-account",
+    "Filters": "[\"=\",[\"field\",22010,{\"base-type\":\"type/Text\"}],\"Existing\"]",
+    "Synonyms": "existing, recurring"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "ready-to-deploy",
+    "Filters": "[\r\n                    \"!=\",\r\n                    [\r\n                        \"field\",\r\n                        324,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ],\r\n                    0\r\n                ]",
+    "Synonyms": "turnkey"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "always-applications",
+    "Filters": "[\r\n                    \"in\",\r\n                    [\r\n                        \"field\",\r\n                        319,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Cobot Palletizer\",\r\n                    \"Case Packing\",\r\n                    \"Depalletizer\",\r\n                    \"Industrial Robot Palletizer\"\r\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
     "Name": "vap",
     "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        35876,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"VAP\"\r\n                ]",
     "Synonyms": ""
   },
   {
     "Dataset": "main-orders",
-    "Name": "applications-v2",
-    "Filters": "[\r\n                \"or\",\r\n                [\r\n                    \"in\",\r\n                    [\r\n                        \"field\",\r\n                        319,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Cobot Palletizer\", \"Case Packing\", \"Depalletizer\", \"Industrial Robot Palletizer\"\r\n                ],\r\n                [\r\n                    \"and\",\r\n                    [\r\n                        \"in\",\r\n                        [\r\n                            \"field\",\r\n                            319,\r\n                            {\r\n                                \"base-type\": \"type/Text\"\r\n                            }\r\n                        ],\r\n                        \"Machine Tending\",\r\n                        \"Welding\",\r\n                        \"Pick & Place\",\r\n                        \"Full end-of line packaging\",\r\n                        \"Sanding & Surface Finishing\"\r\n                    ],\r\n                    [\r\n                        \"or\",\r\n                        [\r\n                            \"!=\",\r\n                            [\r\n                                \"field\",\r\n                                324,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ],\r\n                            0\r\n                        ],\r\n                        [\r\n                            \"!=\",\r\n                            [\r\n                                \"field\",\r\n                                390,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ],\r\n                            0\r\n                        ]\r\n                    ]\r\n                ]\r\n            ]",
+    "Name": "enterprise",
+    "Filters": "[\"=\",[\"field\", 37335,{\"base-type\":\"type/Text\"}],\"Enterprise\"]",
     "Synonyms": ""
   },
   {
-    "Dataset": "main-machine-actions",
-    "Name": "remote-support",
-    "Filters": "[\"=\",[\"field\",31395,{\"base-type\":\"type/Text\"}],\"zendesk remote support ticket\"]",
+    "Dataset": "main-orders",
+    "Name": "academia",
+    "Filters": "[\"=\",[\"field\",37335,{\"base-type\":\"type/Text\"}],\"Academia & Government Research\"]",
     "Synonyms": ""
   },
   {
@@ -486,15 +486,111 @@
     "Synonyms": ""
   },
   {
-    "Dataset": "main-orders",
+    "Dataset": "main-machine-actions",
+    "Name": "remote-support",
+    "Filters": "[\"=\",[\"field\",31395,{\"base-type\":\"type/Text\"}],\"zendesk remote support ticket\"]",
+    "Synonyms": "rs-requests, remote-support-requests"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "expiration-date-sub",
+    "Filters": "[\"time-interval\",[\"field\",19480,{\"base-type\":\"type/DateTimeWithLocalTZ\"}],0,\"month\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
     "Name": "zdt",
     "Filters": "[\"=\",[\"field\",296,{\"base-type\":\"type/Text\"}],\"zero\"]",
     "Synonyms": ""
   },
   {
-    "Dataset": "machine-action",
-    "Name": "remote-support-requests",
-    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        31395,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"zendesk remote support ticket\"\r\n                ]",
-    "Synonyms": "rs-requests"
+    "Dataset": "main-orders",
+    "Name": "robot",
+    "Filters": "[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],0]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "structural",
+    "Filters": "[\"in\",[\"field\",37384,{\"base-type\":\"type/Text\"}],\"Parts\",\"Structural\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "automation",
+    "Filters": "[\"in\",[\"field\",37384,{\"base-type\":\"type/Text\"}],\"Automation\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "robotics",
+    "Filters": "[\"in\",[\"field\",37384,{\"base-type\":\"type/Text\"}],\"Robotics\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "new-account",
+    "Filters": "[\"=\",[\"field\",22010,{\"base-type\":\"type/Text\"}],\"New\"]",
+    "Synonyms": "new, new-logo"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "applications-v2",
+    "Filters": "[\r\n                \"or\",\r\n                [\r\n                    \"in\",\r\n                    [\r\n                        \"field\",\r\n                        319,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Cobot Palletizer\", \"Case Packing\", \"Depalletizer\", \"Industrial Robot Palletizer\"\r\n                ],\r\n                [\r\n                    \"and\",\r\n                    [\r\n                        \"in\",\r\n                        [\r\n                            \"field\",\r\n                            319,\r\n                            {\r\n                                \"base-type\": \"type/Text\"\r\n                            }\r\n                        ],\r\n                        \"Machine Tending\",\r\n                        \"Welding\",\r\n                        \"Pick & Place\",\r\n                        \"Full end-of line packaging\",\r\n                        \"Sanding & Surface Finishing\"\r\n                    ],\r\n                    [\r\n                        \"or\",\r\n                        [\r\n                            \"!=\",\r\n                            [\r\n                                \"field\",\r\n                                324,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ],\r\n                            0\r\n                        ],\r\n                        [\r\n                            \"!=\",\r\n                            [\r\n                                \"field\",\r\n                                390,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ],\r\n                            0\r\n                        ]\r\n                    ]\r\n                ]\r\n            ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "fulfilled",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        416,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"fulfilled\"\r\n                ]",
+    "Synonyms": "fullfilled"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "north-america",
+    "Filters": "[\"!=\",[\"field\",37385,{\"base-type\":\"type/Text\"}],\"North America\"]",
+    "Synonyms": "na"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "emea",
+    "Filters": "[\"!=\",[\"field\",37385,{\"base-type\":\"type/Text\"}],\"EMEA\"]",
+    "Synonyms": "europe"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "vap",
+    "Filters": "[\"=\",[\"field\",37390,{\"base-type\":\"type/Text\"}],\"VAP\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "fulfilled",
+    "Filters": "[\"=\",[\"field\",37362,{\"base-type\":\"type/Text\"}],\"fulfilled\"]",
+    "Synonyms": "fullfilled"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "always-applications",
+    "Filters": "[\"in\",[\"field\",37369,{\"base-type\":\"type/Text\"}],\"Cobot Palletizer\", \"Case Packing\", \"Depalletizer\", \"Industrial Robot Palletizer\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "vention-services",
+    "Filters": "[\"!=\",[\"field\",37353,{\"base-type\":\"type/Float\"}],0]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "ready-to-deploy",
+    "Filters": "[\"!=\",[\"field\",37392,{\"base-type\":\"type/Float\"}],0]",
+    "Synonyms": "turnkey"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "applications-v2",
+    "Filters": "[\r\n                \"or\",\r\n                [\r\n                    \"in\",\r\n                    [\r\n                        \"field\",\r\n                        37369,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Cobot Palletizer\", \"Case Packing\", \"Depalletizer\", \"Industrial Robot Palletizer\"\r\n                ],\r\n                [\r\n                    \"and\",\r\n                    [\r\n                        \"in\",\r\n                        [\r\n                            \"field\",\r\n                            37369,\r\n                            {\r\n                                \"base-type\": \"type/Text\"\r\n                            }\r\n                        ],\r\n                        \"Machine Tending\",\r\n                        \"Welding\",\r\n                        \"Pick & Place\",\r\n                        \"Full end-of line packaging\",\r\n                        \"Sanding & Surface Finishing\"\r\n                    ],\r\n                    [\r\n                        \"or\",\r\n                        [\r\n                            \"!=\",\r\n                            [\r\n                                \"field\",\r\n                                37353,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ],\r\n                            0\r\n                        ],\r\n                        [\r\n                            \"!=\",\r\n                            [\r\n                                \"field\",\r\n                                37392,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ],\r\n                            0\r\n                        ]\r\n                    ]\r\n                ]\r\n            ]",
+    "Synonyms": ""
   }
 ]
