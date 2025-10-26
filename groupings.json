@@ -203,13 +203,6 @@
     "Synonyms": "has-designs, pic, pictures, has-pic, has-pictures"
   },
   {
-    "Dataset": "main-orders",
-    "Name": "company-size",
-    "Dimension": "[\n                    \"field\",\n                    371,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": "account-size"
-  },
-  {
     "Dataset": "main-ordered-parts",
     "Name": "company",
     "Dimension": "[\"field\",33091,{\"base-type\": \"type/Text\"}]",
@@ -236,6 +229,13 @@
     "Dimension": "[\"field\",33084,{\"base-type\": \"type/Text\"}]",
     "Filters": "",
     "Synonyms": "part-category, cat"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "company-size",
+    "Dimension": "[\r\n                    \"field\",\r\n                    371,\r\n                    {\r\n                        \"base-type\": \"type/Text\"\r\n                    }\r\n                ]",
+    "Filters": "",
+    "Synonyms": "account-size"
   },
   {
     "Dataset": "main-ordered-parts",
@@ -271,118 +271,6 @@
     "Dimension": "[\"field\",33090,{\"base-type\": \"type/Text\"}]",
     "Filters": "",
     "Synonyms": "part-subcategory, sub-category, subcat, sub-cat"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "closing-team",
-    "Dimension": "[\n                    \"field\",\n                    379,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]\n\n\n",
-    "Filters": "",
-    "Synonyms": "sales-team, closing-rep-team"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "primary-application",
-    "Dimension": " [\n                        \"field\",\n                        319,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]\n               ",
-    "Filters": "",
-    "Synonyms": "app, application"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "opportunity-name",
-    "Dimension": "[\n                        \"field\",\n                        323,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "name"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "price",
-    "Dimension": "[\n                        \"field\",\n                        380,\n                        {\n                            \"base-type\": \"type/Float\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "total,net-sales,net-sale,bookings,booking,amount"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "robot-units",
-    "Dimension": "[\n                    \"field\",\n                    347,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": "robots, robot"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "machine-motion-units",
-    "Dimension": "[\n                    \"field\",\n                   292,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": "machine-motion, machine-motions, mms, mm"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "order-type",
-    "Dimension": "[\n                    \"field\",\n                    286,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "company",
-    "Dimension": "[\n                    \"field\",\n                   299,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": "account, account-name, customer"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "sales-motion",
-    "Dimension": "[\n                    \"field\",\n                   327,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "sales-office",
-    "Dimension": "[\n                    \"field\",\n                   21905,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": "region"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "design-scope",
-    "Dimension": "[\n                    \"field\",\n                   21790,\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "design",
-    "Dimension": "[\n                        \"field\",\n                        307,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "design-list"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "order-status",
-    "Dimension": "[\n                        \"field\",\n                        416,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "status"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "order",
-    "Dimension": "[\n                        \"field\",\n                        362,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "order-id, order-num"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "date",
-    "Dimension": "[\n                        \"field\",\n                        394,\n                        {\n                            \"base-type\": \"type/Date\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "time"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "machine-type",
-    "Dimension": "[\n                    \"expression\",\n                    \"machine-type\",\n                    {\n                        \"base-type\": \"type/Text\"\n                    }\n                ]",
-    "Filters": "",
-    "Synonyms": ""
   },
   {
     "Dataset": "main-partsdb",
@@ -476,6 +364,104 @@
     "Synonyms": "stagename, stage-name"
   },
   {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "machine-type",
+    "Dimension": "[\r\n                    \"expression\",\r\n                    \"machine-type\",\r\n                    {\r\n                        \"base-type\": \"type/Text\"\r\n                    }\r\n                ]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "date",
+    "Dimension": "[\r\n                        \"field\",\r\n                        394,\r\n                        {\r\n                            \"base-type\": \"type/Date\"\r\n                        }\r\n                    ]",
+    "Filters": "",
+    "Synonyms": "time"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "order-status",
+    "Dimension": "[\r\n                        \"field\",\r\n                        416,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ]",
+    "Filters": "",
+    "Synonyms": "status"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "design",
+    "Dimension": "[\r\n                        \"field\",\r\n                        307,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ]",
+    "Filters": "",
+    "Synonyms": "design-list"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "design-scope",
+    "Dimension": "[\r\n                    \"field\",\r\n                   21790,\r\n                    {\r\n                        \"base-type\": \"type/Text\"\r\n                    }\r\n                ]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "sales-office",
+    "Dimension": "[\r\n                    \"field\",\r\n                   21905,\r\n                    {\r\n                        \"base-type\": \"type/Text\"\r\n                    }\r\n                ]",
+    "Filters": "",
+    "Synonyms": "region"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "sales-motion",
+    "Dimension": "[\r\n                    \"field\",\r\n                   327,\r\n                    {\r\n                        \"base-type\": \"type/Text\"\r\n                    }\r\n                ]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "company",
+    "Dimension": "[\r\n                    \"field\",\r\n                   299,\r\n                    {\r\n                        \"base-type\": \"type/Text\"\r\n                    }\r\n                ]",
+    "Filters": "",
+    "Synonyms": "account, account-name, customer"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "order-type",
+    "Dimension": "[\r\n                    \"field\",\r\n                    286,\r\n                    {\r\n                        \"base-type\": \"type/Text\"\r\n                    }\r\n                ]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "machine-motion-units",
+    "Dimension": "[\r\n                    \"field\",\r\n                   292,\r\n                    {\r\n                        \"base-type\": \"type/Text\"\r\n                    }\r\n                ]",
+    "Filters": "",
+    "Synonyms": "machine-motion, machine-motions, mms, mm"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "robot-units",
+    "Dimension": "[\r\n                    \"field\",\r\n                    347,\r\n                    {\r\n                        \"base-type\": \"type/Text\"\r\n                    }\r\n                ]",
+    "Filters": "",
+    "Synonyms": "robots, robot"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "opportunity-name",
+    "Dimension": "[\r\n                        \"field\",\r\n                        323,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ]",
+    "Filters": "",
+    "Synonyms": "name"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "primary-application",
+    "Dimension": "[\r\n                        \"field\",\r\n                        319,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ]",
+    "Filters": "",
+    "Synonyms": "app, application"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "closing-team",
+    "Dimension": "[\r\n                    \"field\",\r\n                    379,\r\n                    {\r\n                        \"base-type\": \"type/Text\"\r\n                    }\r\n                ]",
+    "Filters": "",
+    "Synonyms": "sales-team, closing-rep-team"
+  },
+  {
     "Dataset": "opportunities",
     "Name": "secondary-application",
     "Dimension": "[\n                        \"field\",\n                        24663,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
@@ -540,10 +526,10 @@
   },
   {
     "Dataset": "main-orders",
-    "Name": "part",
-    "Dimension": "[\"field\",33707,{\"base-type\": \"type/Text\"}]",
+    "Name": "design",
+    "Dimension": "[\"field\",37324,{\"base-type\": \"type/Text\"}]",
     "Filters": "",
-    "Synonyms": "part-num"
+    "Synonyms": "design-list"
   },
   {
     "Dataset": "main-designs",
@@ -558,20 +544,6 @@
     "Dimension": "[\"field\",23270,{\"base-type\": \"type/Text\"}]",
     "Filters": "",
     "Synonyms": "loss-reason, closed-lost-reason, reason"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "account-type",
-    "Dimension": "[\"field\",22010,{\"base-type\": \"type/Text\"}]",
-    "Filters": "",
-    "Synonyms": "company-type, new-existing"
-  },
-  {
-    "Dataset": "main-orders",
-    "Name": "channel-type",
-    "Dimension": "[\r\n                        \"field\",\r\n                        35876,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ]",
-    "Filters": "",
-    "Synonyms": "channel"
   },
   {
     "Dataset": "main-machine-actions",
@@ -595,10 +567,185 @@
     "Synonyms": "company-name"
   },
   {
+    "Dataset": "main-orders",
+    "Name": "order-status",
+    "Dimension": "[\"field\",37362,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "status"
+  },
+  {
     "Dataset": "main-machine-actions",
     "Name": "serial-number",
     "Dimension": "[\"field\",31394,{\"base-type\": \"type/Text\"}]",
     "Filters": "",
     "Synonyms": "sn"
+  },
+  {
+    "Dataset": "main-machine-actions",
+    "Name": "sales-motion",
+    "Dimension": "[\"field\",31670,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "channel-type",
+    "Dimension": "[\r\n                        \"field\",\r\n                        35876,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ]",
+    "Filters": "",
+    "Synonyms": "channel"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "part",
+    "Dimension": "[\"field\",33707,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "part-num"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "order",
+    "Dimension": "[\r\n                        \"field\",\r\n                        362,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ]",
+    "Filters": "",
+    "Synonyms": "order-id, order-num"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "account-type",
+    "Dimension": "[\"field\",22010,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "company-type, new-existing"
+  },
+  {
+    "Dataset": "main-orders-with-cancellations",
+    "Name": "price",
+    "Dimension": "[\r\n                        \"field\",\r\n                        380,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ]",
+    "Filters": "",
+    "Synonyms": "total,net-sales,net-sale,bookings,booking,amount"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "order",
+    "Dimension": "[\"field\",37421,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "order-id, order-num"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "date",
+    "Dimension": "[\"field\",37372,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "time"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "machine-type-copy",
+    "Dimension": "[\"expression\",\"machine-type\",{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "part",
+    "Dimension": "[\"field\",37449,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "part-num"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "channel-type",
+    "Dimension": "[\"field\",37390,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "channel"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "company-size",
+    "Dimension": "[\"field\",37335,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "account-size"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "closing-team",
+    "Dimension": "[\"field\",37340,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "sales-team, closing-rep-team"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "primary-application",
+    "Dimension": "[\"field\",37369,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "app, application"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "opportunity-name",
+    "Dimension": "[\"field\",37452,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "name"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "price",
+    "Dimension": "[\"field\",37374,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "total,net-sales,net-sale,bookings,booking,amount"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "robot-units",
+    "Dimension": "[\"field\",37431,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "robots, robot"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "machine-motion-units",
+    "Dimension": "[\"field\",37344,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "machine-motion, machine-motions, mms, mm"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "order-type",
+    "Dimension": "[\"field\",37325,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "company",
+    "Dimension": "[\"field\",37396,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "account, account-name, customer"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "sales-motion",
+    "Dimension": "[\"field\",37371,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "account-type",
+    "Dimension": "[\"field\",37300,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "company-type, new-existing"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "sales-office",
+    "Dimension": "[\"field\",37385,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "region"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "design-scope",
+    "Dimension": "[\"field\",37384,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": ""
   }
 ]
