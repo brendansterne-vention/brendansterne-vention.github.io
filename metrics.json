@@ -61,6 +61,18 @@
   },
   {
     "Zone": "",
+    "Name": "ordering-billing-accounts",
+    "IsList": false,
+    "Dataset": "main-orders",
+    "Measure": "[\"distinct\",[\"field\",37318,{\"base-type\":\"type/Text\"}]]",
+    "Timefield": "37372",
+    "Filters": "[[\"=\",[\"field\",37425,{\"base-type\":\"type/Number\"}],0]]",
+    "Synonyms": "",
+    "DatasetConfig": "{\"source-table\": 1224}",
+    "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
+  },
+  {
+    "Zone": "",
     "Name": "machine-action-list",
     "IsList": true,
     "Dataset": "main-machine-actions",
@@ -409,6 +421,18 @@
   },
   {
     "Zone": "",
+    "Name": "ordered-mm-units",
+    "IsList": false,
+    "Dataset": "main-orders",
+    "Measure": "[\"sum\",[\"field\",37344,{\"base-type\":\"type/Float\"}]]",
+    "Timefield": "37372",
+    "Filters": "[[\"=\",[\"field\",37425,{\"base-type\":\"type/Number\"}],0]]",
+    "Synonyms": "ordered-robots, ordered-robots-units",
+    "DatasetConfig": "{\"source-table\": 1224}",
+    "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
+  },
+  {
+    "Zone": "",
     "Name": "ordered-parts-list",
     "IsList": true,
     "Dataset": "main-ordered-parts",
@@ -457,6 +481,18 @@
   },
   {
     "Zone": "",
+    "Name": "order-gross-profit",
+    "IsList": false,
+    "Dataset": "main-orders",
+    "Measure": "[\"aggregation-options\",[\"-\",[\"sum\",[\"field\",37374,{\"base-type\":\"type/Float\"}]],[\"sum\",[\"field\",37417,{\"base-type\":\"type/Float\"}]]],{\"name\":\"Gross Profit\",\"display-name\":\"Gross Profit\"}]",
+    "Timefield": "37372",
+    "Filters": "[[\"=\",[\"field\",37425,{\"base-type\":\"type/Number\"}],0]]",
+    "Synonyms": "",
+    "DatasetConfig": "{\"source-table\": 1224}",
+    "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
+  },
+  {
+    "Zone": "",
     "Name": "partsdb-count",
     "IsList": false,
     "Dataset": "main-partsdb",
@@ -481,27 +517,15 @@
   },
   {
     "Zone": "",
-    "Name": "ordered-mm-units-wc-copy",
+    "Name": "average-order-value",
     "IsList": false,
     "Dataset": "main-orders",
-    "Measure": "[\r\n                    \"sum\",\r\n                    [\r\n                        \"field\",\r\n                        292,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ]\r\n                ]",
-    "Timefield": "394",
-    "Filters": "[\r\n         [\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22364,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ],\r\n                    0\r\n         ]\r\n]",
-    "Synonyms": "ordered-robots-wc, ordered-robots-units-wc",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "average-order-value-wc-copy",
-    "IsList": false,
-    "Dataset": "main-orders",
-    "Measure": "[\r\n                    \"aggregation-options\",\r\n                    [\r\n                        \"/\",\r\n                        [\r\n                            \"sum\",\r\n                            [\r\n                                \"field\",\r\n                                380,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ]\r\n                        ],\r\n                        [\r\n                            \"sum\",\r\n                            [\r\n                                \"field\",\r\n                                24656,\r\n                                {\r\n                                    \"base-type\": \"type/Number\"\r\n                                }\r\n                            ]\r\n                        ]\r\n                    ],\r\n                    {\r\n                        \"name\": \"Bookings / Sum of Order Count \",\r\n                        \"display-name\": \"Bookings / Sum of Order Count \"\r\n                    }\r\n                ]",
-    "Timefield": "394",
-    "Filters": "[\r\n         [\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22364,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ],\r\n                    0\r\n         ]\r\n\r\n]",
-    "Synonyms": "aov-wc",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": "{ \"machine-type\": [ \"case\", [ [ [ \"and\", [ \"<=\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \"<=\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"structures\" ], [ [ \"and\", [ \">\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \"<=\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"robots-no-mm\" ], [ [ \"and\", [ \"<=\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \">\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"mm-no-robots\" ], [ [ \"and\", [ \">\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \">\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"robots-with-mms\" ] ] ] }"
+    "Measure": "[\"aggregation-options\",[\"/\",[\"sum\",[\"field\",37374,{\"base-type\":\"type/Float\"}]],[\"count\"]],{\"name\":\"Bookings / Order Count \",\"display-name\":\"Bookings / Order Count \"}]",
+    "Timefield": "37372",
+    "Filters": "[[\"=\",[\"field\",37425,{\"base-type\":\"type/Number\"}],0]]",
+    "Synonyms": "aov",
+    "DatasetConfig": "{\"source-table\": 1224}",
+    "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
   },
   {
     "Zone": "",
@@ -541,75 +565,27 @@
   },
   {
     "Zone": "",
-    "Name": "subscription-bundle-bookings-wc-copy",
+    "Name": "mb-bookings",
     "IsList": false,
     "Dataset": "main-orders",
-    "Measure": "[\r\n                    \"sum\",\r\n                    [\r\n                        \"field\",\r\n                        335,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ]\r\n                ]",
-    "Timefield": "394",
-    "Filters": "[\r\n         [\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22364,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ],\r\n                    0\r\n         ],\r\n[\r\n                    \"is-null\",\r\n                    [\r\n                        \"field\",\r\n                        303,\r\n                        {\r\n                            \"base-type\": \"type/Date\"\r\n                        }\r\n                    ]\r\n                ]\r\n\r\n]",
+    "Measure": "[\"sum\",[\"field\",37419,{\"base-type\":\"type/Float\"}]]",
+    "Timefield": "37372",
+    "Filters": "[[\"=\",[\"field\",37425,{\"base-type\":\"type/Number\"}],0]]",
     "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
+    "DatasetConfig": "{\"source-table\": 1224}",
+    "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
   },
   {
     "Zone": "",
-    "Name": "ordered-robot-units-wc-copy",
+    "Name": "subscription-bundle-bookings",
     "IsList": false,
     "Dataset": "main-orders",
-    "Measure": "[\r\n                    \"sum\",\r\n                    [\r\n                        \"field\",\r\n                        347,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ]\r\n                ]",
-    "Timefield": "394",
-    "Filters": "[\r\n         [\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22364,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ],\r\n                    0\r\n         ]\r\n]",
-    "Synonyms": "ordered-robots-wc, ordered-robots-units-wc",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "ordering-billing-accounts-wc-copy",
-    "IsList": false,
-    "Dataset": "main-orders",
-    "Measure": "[\r\n                    \"distinct\",\r\n                    [\r\n                        \"field\",\r\n                        386,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ]\r\n                ]",
-    "Timefield": "394",
-    "Filters": "[\r\n         [\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22364,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ],\r\n                    0\r\n         ],\r\n[\r\n                    \"is-null\",\r\n                    [\r\n                        \"field\",\r\n                        303,\r\n                        {\r\n                            \"base-type\": \"type/Date\"\r\n                        }\r\n                    ]\r\n                ]\r\n\r\n]",
+    "Measure": "[\"sum\",[\"field\",37424,{\"base-type\":\"type/Float\"}]]",
+    "Timefield": "37372",
+    "Filters": "[[\"=\",[\"field\",37425,{\"base-type\":\"type/Number\"}],0]]",
     "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "ml-bookings-wc-copy",
-    "IsList": false,
-    "Dataset": "main-orders",
-    "Measure": "[\r\n                    \"sum\",\r\n                    [\r\n                        \"field\",\r\n                        293,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ]\r\n                ]",
-    "Timefield": "394",
-    "Filters": "[\r\n         [\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22364,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ],\r\n                    0\r\n         ]\r\n]",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "mb-bookings-wc-copy",
-    "IsList": false,
-    "Dataset": "main-orders",
-    "Measure": "[\r\n                    \"sum\",\r\n                    [\r\n                        \"field\",\r\n                        356,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ]\r\n                ]",
-    "Timefield": "394",
-    "Filters": "[\r\n         [\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22364,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ],\r\n                    0\r\n         ]\r\n]",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "ma-bookings-wc-copy",
-    "IsList": false,
-    "Dataset": "main-orders",
-    "Measure": "[\r\n                    \"sum\",\r\n                    [\r\n                        \"field\",\r\n                        364,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ]\r\n                ]",
-    "Timefield": "394",
-    "Filters": "[\r\n         [\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22364,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ],\r\n                    0\r\n         ]\r\n]",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
+    "DatasetConfig": "{\"source-table\": 1224}",
+    "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
   },
   {
     "Zone": "",
@@ -637,42 +613,6 @@
   },
   {
     "Zone": "",
-    "Name": "fulfilled-gross-profit-cad-wc-copy",
-    "IsList": false,
-    "Dataset": "main-orders",
-    "Measure": "[\r\n                    \"aggregation-options\",\r\n                    [\r\n                        \"*\",\r\n                        [\r\n                            \"-\",\r\n                            [\r\n                                \"sum\",\r\n                                [\r\n                                    \"field\",\r\n                                    380,\r\n                                    {\r\n                                        \"base-type\": \"type/Float\"\r\n                                    }\r\n                                ]\r\n                            ],\r\n                            [\r\n                                \"sum\",\r\n                                [\r\n                                    \"field\",\r\n                                    332,\r\n                                    {\r\n                                        \"base-type\": \"type/Float\"\r\n                                    }\r\n                                ]\r\n                            ]\r\n                        ],\r\n                        1.25\r\n                    ],\r\n                    {\r\n                        \"name\": \"Gross Profit (CAD)\",\r\n                        \"display-name\": \"Gross Profit (CAD)\"\r\n                    }\r\n                ]",
-    "Timefield": "322",
-    "Filters": "[\r\n         [\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22364,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ],\r\n                    0\r\n         ]\r\n]",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "fulfilled-gross-profit-wc-copy",
-    "IsList": false,
-    "Dataset": "main-orders",
-    "Measure": "[\r\n                    \"aggregation-options\",\r\n                    [\r\n                        \"-\",\r\n                        [\r\n                            \"sum\",\r\n                            [\r\n                                \"field\",\r\n                                380,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ]\r\n                        ],\r\n                        [\r\n                            \"sum\",\r\n                            [\r\n                                \"field\",\r\n                                332,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ]\r\n                        ]\r\n                    ],\r\n                    {\r\n                        \"name\": \"Gross Profit\",\r\n                        \"display-name\": \"Gross Profit\"\r\n                    }\r\n                ]",
-    "Timefield": "322",
-    "Filters": "[\r\n         [\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22364,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ],\r\n                    0\r\n         ]\r\n]",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "order-gross-profit-wc-copy",
-    "IsList": false,
-    "Dataset": "main-orders",
-    "Measure": "[\r\n                    \"aggregation-options\",\r\n                    [\r\n                        \"-\",\r\n                        [\r\n                            \"sum\",\r\n                            [\r\n                                \"field\",\r\n                                380,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ]\r\n                        ],\r\n                        [\r\n                            \"sum\",\r\n                            [\r\n                                \"field\",\r\n                                332,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ]\r\n                        ]\r\n                    ],\r\n                    {\r\n                        \"name\": \"Gross Profit\",\r\n                        \"display-name\": \"Gross Profit\"\r\n                    }\r\n                ]",
-    "Timefield": "394",
-    "Filters": "[\r\n         [\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        22364,\r\n                        {\r\n                            \"base-type\": \"type/Number\"\r\n                        }\r\n                    ],\r\n                    0\r\n         ],\r\n[\r\n                    \"is-null\",\r\n                    [\r\n                        \"field\",\r\n                        303,\r\n                        {\r\n                            \"base-type\": \"type/Date\"\r\n                        }\r\n                    ]\r\n                ]\r\n\r\n]",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 35}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
     "Name": "margin",
     "IsList": false,
     "Dataset": "main-orders",
@@ -680,6 +620,18 @@
     "Timefield": "37372",
     "Filters": "[[\"=\",[\"field\",37425,{\"base-type\": \"type/Number\"}],0]]",
     "Synonyms": "",
+    "DatasetConfig": "{\"source-table\": 1224}",
+    "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
+  },
+  {
+    "Zone": "",
+    "Name": "bookings",
+    "IsList": false,
+    "Dataset": "main-orders",
+    "Measure": "[\"sum\",[\"field\",37374,{\"base-type\":\"type/Float\"}]]",
+    "Timefield": "37372",
+    "Filters": "[[\"=\",[\"field\",37425,{\"base-type\":\"type/Number\"}],0]]",
+    "Synonyms": "sales",
     "DatasetConfig": "{\"source-table\": 1224}",
     "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
   },
@@ -694,18 +646,6 @@
     "Synonyms": "",
     "DatasetConfig": "{\"source-table\": 35}",
     "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "bookings",
-    "IsList": false,
-    "Dataset": "main-orders",
-    "Measure": "[\r\n                    \"sum\",\r\n                    [\r\n                        \"field\",\r\n                        37374,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ]\r\n                ]",
-    "Timefield": "37372",
-    "Filters": "[[\"=\",[\"field\",37425,{\"base-type\":\"type/Number\"}],0]]",
-    "Synonyms": "sales",
-    "DatasetConfig": "{\"source-table\": 1224}",
-    "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
   },
   {
     "Zone": "",
@@ -728,6 +668,42 @@
     "Timefield": "37372",
     "Filters": "[[\"=\",[\"field\",37425,{\"base-type\": \"type/Number\"}],0]]",
     "Synonyms": "sales-cad, cad-bookings",
+    "DatasetConfig": "{\"source-table\": 1224}",
+    "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
+  },
+  {
+    "Zone": "",
+    "Name": "ma-bookings",
+    "IsList": false,
+    "Dataset": "main-orders",
+    "Measure": "[\"sum\",[\"field\",37397,{\"base-type\":\"type/Float\"}]]",
+    "Timefield": "37372",
+    "Filters": "[[\"=\",[\"field\",37425,{\"base-type\":\"type/Number\"}],0]]",
+    "Synonyms": "",
+    "DatasetConfig": "{\"source-table\": 1224}",
+    "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
+  },
+  {
+    "Zone": "",
+    "Name": "ml-bookings",
+    "IsList": false,
+    "Dataset": "main-orders",
+    "Measure": "[\"sum\",[\"field\",37389,{\"base-type\":\"type/Float\"}]]",
+    "Timefield": "37372",
+    "Filters": "[[\"=\",[\"field\",37425,{\"base-type\":\"type/Number\"}],0]]",
+    "Synonyms": "",
+    "DatasetConfig": "{\"source-table\": 1224}",
+    "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
+  },
+  {
+    "Zone": "",
+    "Name": "ordered-robot-units",
+    "IsList": false,
+    "Dataset": "main-orders",
+    "Measure": "[\"sum\",[\"field\",37431,{\"base-type\":\"type/Float\"}]]",
+    "Timefield": "37372",
+    "Filters": "[[\"=\",[\"field\",37425,{\"base-type\":\"type/Number\"}],0]]",
+    "Synonyms": "ordered-robots, ordered-robots-units",
     "DatasetConfig": "{\"source-table\": 1224}",
     "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
   }
