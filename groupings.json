@@ -120,13 +120,6 @@
   },
   {
     "Dataset": "main-deployments",
-    "Name": "part",
-    "Dimension": "[\n                        \"field\",\n                        24777,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ]",
-    "Filters": "",
-    "Synonyms": "part-num"
-  },
-  {
-    "Dataset": "main-deployments",
     "Name": "design",
     "Dimension": "[\"field\", 19447,{\"base-type\": \"type/Number\"}]",
     "Filters": "",
@@ -271,6 +264,13 @@
     "Dimension": "[\r\n                        \"field\",\r\n                        19451,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ]",
     "Filters": "",
     "Synonyms": "design-name, name"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "part",
+    "Dimension": "[\"field\",30929,{\"base-type\": \"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "part-num, parts"
   },
   {
     "Dataset": "main-partsdb",
