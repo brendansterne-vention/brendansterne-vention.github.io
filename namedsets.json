@@ -24,12 +24,6 @@
     "Description": "Rapid Series Sanding Base"
   },
   {
-    "Name": "REMOTE_VIEW",
-    "Value": "[\"ST-VS-001-0000\",\"ST-VS-002-0000\"]",
-    "Synonyms": "",
-    "Description": "Remote View Kits Part Numbers"
-  },
-  {
     "Name": "MMV2",
     "Value": "[\"CE-CL-010-0004\", \"CE-CL-010-0001\"]",
     "Synonyms": "",
@@ -58,6 +52,12 @@
     "Value": "[\"HW-AR-102-0300\"]\n",
     "Synonyms": "",
     "Description": "Pneumatics"
+  },
+  {
+    "Name": "remote-view",
+    "Value": "[\"ST-VS-001-0000\",\"ST-VS-002-0000\"]",
+    "Synonyms": "",
+    "Description": "Remote View Kits Part Numbers"
   },
   {
     "Name": "rsp1",
