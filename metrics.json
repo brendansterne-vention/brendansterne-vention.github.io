@@ -78,8 +78,8 @@
     "Dataset": "main-machine-actions",
     "Measure": "[]",
     "Timefield": "31396",
-    "Filters": "[[\n                    \"!=\",\n                    [\n                        \"field\",\n                        31677,\n                        {\n                            \"base-type\": \"type/Text\"\n                        }\n                    ],\n                    \"Vention\"\n                ]]",
-    "Synonyms": "",
+    "Filters": "[[\r\n                    \"!=\",\r\n                    [\r\n                        \"field\",\r\n                        31677,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Vention\"\r\n                ]]",
+    "Synonyms": "machine-actions-list",
     "DatasetConfig": "{\"source-table\": 1199}",
     "CustomColumns": ""
   },
