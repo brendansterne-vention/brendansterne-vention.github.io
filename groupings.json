@@ -747,5 +747,110 @@
     "Dimension": "[\"field\",37384,{\"base-type\": \"type/Text\"}]",
     "Filters": "",
     "Synonyms": ""
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "serial-num",
+    "Dimension": "[\"field\",19461,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "serial"
+  },
+  {
+    "Dataset": "main-machine-actions",
+    "Name": "serial-num",
+    "Dimension": "[\"field\",31394,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "serial"
+  },
+  {
+    "Dataset": "posthog",
+    "Name": "referrer",
+    "Dimension": "[\"field\",37032,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "referer"
+  },
+  {
+    "Dataset": "posthog",
+    "Name": "referring-domain",
+    "Dimension": "[\"field\",37024,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "refering-domain"
+  },
+  {
+    "Dataset": "posthog",
+    "Name": "pathname",
+    "Dimension": "[\"field\",37028,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "path"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "new-user",
+    "Dimension": "[\"field\",38846,{\"base-type\":\"type/Boolean\"}]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "landing-page",
+    "Dimension": "[\"field\",38857,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "referrer",
+    "Dimension": "[\"field\",38859,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "referer"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "referring-domain",
+    "Dimension": "[\"field\",38842,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "refering-domain"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "is-paid-traffic",
+    "Dimension": "[\"field\",38832,{\"base-type\":\"type/Boolean\"}]",
+    "Filters": "",
+    "Synonyms": "paid-traffic, paid"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "session-duration",
+    "Dimension": "[\"field\",38834,{\"base-type\":\"type/Number\"}]",
+    "Filters": "",
+    "Synonyms": "session-length"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "is-staff",
+    "Dimension": "[\"field\",38833,{\"base-type\":\"type/Boolean\"}]",
+    "Filters": "",
+    "Synonyms": "staff"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "traffic-source",
+    "Dimension": "[\"field\",38845,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "source"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "country",
+    "Dimension": "[\"field\",38835,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "geo-country"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "landing-page-category",
+    "Dimension": "[\"field\",38847,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "lp-category, lp-cat, lp-type"
   }
 ]
