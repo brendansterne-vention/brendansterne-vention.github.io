@@ -592,5 +592,47 @@
     "Name": "applications-v2",
     "Filters": "[\r\n                \"or\",\r\n                [\r\n                    \"in\",\r\n                    [\r\n                        \"field\",\r\n                        37369,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Cobot Palletizer\", \"Case Packing\", \"Depalletizer\", \"Industrial Robot Palletizer\"\r\n                ],\r\n                [\r\n                    \"and\",\r\n                    [\r\n                        \"in\",\r\n                        [\r\n                            \"field\",\r\n                            37369,\r\n                            {\r\n                                \"base-type\": \"type/Text\"\r\n                            }\r\n                        ],\r\n                        \"Machine Tending\",\r\n                        \"Welding\",\r\n                        \"Pick & Place\",\r\n                        \"Full end-of line packaging\",\r\n                        \"Sanding & Surface Finishing\"\r\n                    ],\r\n                    [\r\n                        \"or\",\r\n                        [\r\n                            \"!=\",\r\n                            [\r\n                                \"field\",\r\n                                37353,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ],\r\n                            0\r\n                        ],\r\n                        [\r\n                            \"!=\",\r\n                            [\r\n                                \"field\",\r\n                                37392,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ],\r\n                            0\r\n                        ]\r\n                    ]\r\n                ]\r\n            ]",
     "Synonyms": ""
+  },
+  {
+    "Dataset": "main-machine-actions",
+    "Name": "brendans-mmai",
+    "Filters": "[\"=\",[\"field\",31394,{\"base-type\":\"type/Text\"}],\"6060004\",{\"case-sensitive\":false}]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "brendans-mmai",
+    "Filters": "[\"=\",[\"field\",19461,{\"base-type\":\"type/Text\"}],\"6060004\",{\"case-sensitive\":false}]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "new-user",
+    "Filters": "[\"=\",[\"field\",38846,{\"base-type\":\"type/Boolean\"}],true]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "paid-traffic",
+    "Filters": "[\"=\",[\"field\",38832,{\"base-type\":\"type/Boolean\"}],true]",
+    "Synonyms": "paid"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "is-staff",
+    "Filters": "[\"=\",[\"field\",38833,{\"base-type\":\"type/Boolean\"}],true]",
+    "Synonyms": "staff"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "not-staff",
+    "Filters": "[\"=\",[\"field\",38833,{\"base-type\":\"type/Boolean\"}],false]",
+    "Synonyms": "not-vention"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "north-america",
+    "Filters": "[\"in\",[\"field\",38835,{\"base-type\":\"type/Text\"}],\"United States\",\"Canada\"]",
+    "Synonyms": "north-american, na"
   }
 ]
