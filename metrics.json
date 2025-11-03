@@ -529,6 +529,18 @@
   },
   {
     "Zone": "",
+    "Name": "posthog-pageviews",
+    "IsList": false,
+    "Dataset": "posthog",
+    "Measure": "[\"count\"]",
+    "Timefield": "37682",
+    "Filters": "[[\"=\",[\"field\",37701,{\"base-type\":\"type/Text\"}],\"$pageview\"]]",
+    "Synonyms": "pageviews",
+    "DatasetConfig": "{\"source-table\": 1223}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
     "Name": "order-list-wc",
     "IsList": true,
     "Dataset": "main-orders-with-cancellations",
@@ -610,6 +622,30 @@
     "Synonyms": "orders-list, \r\nmain-orders,\r\nmain-order,\r\nmain-order-list,\r\nmain-orders-list",
     "DatasetConfig": "{\"source-table\": 1224}",
     "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
+  },
+  {
+    "Zone": "",
+    "Name": "posthog-sessions",
+    "IsList": false,
+    "Dataset": "posthog",
+    "Measure": "[\"distinct\",[\"field\",37029,{\"base-type\": \"type/Text\"}]]",
+    "Timefield": "37682",
+    "Filters": "",
+    "Synonyms": "",
+    "DatasetConfig": "{\"source-table\": 1223}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
+    "Name": "sessions",
+    "IsList": false,
+    "Dataset": "main-sessions",
+    "Measure": "[\"count\"]",
+    "Timefield": "38831",
+    "Filters": "",
+    "Synonyms": "",
+    "DatasetConfig": "{\"source-table\": 1236}",
+    "CustomColumns": ""
   },
   {
     "Zone": "",
