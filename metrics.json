@@ -637,18 +637,6 @@
   },
   {
     "Zone": "",
-    "Name": "sessions",
-    "IsList": false,
-    "Dataset": "main-sessions",
-    "Measure": "[\"count\"]",
-    "Timefield": "38831",
-    "Filters": "",
-    "Synonyms": "",
-    "DatasetConfig": "{\"source-table\": 1236}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
     "Name": "margin",
     "IsList": false,
     "Dataset": "main-orders",
@@ -658,6 +646,18 @@
     "Synonyms": "",
     "DatasetConfig": "{\"source-table\": 1224}",
     "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
+  },
+  {
+    "Zone": "",
+    "Name": "sessions",
+    "IsList": false,
+    "Dataset": "main-sessions",
+    "Measure": "[\"count\"]",
+    "Timefield": "38831",
+    "Filters": "[[\"=\",[\"field\",38833,{\"base-type\":\"type/Boolean\"}],false]]",
+    "Synonyms": "",
+    "DatasetConfig": "{\"source-table\": 1236}",
+    "CustomColumns": ""
   },
   {
     "Zone": "",
@@ -694,6 +694,18 @@
     "Synonyms": "aov-cad",
     "DatasetConfig": "{\"source-table\": 1224}",
     "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
+  },
+  {
+    "Zone": "",
+    "Name": "sessions-list",
+    "IsList": true,
+    "Dataset": "main-sessions",
+    "Measure": "[\"count\"]",
+    "Timefield": "38831",
+    "Filters": "[[\"=\",[\"field\",38833,{\"base-type\":\"type/Boolean\"}],false]]",
+    "Synonyms": "session-list",
+    "DatasetConfig": "{\"source-table\": 1236}",
+    "CustomColumns": ""
   },
   {
     "Zone": "",
