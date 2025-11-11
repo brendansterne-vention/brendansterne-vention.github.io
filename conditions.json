@@ -474,6 +474,12 @@
     "Synonyms": ""
   },
   {
+    "Dataset": "main-sessions",
+    "Name": "mac",
+    "Filters": "[\"=\",[\"field\",38840,{\"base-type\":\"type/Text\"}],\"Mac\"]",
+    "Synonyms": "osx"
+  },
+  {
     "Dataset": "main-partsdb",
     "Name": "material-handling",
     "Filters": "[\"=\",[\"field\",19232,{\"base-type\":\"type/Text\"}],\"Material Handling\"]",
@@ -532,6 +538,36 @@
     "Name": "new-account",
     "Filters": "[\"=\",[\"field\",22010,{\"base-type\":\"type/Text\"}],\"New\"]",
     "Synonyms": "new, new-logo"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "design-library",
+    "Filters": "[\"=\",[\"field\",38847,{\"base-type\":\"type/Text\"}],\"Design Library Page\"]",
+    "Synonyms": "designs-library, design-search"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "ai",
+    "Filters": "[\"in\",[\"field\",38845,{\"base-type\":\"type/Text\"}],\"chatgpt / ai\",\"copilot / ai\",\"gemini / ai\",\"perplexity / ai\"]",
+    "Synonyms": "llm"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "robot",
+    "Filters": "[\"contains\",{\"case-sensitive\":false},[\"field\",30929,{\"base-type\":\"type/Text\"}],\"PR-UR-\",\"PR-FA-\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "operating-system",
+    "Filters": "[\"and\",[\"=\",[\"field\",38833,{\"base-type\":\"type/Boolean\"}],false],[\"=\",[\"field\",38846,{\"base-type\":\"type/Boolean\"}],true]]",
+    "Synonyms": "os"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "mobile",
+    "Filters": "[\"=\",[\"field\",38851,{\"base-type\":\"type/Text\"}],\"Mobile\"]",
+    "Synonyms": ""
   },
   {
     "Dataset": "main-orders-with-cancellations",
@@ -634,5 +670,77 @@
     "Name": "north-america",
     "Filters": "[\"in\",[\"field\",38835,{\"base-type\":\"type/Text\"}],\"United States\",\"Canada\"]",
     "Synonyms": "north-american, na"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "signup-start",
+    "Filters": "[\"=\",[\"field\",38856,{\"base-type\":\"type/Boolean\"}],true]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "homepage",
+    "Filters": "[\"=\",[\"field\",38847,{\"base-type\":\"type/Text\"}],\"Homepage\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "applications",
+    "Filters": "[\"=\",[\"field\",38847,{\"base-type\":\"type/Text\"}],\"Applications Page\"]",
+    "Synonyms": "application"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "platform",
+    "Filters": "[\"=\",[\"field\",38847,{\"base-type\":\"type/Text\"}],\"Platform Page\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "part-detail",
+    "Filters": "[\"=\",[\"field\",38847,{\"base-type\":\"type/Text\"}],\"Part Detail Page\"]",
+    "Synonyms": "parts, parts-detail"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "community-design-detail",
+    "Filters": "[\"=\",[\"field\",38847,{\"base-type\":\"type/Text\"}],\"Community Design Detail Page\"]",
+    "Synonyms": "community-design, community-designs"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "official-design-detail",
+    "Filters": "[\"=\",[\"field\",38847,{\"base-type\":\"type/Text\"}],\"Official Design Detail Page\"]",
+    "Synonyms": "official-designs, official-designs-detail"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "dashboard",
+    "Filters": "[\"=\",[\"field\",38847,{\"base-type\":\"type/Text\"}],\"Dashboard Page\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "machinebuilder-detail",
+    "Filters": "[\"=\",[\"field\",38847,{\"base-type\":\"type/Text\"}],\"MachineBuilder Detail Page\"]",
+    "Synonyms": "machinebuilder, mb"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "part-library",
+    "Filters": "[\"=\",[\"field\",38847,{\"base-type\":\"type/Text\"}],\"Part Library Page\"]",
+    "Synonyms": "parts-library, parts-search"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "resource",
+    "Filters": "[\"=\",[\"field\",38847,{\"base-type\":\"type/Text\"}],\"Resource Page\"]",
+    "Synonyms": "resources"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "blog",
+    "Filters": "[\"=\",[\"field\",38847,{\"base-type\":\"type/Text\"}],\"Blog Page\"]",
+    "Synonyms": ""
   }
 ]
