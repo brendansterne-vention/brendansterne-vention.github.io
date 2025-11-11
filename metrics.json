@@ -754,5 +754,17 @@
     "Synonyms": "ordered-robots, ordered-robots-units",
     "DatasetConfig": "{\"source-table\": 1224}",
     "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
+  },
+  {
+    "Zone": "",
+    "Name": "deployment-bookings",
+    "IsList": false,
+    "Dataset": "main-deployments",
+    "Measure": "[\"sum\",[\"field\",19464,{\"base-type\":\"type/Float\"}]]",
+    "Timefield": "19459",
+    "Filters": "[[\"!=\",[\"field\",19452,{\"base-type\":\"type/Text\"}],\"Vention\"],[\r\n                    \"!=\",\r\n                    [\r\n                        \"field\",\r\n                        24776,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"cancelled\"\r\n                ]]",
+    "Synonyms": "deployments-bookings, deployment-amount, deployments-amount",
+    "DatasetConfig": "{\"source-table\": 958}",
+    "CustomColumns": ""
   }
 ]
