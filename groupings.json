@@ -852,5 +852,40 @@
     "Dimension": "[\"field\",38847,{\"base-type\":\"type/Text\"}]",
     "Filters": "",
     "Synonyms": "lp-category, lp-cat, lp-type"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "session-number",
+    "Dimension": "[\"field\",38827,{\"base-type\":\"type/Number\"}]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "landing-page-path",
+    "Dimension": "[\"field\",39025,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "lp-path, landing-path, landing-page-pathname"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "duration",
+    "Dimension": "[\"field\",38834,{\"base-type\":\"type/Number\"}]",
+    "Filters": "",
+    "Synonyms": "duration-secs"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "device",
+    "Dimension": "[\"field\",38851,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "device-category"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "operating-system",
+    "Dimension": "[\"field\",38840,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "os"
   }
 ]
