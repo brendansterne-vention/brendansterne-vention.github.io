@@ -480,6 +480,18 @@
     "Synonyms": "osx"
   },
   {
+    "Dataset": "main-sessions",
+    "Name": "organic",
+    "Filters": "[\"!=\",[\"field\",38832,{\"base-type\":\"type/Boolean\"}],true]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "signup-complete",
+    "Filters": "[\"=\",[\"field\",38836,{\"base-type\":\"type/Boolean\"}],true]",
+    "Synonyms": ""
+  },
+  {
     "Dataset": "main-partsdb",
     "Name": "material-handling",
     "Filters": "[\"=\",[\"field\",19232,{\"base-type\":\"type/Text\"}],\"Material Handling\"]",
@@ -567,6 +579,18 @@
     "Dataset": "main-sessions",
     "Name": "mobile",
     "Filters": "[\"=\",[\"field\",38851,{\"base-type\":\"type/Text\"}],\"Mobile\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "desktop",
+    "Filters": "[\"=\",[\"field\",38851,{\"base-type\":\"type/Text\"}],\"Desktop\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "jira",
+    "Name": "my",
+    "Filters": "reporter=currentUser() or assignee=currentUser()",
     "Synonyms": ""
   },
   {
