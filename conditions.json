@@ -493,9 +493,9 @@
   },
   {
     "Dataset": "jira",
-    "Name": "data-foundations",
-    "Filters": "\"project='Data Foundations'\"",
-    "Synonyms": "data, df"
+    "Name": "data-foundation",
+    "Filters": "\"project='Data Foundation'\"",
+    "Synonyms": "data, df, data-foundations"
   },
   {
     "Dataset": "main-partsdb",
