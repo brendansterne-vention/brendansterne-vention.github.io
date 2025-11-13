@@ -887,5 +887,12 @@
     "Dimension": "[\"field\",38840,{\"base-type\":\"type/Text\"}]",
     "Filters": "",
     "Synonyms": "os"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "primary-application",
+    "Dimension": "[\"field\",40008,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "application, app, category, cat"
   }
 ]
