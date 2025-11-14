@@ -181,6 +181,18 @@
   },
   {
     "Zone": "",
+    "Name": "jira-list",
+    "IsList": true,
+    "Dataset": "jira",
+    "Measure": "[]",
+    "Timefield": "0",
+    "Filters": "[]",
+    "Synonyms": "tickets, jira-tickets",
+    "DatasetConfig": "-",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
     "Name": "partsdb-list",
     "IsList": true,
     "Dataset": "main-partsdb",
@@ -273,18 +285,6 @@
     "Filters": "[]",
     "Synonyms": "project-list, main-projects",
     "DatasetConfig": "{\"database\":3, \"joins\": [\n                {\n                    \"ident\": \"whIXnJHcggPgF0B4yKSyw\",\n                    \"strategy\": \"left-join\",\n                    \"alias\": \"Users - OWNER_USER_ID\",\n                    \"fields\": \"all\",\n                    \"condition\": [\n                        \"=\",\n                        [\n                            \"field\",\n                            \"OWNER_USER_ID\",\n                            {\n                                \"base-type\": \"type/Number\"\n                            }\n                        ],\n                        [\n                            \"field\",\n                            4103,\n                            {\n                                \"base-type\": \"type/Number\",\n                                \"join-alias\": \"Users - OWNER_USER_ID\"\n                            }\n                        ]\n                    ],\n                    \"source-table\": 425\n                }\n            ],\n            \"source-table\": \"card__128\"\n}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "jira-list",
-    "IsList": true,
-    "Dataset": "jira",
-    "Measure": "[]",
-    "Timefield": "0",
-    "Filters": "[]",
-    "Synonyms": "",
-    "DatasetConfig": "",
     "CustomColumns": ""
   },
   {
