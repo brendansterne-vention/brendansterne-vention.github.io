@@ -498,6 +498,12 @@
     "Synonyms": "data, df, data-foundations"
   },
   {
+    "Dataset": "main-sessions",
+    "Name": "logged-in",
+    "Filters": "[\"not-null\",[\"field\",38841,{\"base-type\":\"type/Number\"}]]",
+    "Synonyms": ""
+  },
+  {
     "Dataset": "main-partsdb",
     "Name": "material-handling",
     "Filters": "[\"=\",[\"field\",19232,{\"base-type\":\"type/Text\"}],\"Material Handling\"]",
@@ -597,6 +603,12 @@
     "Dataset": "jira",
     "Name": "my",
     "Filters": "\"reporter=currentUser() or assignee=currentUser()\"",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "logged-out",
+    "Filters": "[\"is-null\",[\"field\",38841,{\"base-type\":\"type/Number\"}]]",
     "Synonyms": ""
   },
   {
