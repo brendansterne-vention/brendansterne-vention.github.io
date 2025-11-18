@@ -894,5 +894,12 @@
     "Dimension": "[\"field\",40008,{\"base-type\":\"type/Text\"}]",
     "Filters": "",
     "Synonyms": "application, app, category, cat"
+  },
+  {
+    "Dataset": "jira",
+    "Name": "label",
+    "Dimension": "\"labels\"",
+    "Filters": "",
+    "Synonyms": "labels"
   }
 ]
