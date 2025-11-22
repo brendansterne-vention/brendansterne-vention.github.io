@@ -499,7 +499,7 @@
     "Measure": "[\"distinct\",[\"field\",41169,{\"base-type\": \"type/Text\"}]]",
     "Timefield": "41168",
     "Filters": "",
-    "Synonyms": "action-actors, actions-actors, actors",
+    "Synonyms": "action-actors, actions-actors, actors, action-users, actions-users",
     "DatasetConfig": "{\"source-table\": 1244}",
     "CustomColumns": ""
   },
