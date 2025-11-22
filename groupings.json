@@ -901,5 +901,54 @@
     "Dimension": "\"labels\"",
     "Filters": "",
     "Synonyms": "labels"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "industry",
+    "Dimension": "[\"field\",37351,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "vertical"
+  },
+  {
+    "Dataset": "main-user-actions",
+    "Name": "type",
+    "Dimension": "[\"field\",41170,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "event-type"
+  },
+  {
+    "Dataset": "main-user-actions",
+    "Name": "details",
+    "Dimension": "[\"field\",41166,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "event-details"
+  },
+  {
+    "Dataset": "main-user-actions",
+    "Name": "operation",
+    "Dimension": "[\"field\",41165,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "operation-name, op"
+  },
+  {
+    "Dataset": "main-user-actions",
+    "Name": "design",
+    "Dimension": "[\"field\",41228,{\"base-type\":\"type/Number\"}]",
+    "Filters": "",
+    "Synonyms": "design-id, designid"
+  },
+  {
+    "Dataset": "main-user-actions",
+    "Name": "page",
+    "Dimension": "[\"field\",41234,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "page-url, url"
+  },
+  {
+    "Dataset": "main-user-actions",
+    "Name": "browser",
+    "Dimension": "[\"field\",41226,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": ""
   }
 ]
