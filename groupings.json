@@ -950,5 +950,19 @@
     "Dimension": "[\"field\",41226,{\"base-type\":\"type/Text\"}]",
     "Filters": "",
     "Synonyms": ""
+  },
+  {
+    "Dataset": "main-user-actions",
+    "Name": "country",
+    "Dimension": "[\"field\",41229,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-user-actions",
+    "Name": "email",
+    "Dimension": "[\"field\",41169,{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "user-email, user"
   }
 ]
