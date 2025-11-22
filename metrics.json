@@ -217,6 +217,18 @@
   },
   {
     "Zone": "",
+    "Name": "user-actions-sessions",
+    "IsList": false,
+    "Dataset": "main-user-actions",
+    "Measure": "[\"distinct\",[\"field\",41231,{\"base-type\": \"type/Text\"}]]",
+    "Timefield": "41168",
+    "Filters": "",
+    "Synonyms": "action-sessions, actions-sessions",
+    "DatasetConfig": "{\"source-table\": 1244}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
     "Name": "partsdb-list",
     "IsList": true,
     "Dataset": "main-partsdb",
@@ -477,6 +489,18 @@
     "Filters": "[[\"!=\",[\"field\",33070,{\"base-type\": \"type/Text\"}],\"cancelled\"],\r\n[\"!=\",[\"field\",33075,{\"base-type\": \"type/Text\"}],\"zero\"]]",
     "Synonyms": "ordered-parts-bookings, \r\nordered-part-bookings, \r\npart-bookings, \r\nparts-bookings",
     "DatasetConfig": "{\"source-table\": 1205}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
+    "Name": "user-actions-actors",
+    "IsList": false,
+    "Dataset": "main-user-actions",
+    "Measure": "[\"distinct\",[\"field\",41169,{\"base-type\": \"type/Text\"}]]",
+    "Timefield": "41168",
+    "Filters": "",
+    "Synonyms": "action-actors, actions-actors, actors",
+    "DatasetConfig": "{\"source-table\": 1244}",
     "CustomColumns": ""
   },
   {
