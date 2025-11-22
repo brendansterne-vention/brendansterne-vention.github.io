@@ -558,12 +558,6 @@
     "Synonyms": ""
   },
   {
-    "Dataset": "main-orders",
-    "Name": "new-account",
-    "Filters": "[\"=\",[\"field\",22010,{\"base-type\":\"type/Text\"}],\"New\"]",
-    "Synonyms": "new, new-logo"
-  },
-  {
     "Dataset": "main-sessions",
     "Name": "design-library",
     "Filters": "[\"=\",[\"field\",38847,{\"base-type\":\"type/Text\"}],\"Design Library Page\"]",
@@ -610,6 +604,66 @@
     "Name": "logged-out",
     "Filters": "[\"is-null\",[\"field\",38841,{\"base-type\":\"type/Number\"}]]",
     "Synonyms": ""
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "new-account",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        37300,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"New\"\r\n                ]",
+    "Synonyms": "new, new-logo"
+  },
+  {
+    "Dataset": "main-deployments",
+    "Name": "industrial-palletizer",
+    "Filters": "[\"=\",[\"field\",40008,{\"base-type\":\"type/Text\"}],\"Industrial Robot Palletizer\",{\"case-sensitive\":false}]",
+    "Synonyms": "industrial-robot-palletizer, industrial-pal"
+  },
+  {
+    "Dataset": "main-orders",
+    "Name": "aerospace-defense",
+    "Filters": "[\"=\",[\"field\",37351,{\"base-type\":\"type/Text\"}],\"Aerospace & Defense\"]",
+    "Synonyms": "aerospace, aerospace-and-defense"
+  },
+  {
+    "Dataset": "main-user-actions",
+    "Name": "machine-builder",
+    "Filters": "[\"=\",[\"field\",41170,{\"base-type\":\"type/Text\"}],\"machine_builder\"]",
+    "Synonyms": "mb, machinebuilder"
+  },
+  {
+    "Dataset": "main-user-actions",
+    "Name": "machine-logic",
+    "Filters": "[\"=\",[\"field\",41170,{\"base-type\":\"type/Text\"}],\"machine_logic\"]",
+    "Synonyms": "ml, machinelogic"
+  },
+  {
+    "Dataset": "main-user-actions",
+    "Name": "pageview",
+    "Filters": "[\"=\",[\"field\",41170,{\"base-type\":\"type/Text\"}],\"pageview\"]",
+    "Synonyms": "page-view,"
+  },
+  {
+    "Dataset": "main-user-actions",
+    "Name": "hubspot",
+    "Filters": "[\"=\",[\"field\",41170,{\"base-type\":\"type/Text\"}],\"hubspot form submission\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-user-actions",
+    "Name": "web-onboarding",
+    "Filters": "[\"=\",[\"field\",41170,{\"base-type\":\"type/Text\"}],\"web_onboarding\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-user-actions",
+    "Name": "other",
+    "Filters": "[\"=\",[\"field\",41170,{\"base-type\":\"type/Text\"}],\"other\"]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-user-actions",
+    "Name": "part-insert",
+    "Filters": "[\"and\",[\"=\",[\"field\",41170,{\"base-type\":\"type/Text\"}],\"machine_builder\"],[\"=\",[\"field\",41165,{\"base-type\":\"type/Text\"}],\"part_insert\"]]",
+    "Synonyms": "insert-part, add-part, part-add"
   },
   {
     "Dataset": "main-orders-with-cancellations",
