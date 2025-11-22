@@ -61,6 +61,18 @@
   },
   {
     "Zone": "",
+    "Name": "user-action-list",
+    "IsList": true,
+    "Dataset": "main-user-actions",
+    "Measure": "n/a",
+    "Timefield": "41168",
+    "Filters": "",
+    "Synonyms": "main-user-actions, action-list",
+    "DatasetConfig": "{\"source-table\": 1244}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
     "Name": "ordering-billing-accounts",
     "IsList": false,
     "Dataset": "main-orders",
@@ -118,6 +130,18 @@
     "Synonyms": "sales-cad-wc, cad-bookings-wc",
     "DatasetConfig": "{\"source-table\": 35}",
     "CustomColumns": "{ \"machine-type\": [ \"case\", [ [ [ \"and\", [ \"<=\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \"<=\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"structures\" ], [ [ \"and\", [ \">\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \"<=\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"robots-no-mm\" ], [ [ \"and\", [ \"<=\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \">\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"mm-no-robots\" ], [ [ \"and\", [ \">\", [ \"field\", 347, { \"base-type\": \"type/Float\" } ], \"0\" ], [ \">\", [ \"field\", 292, { \"base-type\": \"type/Float\" } ], \"0\" ] ], \"robots-with-mms\" ] ] ] }"
+  },
+  {
+    "Zone": "",
+    "Name": "user-actions",
+    "IsList": false,
+    "Dataset": "main-user-actions",
+    "Measure": "[\"count\"]",
+    "Timefield": "41168",
+    "Filters": "",
+    "Synonyms": "actions",
+    "DatasetConfig": "{\"source-table\": 1244}",
+    "CustomColumns": ""
   },
   {
     "Zone": "",
