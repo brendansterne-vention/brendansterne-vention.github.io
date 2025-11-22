@@ -541,6 +541,18 @@
   },
   {
     "Zone": "",
+    "Name": "user-actions-designs",
+    "IsList": false,
+    "Dataset": "main-user-actions",
+    "Measure": "[\"distinct\",[\"field\",41228,{\"base-type\": \"type/Text\"}]]",
+    "Timefield": "41168",
+    "Filters": "",
+    "Synonyms": "action-designs, actions-designs",
+    "DatasetConfig": "{\"source-table\": 1244}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
     "Name": "partsdb-count",
     "IsList": false,
     "Dataset": "main-partsdb",
