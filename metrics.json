@@ -637,6 +637,18 @@
   },
   {
     "Zone": "",
+    "Name": "projects",
+    "IsList": false,
+    "Dataset": "main-projects",
+    "Measure": "[\"count\"]",
+    "Timefield": "\"CREATED_AT\"",
+    "Filters": "[]",
+    "Synonyms": "",
+    "DatasetConfig": "{\"database\":3, \"joins\": [\r\n                {\r\n                    \"ident\": \"whIXnJHcggPgF0B4yKSyw\",\r\n                    \"strategy\": \"left-join\",\r\n                    \"alias\": \"Users - OWNER_USER_ID\",\r\n                    \"fields\": \"all\",\r\n                    \"condition\": [\r\n                        \"=\",\r\n                        [\r\n                            \"field\",\r\n                            \"OWNER_USER_ID\",\r\n                            {\r\n                                \"base-type\": \"type/Number\"\r\n                            }\r\n                        ],\r\n                        [\r\n                            \"field\",\r\n                            4103,\r\n                            {\r\n                                \"base-type\": \"type/Number\",\r\n                                \"join-alias\": \"Users - OWNER_USER_ID\"\r\n                            }\r\n                        ]\r\n                    ],\r\n                    \"source-table\": 425\r\n                }\r\n            ],\r\n            \"source-table\": \"card__128\"\r\n}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
     "Name": "mb-bookings",
     "IsList": false,
     "Dataset": "main-orders",
