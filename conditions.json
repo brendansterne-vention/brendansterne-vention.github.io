@@ -678,6 +678,18 @@
     "Synonyms": "simulation"
   },
   {
+    "Dataset": "main-projects",
+    "Name": "created-by-vetion",
+    "Filters": "[\"=\",[\"field\",\"CREATED_BY_VENTION\",{\"base-type\":\"type/Boolean\"}],true]",
+    "Synonyms": "vention-created"
+  },
+  {
+    "Dataset": "main-projects",
+    "Name": "owner-is-vention",
+    "Filters": "[\"=\",[\"field\",\"OWNER_IS_VENTION\",{\"base-type\":\"type/Boolean\"}],true]",
+    "Synonyms": "vention-owned"
+  },
+  {
     "Dataset": "main-orders-with-cancellations",
     "Name": "applications-v2",
     "Filters": "[\r\n                \"or\",\r\n                [\r\n                    \"in\",\r\n                    [\r\n                        \"field\",\r\n                        319,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Cobot Palletizer\", \"Case Packing\", \"Depalletizer\", \"Industrial Robot Palletizer\"\r\n                ],\r\n                [\r\n                    \"and\",\r\n                    [\r\n                        \"in\",\r\n                        [\r\n                            \"field\",\r\n                            319,\r\n                            {\r\n                                \"base-type\": \"type/Text\"\r\n                            }\r\n                        ],\r\n                        \"Machine Tending\",\r\n                        \"Welding\",\r\n                        \"Pick & Place\",\r\n                        \"Full end-of line packaging\",\r\n                        \"Sanding & Surface Finishing\"\r\n                    ],\r\n                    [\r\n                        \"or\",\r\n                        [\r\n                            \"!=\",\r\n                            [\r\n                                \"field\",\r\n                                324,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ],\r\n                            0\r\n                        ],\r\n                        [\r\n                            \"!=\",\r\n                            [\r\n                                \"field\",\r\n                                390,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ],\r\n                            0\r\n                        ]\r\n                    ]\r\n                ]\r\n            ]",
