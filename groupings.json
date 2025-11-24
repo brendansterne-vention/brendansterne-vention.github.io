@@ -967,24 +967,10 @@
   },
   {
     "Dataset": "main-projects",
-    "Name": "specifications",
-    "Dimension": "[\"field\",\"NB_SPECIFICATIONS\",{\"base-type\":\"type/Number\"}]",
-    "Filters": "",
-    "Synonyms": "nb-specifications"
-  },
-  {
-    "Dataset": "main-projects",
     "Name": "documents",
     "Dimension": "[\"field\",\"NB_DOCUMENTS\",{\"base-type\":\"type/Number\"}]",
     "Filters": "",
     "Synonyms": "nb-documents, docs"
-  },
-  {
-    "Dataset": "main-projects",
-    "Name": "designs",
-    "Dimension": "[\"field\",\"NB_DESIGN_ITEMS\",{\"base-type\":\"type/Number\"}]",
-    "Filters": "",
-    "Synonyms": "nb-designs, nb-design-items, items, nb-items"
   },
   {
     "Dataset": "main-projects",
@@ -1006,5 +992,26 @@
     "Dimension": "[\"field\",\"CREATED_BY_VENTION\",{\"base-type\":\"type/Boolean\"}]",
     "Filters": "",
     "Synonyms": "vention-created"
+  },
+  {
+    "Dataset": "main-projects",
+    "Name": "name",
+    "Dimension": "[\"field\",\"NAME\",{\"base-type\":\"type/Text\"}]",
+    "Filters": "",
+    "Synonyms": "project-name"
+  },
+  {
+    "Dataset": "main-projects",
+    "Name": "designs",
+    "Dimension": "[\"field\",\"NB_DESIGN_ITEMS\",{\"base-type\":\"type/Number\"}]",
+    "Filters": "",
+    "Synonyms": "nb-designs, nb-design-items, items, nb-items, design"
+  },
+  {
+    "Dataset": "main-projects",
+    "Name": "specifications",
+    "Dimension": "[\"field\",\"NB_SPECIFICATIONS\",{\"base-type\":\"type/Number\"}]",
+    "Filters": "",
+    "Synonyms": "nb-specifications, specs, spec"
   }
 ]
