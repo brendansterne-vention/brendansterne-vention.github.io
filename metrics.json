@@ -61,18 +61,6 @@
   },
   {
     "Zone": "",
-    "Name": "user-action-list",
-    "IsList": true,
-    "Dataset": "main-user-actions",
-    "Measure": "n/a",
-    "Timefield": "41168",
-    "Filters": "",
-    "Synonyms": "main-user-actions, action-list",
-    "DatasetConfig": "{\"source-table\": 1244}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
     "Name": "ordering-billing-accounts",
     "IsList": false,
     "Dataset": "main-orders",
@@ -93,6 +81,18 @@
     "Filters": "[[\r\n                    \"!=\",\r\n                    [\r\n                        \"field\",\r\n                        31677,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Vention\"\r\n                ]]",
     "Synonyms": "machine-actions-list",
     "DatasetConfig": "{\"source-table\": 1199}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
+    "Name": "user-action-list",
+    "IsList": true,
+    "Dataset": "main-user-actions",
+    "Measure": "n/a",
+    "Timefield": "41168",
+    "Filters": "",
+    "Synonyms": "main-user-actions, action-list, actions-list",
+    "DatasetConfig": "{\"source-table\": 1244}",
     "CustomColumns": ""
   },
   {
@@ -309,18 +309,6 @@
     "Filters": "[]",
     "Synonyms": "pipe-cad",
     "DatasetConfig": "{\"source-table\": 1006, \"database\": 2\n}",
-    "CustomColumns": ""
-  },
-  {
-    "Zone": "",
-    "Name": "projects-list",
-    "IsList": true,
-    "Dataset": "main-projects",
-    "Measure": "[]",
-    "Timefield": "\"CREATED_AT\"",
-    "Filters": "[]",
-    "Synonyms": "project-list, main-projects",
-    "DatasetConfig": "{\"database\":3, \"joins\": [\n                {\n                    \"ident\": \"whIXnJHcggPgF0B4yKSyw\",\n                    \"strategy\": \"left-join\",\n                    \"alias\": \"Users - OWNER_USER_ID\",\n                    \"fields\": \"all\",\n                    \"condition\": [\n                        \"=\",\n                        [\n                            \"field\",\n                            \"OWNER_USER_ID\",\n                            {\n                                \"base-type\": \"type/Number\"\n                            }\n                        ],\n                        [\n                            \"field\",\n                            4103,\n                            {\n                                \"base-type\": \"type/Number\",\n                                \"join-alias\": \"Users - OWNER_USER_ID\"\n                            }\n                        ]\n                    ],\n                    \"source-table\": 425\n                }\n            ],\n            \"source-table\": \"card__128\"\n}",
     "CustomColumns": ""
   },
   {
@@ -642,7 +630,7 @@
     "Dataset": "main-projects",
     "Measure": "[\"count\"]",
     "Timefield": "\"CREATED_AT\"",
-    "Filters": "[]",
+    "Filters": "[[\"is-null\",[\"field\",\"DELETED_AT\",{\"base-type\":\"type/DateTime\"}]]]",
     "Synonyms": "",
     "DatasetConfig": "{\"database\":3, \"joins\": [\r\n                {\r\n                    \"ident\": \"whIXnJHcggPgF0B4yKSyw\",\r\n                    \"strategy\": \"left-join\",\r\n                    \"alias\": \"Users - OWNER_USER_ID\",\r\n                    \"fields\": \"all\",\r\n                    \"condition\": [\r\n                        \"=\",\r\n                        [\r\n                            \"field\",\r\n                            \"OWNER_USER_ID\",\r\n                            {\r\n                                \"base-type\": \"type/Number\"\r\n                            }\r\n                        ],\r\n                        [\r\n                            \"field\",\r\n                            4103,\r\n                            {\r\n                                \"base-type\": \"type/Number\",\r\n                                \"join-alias\": \"Users - OWNER_USER_ID\"\r\n                            }\r\n                        ]\r\n                    ],\r\n                    \"source-table\": 425\r\n                }\r\n            ],\r\n            \"source-table\": \"card__128\"\r\n}",
     "CustomColumns": ""
@@ -705,6 +693,18 @@
     "Filters": "",
     "Synonyms": "",
     "DatasetConfig": "{\"source-table\": 1223}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
+    "Name": "projects-list",
+    "IsList": true,
+    "Dataset": "main-projects",
+    "Measure": "[]",
+    "Timefield": "\"CREATED_AT\"",
+    "Filters": "[[\"is-null\",[\"field\",\"DELETED_AT\",{\"base-type\":\"type/DateTime\"}]]]",
+    "Synonyms": "project-list, main-projects",
+    "DatasetConfig": "{\"database\":3, \"joins\": [\r\n                {\r\n                    \"ident\": \"whIXnJHcggPgF0B4yKSyw\",\r\n                    \"strategy\": \"left-join\",\r\n                    \"alias\": \"Users - OWNER_USER_ID\",\r\n                    \"fields\": \"all\",\r\n                    \"condition\": [\r\n                        \"=\",\r\n                        [\r\n                            \"field\",\r\n                            \"OWNER_USER_ID\",\r\n                            {\r\n                                \"base-type\": \"type/Number\"\r\n                            }\r\n                        ],\r\n                        [\r\n                            \"field\",\r\n                            4103,\r\n                            {\r\n                                \"base-type\": \"type/Number\",\r\n                                \"join-alias\": \"Users - OWNER_USER_ID\"\r\n                            }\r\n                        ]\r\n                    ],\r\n                    \"source-table\": 425\r\n                }\r\n            ],\r\n            \"source-table\": \"card__128\"\r\n}",
     "CustomColumns": ""
   },
   {
