@@ -49,12 +49,6 @@
   },
   {
     "Dataset": "main-ordered-parts",
-    "Name": "fanuc",
-    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        33089,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"FANUC\"\r\n                ]",
-    "Synonyms": ""
-  },
-  {
-    "Dataset": "main-ordered-parts",
     "Name": "robot",
     "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        33084,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Robots\"\r\n                ]",
     "Synonyms": "robots"
@@ -105,6 +99,12 @@
     "Dataset": "main-orders-with-cancellations",
     "Name": "robot",
     "Filters": "[\r\n                    \">=\",\r\n                    [\r\n                        \"field\",\r\n                        347,\r\n                        {\r\n                            \"base-type\": \"type/Float\"\r\n                        }\r\n                    ],\r\n                    1\r\n                ]",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "fanuc",
+    "Filters": "[\r\n                    \"=\",\r\n                    [\r\n                        \"field\",\r\n                        33089,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Fanuc\"\r\n                ]",
     "Synonyms": ""
   },
   {
@@ -690,6 +690,24 @@
     "Synonyms": "vention-owned"
   },
   {
+    "Dataset": "main-designs",
+    "Name": "blank",
+    "Filters": "[\"is-null\",[\"field\",1278,{\"base-type\":\"type/Number\"}]]",
+    "Synonyms": "empty, started-blank, started-empty, no-parent"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "official-design-detail",
+    "Filters": "[\"=\",[\"field\",38847,{\"base-type\":\"type/Text\"}],\"Official Design Detail Page\"]",
+    "Synonyms": "official-designs, official-designs-detail, official-design"
+  },
+  {
+    "Dataset": "main-goals",
+    "Name": "business-day-percent",
+    "Filters": "[\"=\",[\"field\",45382,{\"base-type\": \"type/Text\"}],\"Business Day Percent\"]",
+    "Synonyms": "business-days-percent"
+  },
+  {
     "Dataset": "main-orders-with-cancellations",
     "Name": "applications-v2",
     "Filters": "[\r\n                \"or\",\r\n                [\r\n                    \"in\",\r\n                    [\r\n                        \"field\",\r\n                        319,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"Cobot Palletizer\", \"Case Packing\", \"Depalletizer\", \"Industrial Robot Palletizer\"\r\n                ],\r\n                [\r\n                    \"and\",\r\n                    [\r\n                        \"in\",\r\n                        [\r\n                            \"field\",\r\n                            319,\r\n                            {\r\n                                \"base-type\": \"type/Text\"\r\n                            }\r\n                        ],\r\n                        \"Machine Tending\",\r\n                        \"Welding\",\r\n                        \"Pick & Place\",\r\n                        \"Full end-of line packaging\",\r\n                        \"Sanding & Surface Finishing\"\r\n                    ],\r\n                    [\r\n                        \"or\",\r\n                        [\r\n                            \"!=\",\r\n                            [\r\n                                \"field\",\r\n                                324,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ],\r\n                            0\r\n                        ],\r\n                        [\r\n                            \"!=\",\r\n                            [\r\n                                \"field\",\r\n                                390,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ],\r\n                            0\r\n                        ]\r\n                    ]\r\n                ]\r\n            ]",
@@ -829,12 +847,6 @@
   },
   {
     "Dataset": "main-sessions",
-    "Name": "official-design-detail",
-    "Filters": "[\"=\",[\"field\",38847,{\"base-type\":\"type/Text\"}],\"Official Design Detail Page\"]",
-    "Synonyms": "official-designs, official-designs-detail"
-  },
-  {
-    "Dataset": "main-sessions",
     "Name": "dashboard",
     "Filters": "[\"=\",[\"field\",38847,{\"base-type\":\"type/Text\"}],\"Dashboard Page\"]",
     "Synonyms": ""
@@ -862,5 +874,11 @@
     "Name": "blog",
     "Filters": "[\"=\",[\"field\",38847,{\"base-type\":\"type/Text\"}],\"Blog Page\"]",
     "Synonyms": ""
+  },
+  {
+    "Dataset": "main-goals",
+    "Name": "business-day",
+    "Filters": "[\"=\",[\"field\",45382,{\"base-type\": \"type/Text\"}],\"Business Day\"]",
+    "Synonyms": "business-days"
   }
 ]
