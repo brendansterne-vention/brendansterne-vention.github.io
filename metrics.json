@@ -733,6 +733,18 @@
   },
   {
     "Zone": "",
+    "Name": "cumulative-goal",
+    "IsList": false,
+    "Dataset": "main-goals",
+    "Measure": "[\"cum-sum\",[\"field\",45383,{\"base-type\": \"type/Float\"}]]",
+    "Timefield": "45384",
+    "Filters": "",
+    "Synonyms": "cumulative-goals, goal-cumulative, goals-cumulative",
+    "DatasetConfig": "{\"source-table\": 1282}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
     "Name": "bookings",
     "IsList": false,
     "Dataset": "main-orders",
@@ -777,6 +789,18 @@
     "Filters": "[[\"=\",[\"field\",38833,{\"base-type\":\"type/Boolean\"}],false]]",
     "Synonyms": "session-list",
     "DatasetConfig": "{\"source-table\": 1236}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
+    "Name": "goal",
+    "IsList": false,
+    "Dataset": "main-goals",
+    "Measure": "[\"sum\",[\"field\",45383,{\"base-type\": \"type/Float\"}]]",
+    "Timefield": "45384",
+    "Filters": "",
+    "Synonyms": "goals",
+    "DatasetConfig": "{\"source-table\": 1282}",
     "CustomColumns": ""
   },
   {
