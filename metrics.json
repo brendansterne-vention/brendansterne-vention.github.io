@@ -121,6 +121,18 @@
   },
   {
     "Zone": "",
+    "Name": "quarterly-phasing-copy",
+    "IsList": false,
+    "Dataset": "main-goals",
+    "Measure": "[\"cum-sum\",[\"field\",45383,{\"base-type\": \"type/Float\"}]]",
+    "Timefield": "45384",
+    "Filters": "[[\"=\",[\"field\",45382,{\"base-type\": \"type/Text\"}],\"bookings-quarterly-phasing\"]]",
+    "Synonyms": "quarterly-goal, quarterly-goals",
+    "DatasetConfig": "{\"source-table\": 1282}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
     "Name": "bookings-cad-wc",
     "IsList": false,
     "Dataset": "main-orders-with-cancellations",
@@ -861,6 +873,18 @@
     "Filters": "[[\"!=\",[\"field\",19452,{\"base-type\":\"type/Text\"}],\"Vention\"],[\r\n                    \"!=\",\r\n                    [\r\n                        \"field\",\r\n                        24776,\r\n                        {\r\n                            \"base-type\": \"type/Text\"\r\n                        }\r\n                    ],\r\n                    \"cancelled\"\r\n                ]]",
     "Synonyms": "deployments-bookings, deployment-amount, deployments-amount",
     "DatasetConfig": "{\"source-table\": 958}",
+    "CustomColumns": ""
+  },
+  {
+    "Zone": "",
+    "Name": "annual-phasing",
+    "IsList": false,
+    "Dataset": "main-goals",
+    "Measure": "[\"cum-sum\",[\"field\",45383,{\"base-type\": \"type/Float\"}]]",
+    "Timefield": "45384",
+    "Filters": "[[\"=\",[\"field\",45382,{\"base-type\": \"type/Text\"}],\"bookings-annual-phasing\"]]",
+    "Synonyms": "2026-phasing, phasing-2026, annual-goal, annual-goals",
+    "DatasetConfig": "{\"source-table\": 1282}",
     "CustomColumns": ""
   }
 ]
