@@ -504,6 +504,18 @@
     "Synonyms": ""
   },
   {
+    "Dataset": "main-sessions",
+    "Name": "recorded",
+    "Filters": "[\"=\",[\"field\",46599,{\"base-type\":\"type/Number\"}],1]",
+    "Synonyms": "sampled"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "no-email",
+    "Filters": "[\"is-empty\",[\"field\",38860,{\"base-type\": \"type/Text\"}]]",
+    "Synonyms": ""
+  },
+  {
     "Dataset": "main-partsdb",
     "Name": "material-handling",
     "Filters": "[\"=\",[\"field\",19232,{\"base-type\":\"type/Text\"}],\"Material Handling\"]",
@@ -706,6 +718,18 @@
     "Name": "business-day-percent",
     "Filters": "[\"=\",[\"field\",45382,{\"base-type\": \"type/Text\"}],\"Business Day Percent\"]",
     "Synonyms": "business-days-percent"
+  },
+  {
+    "Dataset": "main-goals",
+    "Name": "bookings-phasing-percent",
+    "Filters": "[\"=\",[\"field\",45382,{\"base-type\": \"type/Text\"}],\"Bookings Pacing Percent\"]",
+    "Synonyms": "bookings-phasing, bookings-phased"
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "has-email",
+    "Filters": "[\"not-empty\",[\"field\",38860,{\"base-type\": \"type/Text\"}]]",
+    "Synonyms": ""
   },
   {
     "Dataset": "main-orders-with-cancellations",
