@@ -121,7 +121,7 @@
   },
   {
     "Zone": "",
-    "Name": "quarterly-phasing-copy",
+    "Name": "quarterly-phasing",
     "IsList": false,
     "Dataset": "main-goals",
     "Measure": "[\"cum-sum\",[\"field\",45383,{\"base-type\": \"type/Float\"}]]",
@@ -433,6 +433,18 @@
   },
   {
     "Zone": "",
+    "Name": "software-bookings",
+    "IsList": false,
+    "Dataset": "main-orders",
+    "Measure": "[\"sum\",[\"field\", 37397,{\"base-type\":\"type/Float\"}]]",
+    "Timefield": "37372",
+    "Filters": "[[\"=\",[\"field\",37425,{\"base-type\":\"type/Number\"}],0]]",
+    "Synonyms": "sw-bookings",
+    "DatasetConfig": "{\"source-table\": 1224}",
+    "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
+  },
+  {
+    "Zone": "",
     "Name": "machine-actions",
     "IsList": false,
     "Dataset": "main-machine-actions",
@@ -562,6 +574,18 @@
     "Synonyms": "partsdb-parts",
     "DatasetConfig": "{\"source-table\": 943}",
     "CustomColumns": ""
+  },
+  {
+    "Zone": "",
+    "Name": "software-bookings-cad",
+    "IsList": false,
+    "Dataset": "main-orders",
+    "Measure": "[\r\n                    \"aggregation-options\",\r\n                    [\r\n                        \"*\",\r\n                        [\r\n                            \"sum\",\r\n                            [\r\n                                \"field\",\r\n                                37397,\r\n                                {\r\n                                    \"base-type\": \"type/Float\"\r\n                                }\r\n                            ]\r\n                        ],\r\n                        1.25\r\n                    ],\r\n                    {\r\n                        \"name\": \"Software Bookings (CAD)\",\r\n                        \"display-name\": \"Software Bookings (CAD)\"\r\n                    }\r\n                ]",
+    "Timefield": "37372",
+    "Filters": "[[\"=\",[\"field\",37425,{\"base-type\": \"type/Number\"}],0]]",
+    "Synonyms": "software-sales-cad, sw-bookings-cad",
+    "DatasetConfig": "{\"source-table\": 1224}",
+    "CustomColumns": "{\"machine-type\":[\"case\",[[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"structures\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\"=\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-no-mm\"],[[\"and\",[\"=\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"mm-no-robots\"],[[\"and\",[\">\",[\"field\",37431,{\"base-type\":\"type/Float\"}],\"0\"],[\">\",[\"field\",37344,{\"base-type\":\"type/Float\"}],\"0\"]],\"robots-with-mms\"]]]}"
   },
   {
     "Zone": "",
