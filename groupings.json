@@ -994,6 +994,13 @@
     "Synonyms": "vention-created"
   },
   {
+    "Dataset": "main-sessions",
+    "Name": "signup-complete",
+    "Dimension": "[\"field\",38836,{\"base-type\":\"type/Boolean\"}]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
     "Dataset": "main-projects",
     "Name": "name",
     "Dimension": "[\"field\",\"NAME\",{\"base-type\":\"type/Text\"}]",
@@ -1013,5 +1020,33 @@
     "Dimension": "[\"field\",\"NB_SPECIFICATIONS\",{\"base-type\":\"type/Number\"}]",
     "Filters": "",
     "Synonyms": "nb-specifications, specs, spec"
+  },
+  {
+    "Dataset": "main-designs",
+    "Name": "num-parts",
+    "Dimension": "[\"field\",1269,{\"base-type\":\"type/Number\"}]",
+    "Filters": "",
+    "Synonyms": "parts"
+  },
+  {
+    "Dataset": "main-ordered-parts",
+    "Name": "quantity",
+    "Dimension": "[\"field\",33092,{\"base-type\":\"type/Float\"}]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-partsdb",
+    "Name": "cost",
+    "Dimension": "[\"field\",18449,{\"base-type\":\"type/Float\"}]",
+    "Filters": "",
+    "Synonyms": ""
+  },
+  {
+    "Dataset": "main-sessions",
+    "Name": "signup-start",
+    "Dimension": "[\"field\",38856,{\"base-type\":\"type/Boolean\"}]",
+    "Filters": "",
+    "Synonyms": ""
   }
 ]
